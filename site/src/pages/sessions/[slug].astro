@@ -1,0 +1,142 @@
+---
+/**
+ * src/pages/sessions/[slug].astro
+ *
+ * Generates one participant page per session in src/content/sessions/.
+ * URL: /sessions/session-1, /sessions/session-2, etc.
+ *
+ * Cross-references: session frontmatter lists theory slugs.
+ * We look up each theory to render the concept-chip rows with
+ * live links to /theories/[slug].
+ */
+import { getCollection, getEntry, render } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+
+export async function getStaticPaths() {
+  const sessions = await getCollection('sessions');
+  return sessions.map(session => ({
+    params: { slug: session.id },
+    props:  { session },
+  }));
+}
+
+const { session } = Astro.props;
+
+// Look up all theories for this session
+const theoryEntries = await Promise.all(
+  (session.data.theories ?? []).map(id => getEntry('theories', id))
+);
+const theories = theoryEntries.filter(Boolean);
+---
+
+<Base
+  title={`Session ${session.data.number}: ${session.data.tagline}`}
+  bodyClass="session-page"
+  currentNav="sessions"
+  brandRole="Participant"
+>
+
+  <section class="session-section">
+
+    <!-- Hero -->
+    <div class="session-hero-inner">
+      <div class="session-hero-text">
+        <div class="session-breadcrumb">
+          <a class="breadcrumb-parent" href="/sessions">The Sessions</a>
+          <span class="breadcrumb-sep" aria-hidden="true">»</span>
+          <span class="breadcrumb-current">Session {session.data.number}</span>
+        </div>
+        <h1 class="session-title">{session.data.tagline}</h1>
+        {session.data.subtitle && (
+          <p class="session-subtitle">{session.data.subtitle}</p>
+        )}
+      </div>
+      <img
+        class="session-fox"
+        src={`/images/fox/${session.data.fox}`}
+        alt=""
+        aria-hidden="true"
+        style="opacity:0;"
+        id="session-hero-fox"
+      />
+    </div>
+
+    <!-- Card stack -->
+    <div class="session-stack" data-animate>
+
+      <!-- Card 1: Priming question + prep + meta -->
+      {session.data.primingQuestion && (
+        <div class="session-card">
+          <p class="section-overline">Before you arrive</p>
+          <blockquote class="priming-question">
+            "{session.data.primingQuestion}"
+          </blockquote>
+          {session.data.prep && (
+            <div class="prep-section">
+              <p class="prep-section-label">Preparation</p>
+              <p class="prep-section-text">{session.data.prep}</p>
+            </div>
+          )}
+          {session.data.meta.length > 0 && (
+            <div class="session-meta">
+              {session.data.meta.map(m => <span>{m}</span>)}
+            </div>
+          )}
+        </div>
+      )}
+
+      <!-- Card 2: Theory concepts -->
+      {theories.length > 0 && (
+        <div class="concepts-card">
+          <p class="concepts-card-overline">What this session draws on</p>
+          <div class="concept-chips">
+            {theories.map(t => t && (
+              <a class="theory-row" href={`/theories/${t.id}`}>
+                <div class="theory-row-text">
+                  <span class="theory-row-name">{t.data.title}</span>
+                  <span class="theory-row-summary">{t.data.summary}</span>
+                </div>
+                <span class="theory-row-arrow" aria-hidden="true">&#x2192;</span>
+              </a>
+            ))}
+          </div>
+        </div>
+      )}
+
+      <!-- Card 3: Facilitator blueprint -->
+      <div class="facilitator-card">
+        <div class="facilitator-card-body">
+          <p class="facilitator-card-overline">For Facilitators</p>
+          <h2 class="facilitator-card-title">Facilitator Blueprint</h2>
+          <p class="facilitator-card-text">
+            Lesson plan, timing guide, facilitation notes, and the evidence
+            behind every activity for this session.
+          </p>
+        </div>
+        <a class="facilitator-card-link" href={`/facilitator/session-${session.data.number}`}>
+          View Blueprint →
+        </a>
+      </div>
+
+    </div>
+  </section>
+
+  <fragment slot="scripts">
+    <script>
+      document.addEventListener('DOMContentLoaded', () => {
+        const fox = document.getElementById('session-hero-fox');
+        if (fox && (window as any).anime) {
+          (window as any).anime({
+            targets: fox,
+            opacity: [0, 1],
+            translateX: [18, 0],
+            duration: 700,
+            delay: 300,
+            easing: 'easeOutCubic',
+          });
+        }
+      });
+    </script>
+  </fragment>
+
+</Base>

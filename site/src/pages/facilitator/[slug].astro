@@ -1,0 +1,307 @@
+---
+/**
+ * src/pages/facilitator/[slug].astro
+ *
+ * Individual facilitator blueprint / resource page.
+ * Blueprints mirror the sessions page card structure:
+ *   - Candidate instructions card (from sessions data)
+ *   - JS-split blueprint section cards (At a Glance, Outcomes, Before, Flow, After)
+ *   - "What this session draws on" theory chips (from sessions data)
+ *
+ * URL: /facilitator/session-1, /facilitator/technical-brief, etc.
+ */
+import { getCollection, getEntry, render } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+
+export async function getStaticPaths() {
+  const entries = await getCollection('facilitator');
+  return entries.map(entry => ({
+    params: { slug: entry.id },
+    props: { entry },
+  }));
+}
+
+const { entry } = Astro.props;
+const { Content } = await render(entry);
+
+const { title, type, session, duration, tagline } = entry.data;
+
+// For blueprints cross-reference the participant session entry
+let sessionEntry: Awaited<ReturnType<typeof getEntry>> | null = null;
+let theories: NonNullable<Awaited<ReturnType<typeof getEntry>>>[] = [];
+
+if (type === 'blueprint' && session) {
+  sessionEntry = await getEntry('sessions', `session-${session}`);
+  if (sessionEntry) {
+    const raw = await Promise.all(
+      (sessionEntry.data.theories ?? []).map((id: string) => getEntry('theories', id))
+    );
+    theories = raw.filter((t): t is NonNullable<typeof t> => t != null);
+  }
+}
+
+// Blueprints: use the session tagline (e.g. "Did It Stick?") as H1
+const displayTitle = (type === 'blueprint' && sessionEntry)
+  ? sessionEntry.data.tagline
+  : title;
+
+const breadcrumbLabel = type === 'blueprint'
+  ? `Session ${session} Blueprint`
+  : title;
+---
+
+<Base
+  title={`${displayTitle} — Facilitator Hub — Teaching That Sticks`}
+  bodyClass="session-page blueprint-page"
+  currentNav="facilitator"
+  brandRole="Facilitator Hub"
+  brandRoleClass="brand-role--sky"
+>
+
+  <section class="session-section">
+
+    <!-- Hero — no fox on blueprint pages -->
+    <div class="session-hero-inner">
+      <div class="session-hero-text">
+        <div class="session-breadcrumb">
+          <a class="breadcrumb-parent" href="/facilitator">Facilitator Hub</a>
+          <span class="breadcrumb-sep" aria-hidden="true">»</span>
+          <span class="breadcrumb-current">{breadcrumbLabel}</span>
+        </div>
+        <h1 class="session-title">{displayTitle}</h1>
+        {tagline && <p class="session-subtitle">{tagline}</p>}
+      </div>
+    </div>
+
+    <div class="session-stack" data-animate id="blueprint-stack">
+
+      {/* ── Candidate instructions (what participants were sent) ─────────── */}
+      {sessionEntry && (
+        <div class="session-card blueprint-candidate-card">
+          <div class="blueprint-candidate-body">
+            <p class="blueprint-candidate-overline">For Participants</p>
+            <h2 class="blueprint-candidate-title">Candidate Instructions</h2>
+            {sessionEntry.data.prep && (
+              <p class="blueprint-candidate-text">{sessionEntry.data.prep}</p>
+            )}
+          </div>
+          <a class="blueprint-candidate-link" href={`/sessions/session-${session}`}>
+            View participant page →
+          </a>
+        </div>
+      )}
+
+      {/* ── Markdown content ─────────────────────────────────────────────── */}
+      {/* Blueprints: hidden — JS splits into cards below                    */}
+      {/* Resources: rendered directly as one card                           */}
+      {type === 'blueprint' ? (
+        <div id="blueprint-content-raw" style="display:none" aria-hidden="true">
+          <div class="blueprint-prose"><Content /></div>
+        </div>
+      ) : (
+        <div class="session-card blueprint-card">
+          <div class="blueprint-prose"><Content /></div>
+        </div>
+      )}
+
+      {/* ── Theory chips — "What this session draws on" ───────────────────── */}
+      {theories.length > 0 && (
+        <div class="concepts-card" id="blueprint-theories">
+          <p class="concepts-card-overline">What this session draws on</p>
+          <div class="concept-chips">
+            {theories.map(t => (
+              <a class="theory-row" href={`/theories/${t.id}`}>
+                <div class="theory-row-text">
+                  <span class="theory-row-name">{t.data.title}</span>
+                  <span class="theory-row-summary">{t.data.summary}</span>
+                </div>
+                <span class="theory-row-arrow" aria-hidden="true">&#x2192;</span>
+              </a>
+            ))}
+          </div>
+        </div>
+      )}
+
+    </div>
+  </section>
+
+  <fragment slot="scripts">
+    <script>
+      (function () {
+        // ── Blueprint section splitter ─────────────────────────────────────
+        // For blueprint pages: extracts H2 sections from hidden raw markdown,
+        // creates separate session-cards for each, and inserts them before
+        // the theory chips card. Session Flow H3s become collapsibles.
+        var rawContainer = document.getElementById('blueprint-content-raw');
+        var stack        = document.getElementById('blueprint-stack');
+        var theoriesCard = document.getElementById('blueprint-theories');
+
+        if (rawContainer && stack) {
+          var prose = rawContainer.querySelector('.blueprint-prose');
+          if (prose) {
+            // ── Helpers ───────────────────────────────────────────────────
+
+            // Extract all nodes following an H2 until the next H2.
+            // Strips all <hr> elements (card borders replace them).
+            function getSectionNodes(h2) {
+              var nodes = [];
+              var node = h2.nextSibling;
+              while (node && !(node.nodeType === 1 && node.nodeName === 'H2')) {
+                if (!(node.nodeType === 1 && node.nodeName === 'HR')) {
+                  nodes.push(node.cloneNode(true));
+                }
+                node = node.nextSibling;
+              }
+              return nodes;
+            }
+
+            // Build a lookup map: normalised h2 text → nodes
+            var sectionMap = {};
+            Array.from(prose.querySelectorAll('h2')).forEach(function(h2) {
+              var key = (h2.textContent || '').trim().toLowerCase();
+              sectionMap[key] = getSectionNodes(h2);
+            });
+
+            function findNodes(match) {
+              for (var k in sectionMap) {
+                if (k.indexOf(match) !== -1) return sectionMap[k];
+              }
+              return null;
+            }
+
+            // Wrap H3s inside a container into <details><summary> elements.
+            // openFirst: open the first block by default (session flow).
+            // Pass false to keep all closed (before the session).
+            function makeH3sCollapsible(container, openFirst) {
+              var h3s = Array.from(container.querySelectorAll('h3'));
+              var firstSeen = false;
+              h3s.forEach(function(h3) {
+                var details = document.createElement('details');
+                details.className = 'flow-block';
+                if (openFirst && !firstSeen) { details.open = true; }
+                firstSeen = true;
+
+                var summary = document.createElement('summary');
+                summary.className = 'blueprint-flow-summary';
+                summary.innerHTML = h3.innerHTML;
+                details.appendChild(summary);
+
+                var siblings = [];
+                var node = h3.nextSibling;
+                while (node && !(node.nodeType === 1 &&
+                       (node.nodeName === 'H3' || node.nodeName === 'H2'))) {
+                  if (!(node.nodeType === 1 && node.nodeName === 'HR')) {
+                    siblings.push(node);
+                  }
+                  node = node.nextSibling;
+                }
+                siblings.forEach(function(s) { details.appendChild(s); });
+                h3.parentNode.replaceChild(details, h3);
+              });
+            }
+
+            // ── Section definitions ───────────────────────────────────────
+            var SECTIONS = [
+              { match: 'at a glance',      overline: 'At a glance'       },
+              { match: 'learning outcomes', overline: 'Learning outcomes' },
+              { match: 'before the session', overline: 'Before the session',
+                extras: ['materials checklist', 'feedback frame'],
+                h3collapsible: true, h3openFirst: false },
+              { match: 'session flow',     overline: 'Session flow',
+                h3collapsible: true, h3openFirst: true },
+              { match: 'after the session', overline: 'After the session' },
+            ];
+
+            // ── Build and insert cards ────────────────────────────────────
+            var insertBefore = theoriesCard || null;
+
+            SECTIONS.forEach(function(sec) {
+              var nodes = findNodes(sec.match);
+              if (!nodes || nodes.length === 0) return;
+
+              // Absorb extra sections (materials, feedback) into this card
+              if (sec.extras) {
+                sec.extras.forEach(function(extra) {
+                  var xnodes = findNodes(extra);
+                  if (!xnodes || xnodes.length === 0) return;
+                  // Small divider heading
+                  var xh = findNodes(extra); // already cloned above
+                  xnodes.forEach(function(n) { nodes.push(n); });
+                });
+              }
+
+              var card = document.createElement('div');
+              card.className = 'session-card blueprint-card';
+
+              var overlineEl = document.createElement('p');
+              overlineEl.className = 'section-overline';
+              overlineEl.textContent = sec.overline;
+              card.appendChild(overlineEl);
+
+              var contentDiv = document.createElement('div');
+              contentDiv.className = 'blueprint-prose';
+              nodes.forEach(function(n) { contentDiv.appendChild(n); });
+
+              if (sec.h3collapsible) {
+                makeH3sCollapsible(contentDiv, sec.h3openFirst !== false);
+              }
+
+              card.appendChild(contentDiv);
+
+              if (insertBefore) {
+                stack.insertBefore(card, insertBefore);
+              } else {
+                stack.appendChild(card);
+              }
+            });
+
+            rawContainer.remove();
+          }
+        }
+
+        // ── H2 collapsibles for resource pages (non-blueprint) ─────────────
+        // Resources (theory-guide, technical-brief) keep the single-card
+        // layout with collapsible H2 sections.
+        if (!rawContainer) {
+          var prose2 = document.querySelector('.blueprint-prose');
+          if (prose2) {
+            var AUTO_OPEN = ['introduction', 'overview'];
+            Array.from(prose2.querySelectorAll('h2')).forEach(function(h2) {
+              var label = (h2.textContent || '').trim().toLowerCase();
+              var details = document.createElement('details');
+              if (AUTO_OPEN.some(function(k) { return label.indexOf(k) !== -1; })) {
+                details.open = true;
+              }
+              var summary = document.createElement('summary');
+              summary.className = 'blueprint-summary';
+              summary.innerHTML = h2.innerHTML;
+              details.appendChild(summary);
+
+              var siblings = [];
+              var toRemove = [];
+              var node = h2.nextSibling;
+              while (node && !(node.nodeType === 1 && node.nodeName === 'H2')) {
+                if (node.nodeType === 1 && node.nodeName === 'HR') {
+                  toRemove.push(node);
+                } else {
+                  siblings.push(node);
+                }
+                node = node.nextSibling;
+              }
+              siblings.forEach(function(s) { details.appendChild(s); });
+              toRemove.forEach(function(hr) { if (hr.parentNode) hr.parentNode.removeChild(hr); });
+              h2.parentNode.replaceChild(details, h2);
+            });
+          }
+        }
+
+        // Make GFM task-list checkboxes interactive on all page types
+        // (Astro's remark renders them disabled by default)
+        document.querySelectorAll('input[type="checkbox"]').forEach(function(cb) {
+          cb.removeAttribute('disabled');
+        });
+      })();
+    </script>
+  </fragment>
+
+</Base>

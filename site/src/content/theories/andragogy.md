@@ -1,0 +1,40 @@
+---
+title: "Andragogy"
+summary: "Adults are self-directed learners who bring prior experience to the room — they need to know why, connect to real problems, and build on what they already know"
+sessions: ["session-1"]
+evidence:
+  - cite: "Knowles, M. S. (1984). <em>The Adult Learner: A Neglected Species</em> (3rd ed.). Gulf Publishing."
+    paper: "knowles-1984"
+  - cite: "Knowles, M. S., Holton, E. F., &amp; Swanson, R. A. (2015). <em>The Adult Learner: The Definitive Classic in Adult Education and Human Resource Development</em> (8th ed.). Routledge."
+  - cite: "Mezirow, J. (1991). <em>Transformative Dimensions of Adult Learning</em>. Jossey-Bass."
+  - cite: "Cross, K. P. (1981). <em>Adults as Learners: Increasing Participation and Facilitating Learning</em>. Jossey-Bass."
+---
+
+*Pedagogy* describes the art and science of teaching children. Children, as learners, are largely dependent on the teacher: the teacher decides what to learn, when to learn it, how to learn it, and whether learning has occurred. This works reasonably well when learners have no prior experience and no pressing real-world application for what they're learning.
+
+It works poorly with adults — and it works particularly poorly with experienced NHS clinicians, who have a decade or more of practice, strong professional identity, and a clear sense of what does and doesn't match their clinical reality.
+
+Andragogy, the term Malcolm Knowles proposed to describe the art and science of teaching adults, rests on six assumptions about adult learners that are almost exactly the opposite of the pedagogical model. Understanding these assumptions does not produce a list of teaching techniques — it produces a shift in orientation: from *what do I want to teach?* to *what does this learner bring, and how do I build on it?*
+
+## The six assumptions
+
+**1. Self-concept.** Adults have an established sense of themselves as responsible, self-directing people. Approaches that position them as passive recipients of instruction create friction — not because adults are difficult, but because being told what to think violates a self-image that has taken years to build. Learning works best when adults can exercise some direction over it.
+
+**2. Experience.** Adults bring a rich accumulation of experience that is simultaneously the richest resource in the room and the most complex obstacle. On the resource side: every principle you introduce can be connected to something a learner has already lived. On the obstacle side: established practice patterns and professional habits are hard to shift, and a challenge to a clinical habit can feel like a challenge to the practitioner who built it. This is why Kirkpatrick Level 3 behaviour change is the hardest outcome to achieve — not because adults can't learn, but because adults have a lot invested in what they already do.
+
+**3. Readiness to learn.** Adults are ready to learn what is relevant to their current situation and developmental stage. The 30-year-old ward sister preparing for a teaching responsibility is intensely motivated to understand adult learning theory. The same person at 22, with no teaching responsibilities, would find the same content abstract. Timing matters.
+
+**4. Orientation to learning.** Children learn subjects. Adults learn to solve problems. The learner who is asked "can you explain spaced practice?" is less engaged than the one asked "your simulation debrief keeps getting cut short — what would you change?" Problem-centred framing is not just motivationally useful; it is how adult cognition works. New knowledge sticks when it has a practical home to land in.
+
+**5. Motivation.** Children are primarily motivated by external reward and consequence (grades, praise, parental approval). Adults are primarily motivated by internal factors — professional self-improvement, increased job satisfaction, the personal rewards of growing competence. External compliance training delivered as mandatory attendance conflicts directly with this. It is not that NHS staff don't want to develop — it is that mandatory box-ticking signals that the organisation does not respect the intrinsic motivation that is already there.
+
+**6. Need to know.** Before adults invest effort in learning something, they need a convincing answer to *why?* "You need to know this because it's on the curriculum" does not work. "You need to know this because it will change how your simulation debriefs land" does.
+
+## What this means for teaching
+
+The session design in *Teaching That Sticks* is built around these six assumptions. Every session opens with a priming question — not a learning objective listed on a slide. Every session is built around clinical problems, not abstract principles. Every session asks learners to bring their own practice rather than receive best practice.
+
+- **Diagnose the room before you teach it.** What experience does this group bring? Where are the practice patterns that are hardest to shift? What problems are they currently stuck on? The answers should change how you run the session — not just which examples you use.
+- **"Need to know" must be answered explicitly.** If learners can see why this matters for their actual work, the resistance drops and the motivation rises. If they cannot, they are waiting for it to be over.
+- **Experience is not an obstacle to learning — unless you ignore it.** The most powerful learning happens when a new principle makes contact with a lived experience the learner already has. "Has anyone ever sat through a three-hour lecture on hand hygiene and then found themselves not washing their hands?" does more work in 30 seconds than three slides on the limitations of didactic teaching.
+- **Learners who feel directed rather than self-directing disengage.** This is not laziness or ingratitude; it is a structural feature of how adults relate to their own learning. Design for participation, not compliance.

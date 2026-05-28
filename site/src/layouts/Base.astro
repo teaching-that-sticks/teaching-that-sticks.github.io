@@ -1,0 +1,170 @@
+---
+/**
+ * Base.astro — shared shell: <head>, nav, footer, shared.css, anime.js
+ *
+ * Props:
+ *   title        — <title> text (required)
+ *   bodyClass    — extra class(es) on <body>, e.g. "session-page theory-page"
+ *   currentNav   — which nav link gets aria-current="page"
+ *                  one of: "sessions" | "theories" | "facilitator" | "about"
+ */
+
+export interface Props {
+  title: string;
+  bodyClass?: string;
+  currentNav?: 'sessions' | 'theories' | 'facilitator' | 'about';
+  /** Optional context label shown below the brand name in the nav */
+  brandRole?: string;
+  /** Extra CSS class on the brand-role span, e.g. "brand-role--sky" */
+  brandRoleClass?: string;
+}
+
+const { title, bodyClass = 'session-page', currentNav, brandRole, brandRoleClass } = Astro.props;
+
+function current(page: string) {
+  return currentNav === page ? 'page' : undefined;
+}
+---
+
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>{title} — Teaching That Sticks</title>
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <link rel="icon" href="/favicon.ico" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/styles/shared.css" />
+  <!-- Page-specific styles go here via <slot name="head"> -->
+  <slot name="head" />
+</head>
+<body class={bodyClass}>
+
+  <nav>
+    <a class="brand" href="/">
+      <span class="brand-name">Teaching That Sticks</span>
+      {brandRole && <span class={`brand-role${brandRoleClass ? ` ${brandRoleClass}` : ''}`}>{brandRole}</span>}
+    </a>
+    <div class="nav-right">
+      <div class="nav-links" id="nav-links">
+        <a href="/sessions" aria-current={current('sessions')}>Sessions</a>
+        <a href="/theories" aria-current={current('theories')}>Theory Library</a>
+        <a class="nav-facilitator" href="/facilitator" aria-current={current('facilitator')}>Facilitator Hub</a>
+        <a href="/about" aria-current={current('about')}>About</a>
+      </div>
+      <div class="nav-controls">
+        <button class="hamburger" id="hamburger" aria-label="Open menu" aria-expanded="false">
+          <span class="ham-line"></span>
+          <span class="ham-line"></span>
+          <span class="ham-line"></span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <div class="mobile-menu" id="mobile-menu" role="navigation" aria-label="Mobile navigation">
+    <a href="/sessions">Sessions</a>
+    <a href="/theories">Theory Library</a>
+    <a class="mobile-fac" href="/facilitator">Facilitator Hub</a>
+    <a href="/about">About</a>
+  </div>
+
+  <!-- Page content -->
+  <div class="page-content">
+    <slot />
+  </div>
+
+  <footer class="site-footer">
+    <img id="footer-fox" src="/images/fox/laying_monochrome.png" alt="" aria-hidden="true" />
+    <div class="footer-inner">
+      <p class="footer-copy">&copy; 2026 Teaching That Sticks</p>
+      <div class="footer-links">
+        <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener noreferrer">CC BY 4.0</a>
+        <a href="https://github.com/teaching-that-sticks/" target="_blank" rel="noopener noreferrer">GitHub</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/animejs@3.2.2/lib/anime.min.js" is:inline></script>
+  <script>
+    // Shared JS: hamburger, footer fox, session-stack observer
+    // Equivalent of test/shared.js — inlined here so Astro bundles it once.
+
+    document.addEventListener('DOMContentLoaded', () => {
+      // ── Hamburger ────────────────────────────────────────────────
+      const hamburger  = document.getElementById('hamburger') as HTMLButtonElement;
+      const mobileMenu = document.getElementById('mobile-menu') as HTMLElement;
+      let menuOpen = false;
+      hamburger?.addEventListener('click', () => {
+        menuOpen = !menuOpen;
+        hamburger.classList.toggle('is-open', menuOpen);
+        hamburger.setAttribute('aria-expanded', String(menuOpen));
+        if (menuOpen) {
+          mobileMenu.style.display = 'flex';
+          (window as any).anime({ targets: mobileMenu, opacity: [0,1], translateY: [-6,0], duration: 200, easing: 'easeOutCubic' });
+        } else {
+          (window as any).anime({ targets: mobileMenu, opacity: [1,0], translateY: [0,-6], duration: 160, easing: 'easeInCubic',
+            complete: () => { mobileMenu.style.display = 'none'; } });
+        }
+      });
+      mobileMenu?.querySelectorAll('a').forEach(link => {
+        link.addEventListener('click', () => {
+          menuOpen = false;
+          hamburger?.classList.remove('is-open');
+          hamburger?.setAttribute('aria-expanded', 'false');
+          mobileMenu.style.display = 'none';
+        });
+      });
+
+      // Collapse menu when resizing back to desktop width
+      window.addEventListener('resize', () => {
+        if (window.innerWidth > 860 && menuOpen) {
+          menuOpen = false;
+          hamburger?.classList.remove('is-open');
+          hamburger?.setAttribute('aria-expanded', 'false');
+          mobileMenu.style.display = 'none';
+        }
+      });
+
+      // ── Footer fox ───────────────────────────────────────────────
+      const footerFox = document.getElementById('footer-fox');
+      if (footerFox) {
+        const foxObs = new IntersectionObserver(entries => {
+          entries.forEach(e => {
+            if (!e.isIntersecting) return;
+            (window as any).anime({ targets: footerFox, opacity: [0,1], duration: 600, easing: 'easeOutCubic' });
+            foxObs.unobserve(footerFox);
+          });
+        }, { threshold: 0.35 });
+        foxObs.observe(footerFox);
+      }
+
+      // ── Scroll-in card animation (any element with [data-animate]) ────────
+      document.querySelectorAll<HTMLElement>('[data-animate]').forEach(stack => {
+        const obs = new IntersectionObserver(entries => {
+          entries.forEach(e => {
+            if (!e.isIntersecting) return;
+            (window as any).anime({
+              targets:    e.target.children,
+              opacity:    [0, 1],
+              translateX: [-16, 0],
+              duration:   380,
+              delay:      (window as any).anime.stagger(90),
+              easing:     'easeOutCubic',
+            });
+            obs.unobserve(e.target);
+          });
+        }, { threshold: 0.08 });
+        obs.observe(stack);
+      });
+    });
+  </script>
+
+  <!-- Extra page-specific scripts -->
+  <slot name="scripts" />
+
+</body>
+</html>

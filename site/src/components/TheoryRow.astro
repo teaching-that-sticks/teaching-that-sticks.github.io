@@ -1,0 +1,31 @@
+---
+/**
+ * TheoryRow.astro — theory chip (session pages) or evidence citation (theory pages)
+ * href  → renders as <a> with arrow; omit → renders as <div> (citation only)
+ */
+export interface Props {
+  href?: string;
+  name?: string;
+  summary?: string;
+  cite?: string;
+}
+const { href, name, summary, cite } = Astro.props;
+---
+{href ? (
+  <a class="theory-row" href={href}>
+    <div class="theory-row-text">
+      {name    && <span class="theory-row-name">{name}</span>}
+      {summary && <span class="theory-row-summary">{summary}</span>}
+      {cite    && <span class="theory-row-cite" set:html={cite} />}
+    </div>
+    <span class="theory-row-arrow" aria-hidden="true">&#x2192;</span>
+  </a>
+) : (
+  <div class="theory-row">
+    <div class="theory-row-text">
+      {name    && <span class="theory-row-name">{name}</span>}
+      {summary && <span class="theory-row-summary">{summary}</span>}
+      {cite    && <span class="theory-row-cite" set:html={cite} />}
+    </div>
+  </div>
+)}

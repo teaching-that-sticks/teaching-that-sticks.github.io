@@ -1,0 +1,117 @@
+---
+import { getCollection, render } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+
+export async function getStaticPaths() {
+  const papers = await getCollection('papers');
+  return papers.map((paper) => ({
+    params: { slug: paper.id },
+    props: { paper },
+  }));
+}
+
+const { paper } = Astro.props;
+const { Content } = await render(paper);
+
+// Look up session taglines for "Used in" pills
+const allSessions = await getCollection('sessions');
+const usedInSessions = paper.data.sessions
+  .map((num: number) => allSessions.find(s => s.data.number === num))
+  .filter(Boolean);
+
+const pageTitle = `${paper.data.title} — Teaching That Sticks`;
+const fullCite = `${paper.data.authors} (${paper.data.year}). ${paper.data.title}. ${paper.data.journal}.`;
+---
+
+<Base
+  title={pageTitle}
+  bodyClass="session-page paper-page"
+  currentNav="theories"
+  brandRole="Theory Library"
+  brandRoleClass="brand-role--green"
+>
+
+  <section class="session-section">
+    <div class="session-hero-inner">
+      <div class="session-hero-text">
+        <div class="session-breadcrumb" aria-label="Breadcrumb">
+          <a class="breadcrumb-parent" href="/theories">Theory Library</a>
+          <span class="breadcrumb-sep" aria-hidden="true">»</span>
+          <a class="breadcrumb-parent" href="/papers">Evidence Base</a>
+          <span class="breadcrumb-sep" aria-hidden="true">»</span>
+          <span class="breadcrumb-current">{paper.data.authors.split(',')[0]} {paper.data.year}</span>
+        </div>
+        <h1 class="session-title">{paper.data.title}</h1>
+
+        <div class="paper-meta-row">
+          <span>{paper.data.authors}</span>
+          <span class="paper-meta-sep">·</span>
+          <span>{paper.data.journal}</span>
+          <span class="paper-meta-sep">·</span>
+          <span>{paper.data.year}</span>
+        </div>
+
+        {usedInSessions.length > 0 && (
+          <div class="theory-used-row">
+            <span class="theory-used-label">Used in:</span>
+            {usedInSessions.map(s => s && (
+              <a class="theory-used-pill" href={`/sessions/${s.id}`}>
+                Session {s.data.number} — {s.data.tagline}
+              </a>
+            ))}
+          </div>
+        )}
+      </div>
+
+      <img
+        class="session-fox"
+        src="/images/fox/academic_left.png"
+        alt="Fox reading"
+        id="paper-hero-fox"
+        style="opacity:0;"
+      />
+    </div>
+
+    <div class="session-stack" data-animate>
+      <!-- Main content card -->
+      <div class="session-card">
+        <div class="paper-prose">
+          <Content />
+        </div>
+      </div>
+
+      <!-- Citation card -->
+      <div class="paper-cite-card">
+        <div class="cite-overline">Cite as</div>
+        <p class="cite-text">{fullCite}</p>
+        {paper.data.doi && (
+          <p class="cite-doi">
+            DOI: <a href={paper.data.openAccessUrl ?? `https://doi.org/${paper.data.doi}`} target="_blank" rel="noopener noreferrer">{paper.data.doi}</a>
+          </p>
+        )}
+        {paper.data.openAccess && (
+          <p class="cite-doi" style="margin-top:0.5rem;">
+            <span class="paper-oa-badge">Open Access</span>
+            {paper.data.openAccessUrl && (
+              <> · <a href={paper.data.openAccessUrl} target="_blank" rel="noopener noreferrer">Available free at publisher</a></>
+            )}
+          </p>
+        )}
+      </div>
+    </div>
+  </section>
+
+  <fragment slot="scripts">
+    <script>
+      document.addEventListener('DOMContentLoaded', () => {
+        const fox = document.getElementById('paper-hero-fox') as HTMLImageElement | null;
+        if (!fox) return;
+        const w = window as any;
+        const animeFn = w.anime ?? null;
+        if (!animeFn) { fox.style.opacity = '1'; return; }
+        animeFn({ targets: fox, opacity: [0, 1], translateY: [18, 0], duration: 700, easing: 'easeOutCubic', delay: 200 });
+      });
+    </script>
+  </fragment>
+
+</Base>

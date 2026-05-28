@@ -1,0 +1,524 @@
+---
+import Base from '../layouts/Base.astro';
+---
+
+<Base
+  title="About — Teaching That Sticks"
+  bodyClass="about-page"
+  currentNav="about"
+  brandRole="About"
+  brandRoleClass="brand-role--lavender"
+>
+
+  <!-- ── Hero ─────────────────────────────────────────────────────────── -->
+  <section class="about-hero">
+    <div class="about-hero-inner">
+      <div class="about-hero-text">
+        <p class="about-kicker">Why this exists</p>
+        <h1 class="about-headline">Good teaching doesn't happen by accident — it's designed.</h1>
+        <p class="about-hero-sub">
+          Teaching That Sticks is a free, openly licensed CPD programme
+          for anyone in healthcare who has ever been asked to teach something.
+        </p>
+      </div>
+      <div class="about-hero-fox" aria-hidden="true">
+        <img
+          id="about-fox"
+          src="/images/fox/architect.png"
+          alt=""
+          style="opacity:0;"
+        />
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Main content ──────────────────────────────────────────────────── -->
+  <div class="about-body">
+
+    <!-- 1. The Problem (fox-left: death_by_powerpoint) -->
+    <section class="about-section about-section--fox-left">
+      <div class="about-section-fox" aria-hidden="true">
+        <!-- swap to death_by_powerpoint.png once copied into public/images/fox/ -->
+        <img src="/images/fox/death_by_powerpoint.png" alt="" class="about-fox-img about-fox-img--dbp" />
+      </div>
+      <div class="about-section-body">
+        <p class="about-section-kicker">The problem</p>
+        <h2 class="about-section-heading">We keep doing education wrong.</h2>
+        <div class="about-prose">
+          <p>
+            Someone asks you to &ldquo;do a teaching session&rdquo;. You open PowerPoint.
+            You add bullet points until it looks comprehensive. You present it.
+            People are polite. Nothing changes.
+          </p>
+          <p>
+            This isn&rsquo;t a failure of effort or expertise. It&rsquo;s a failure of
+            <em>default</em> &mdash; a default so embedded in how healthcare
+            organisations think about education that it rarely gets questioned.
+          </p>
+          <ul class="about-problem-list">
+            <li>
+              <strong>Day-and-done.</strong> Mandatory training delivered once,
+              ticked off a spreadsheet, forgotten by Friday. A single passive
+              exposure to information does not produce behaviour change.
+              We know this. We keep doing it.
+            </li>
+            <li>
+              <strong>Telling people things.</strong> If people just
+              <em>knew</em> the right information, they&rsquo;d do the right thing.
+              So the solution to every knowledge gap is more slides, more
+              pages of policy, more emails to inboxes no-one opens.
+              The gap between work as prescribed and work as done widens.
+            </li>
+            <li>
+              <strong>Good education happens by accident.</strong> The debrief
+              that ran over. The registrar who ditched slides because the
+              projector was broken and found it worked better. These aren&rsquo;t
+              flukes. They&rsquo;re glimpses of what education looks like when the
+              default gets disrupted.
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- 2. Our Solution (fox-right: lightbulb_on) -->
+    <section class="about-section about-section--fox-right">
+      <div class="about-section-body">
+        <p class="about-section-kicker">Our solution</p>
+        <h2 class="about-section-heading">Three sessions. The right three.</h2>
+        <div class="about-prose">
+          <p>
+            We could have built ten sessions. There&rsquo;s easily enough material.
+            But we started with a different question: what are the things that,
+            if every clinical educator in the country understood them, would
+            move the needle most?
+          </p>
+          <p>
+            The answer was surprisingly consistent. How you design information.
+            How people actually learn and retain it. How to build sessions that
+            change behaviour rather than just deliver content. That&rsquo;s the
+            baseline &mdash; and getting that baseline established across the
+            workforce was always the priority.
+          </p>
+          <p>
+            Advanced sessions may follow. But these aren&rsquo;t advanced topics for
+            formal educators: they&rsquo;re fundamentals that apply whether you&rsquo;re
+            running a training day or explaining a procedure to a student on
+            shift. The foundation comes first.
+          </p>
+        </div>
+      </div>
+      <div class="about-section-fox" aria-hidden="true">
+        <img src="/images/fox/pointing_left.png" alt="" class="about-fox-img" />
+      </div>
+    </section>
+
+    <!-- 3. Beyond the Programme (fox-left: architect) -->
+    <section class="about-section about-section--fox-left">
+      <div class="about-section-fox" aria-hidden="true">
+        <img src="/images/fox/eureka.png" alt="" class="about-fox-img" />
+      </div>
+      <div class="about-section-body">
+        <p class="about-section-kicker">Beyond the programme</p>
+        <h2 class="about-section-heading">The knock-on effects.</h2>
+        <div class="about-prose">
+          <p>
+            The principles here don&rsquo;t stop at the seminar room door.
+            A ward email that buries the key information in paragraph four.
+            A handover that lists facts without flagging the ones that matter.
+            A policy document no-one reads. These are all teaching moments &mdash;
+            and they fail for the same reasons bad sessions fail: cognitive
+            overload, no retrieval cue, no relevance.
+          </p>
+          <p>
+            One educator who changes their default doesn&rsquo;t just run better
+            sessions. They communicate differently. Their learners develop
+            higher expectations of teaching. Some of those learners become
+            educators. The default starts to shift.
+          </p>
+          <p>
+            Good education is also an equity issue. Dense slides disadvantage
+            people with dyslexia. Jargon-heavy delivery disadvantages
+            non-native speakers. Designing education well isn&rsquo;t a nicety &mdash;
+            it&rsquo;s part of the same professional obligation that governs
+            everything else.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4. Testimonials (full-width, no fox) -->
+    <!-- <section class="about-section about-testimonials">
+      <p class="about-section-kicker">What people say</p>
+      <h2 class="about-section-heading">From people who&rsquo;ve been through it.</h2>
+      <div class="about-testimonial-grid">
+        <blockquote class="about-testimonial">
+          <p>&ldquo;I&rsquo;ve been teaching for eight years and this was the first time
+          anyone had explained <em>why</em> some sessions work and
+          others don&rsquo;t.&rdquo;</p>
+          <cite>Senior Registrar, Emergency Medicine</cite>
+        </blockquote>
+        <blockquote class="about-testimonial">
+          <p>&ldquo;I came in sceptical &mdash; I&rsquo;ve done a lot of &lsquo;train the trainer&rsquo;
+          days. This was genuinely different.&rdquo;</p>
+          <cite>Ward Sister, General Surgery</cite>
+        </blockquote>
+        <blockquote class="about-testimonial">
+          <p>&ldquo;The slide session alone changed how I build every presentation
+          I give, inside and outside work.&rdquo;</p>
+          <cite>Foundation Year 2 Doctor</cite>
+        </blockquote>
+        <blockquote class="about-testimonial">
+          <p>&ldquo;It helped me articulate something I&rsquo;d felt for years but
+          couldn&rsquo;t name. Now I can have that conversation with my colleagues.&rdquo;</p>
+          <cite>Clinical Educator, Community Nursing</cite>
+        </blockquote>
+      </div>
+      <p class="about-testimonial-note">
+        Placeholder quotes &mdash; replace with real ones when collected.
+      </p>
+    </section> -->
+
+    <!-- 5. About the Author (fox-right: thinking) -->
+    <section class="about-section about-section--fox-right">
+      <div class="about-section-body">
+        <p class="about-section-kicker">About the author</p>
+        <h2 class="about-section-heading">Who made this?</h2>
+        <div class="about-prose">
+          <p>
+            I started out as a paramedic. You learn to teach fast in that
+            world &mdash; not in seminar rooms, but on the back of an ambulance
+            at 3am with a student who needs to be able to do this for real,
+            soon. Nobody gave me a framework for that. I picked it up through
+            repetition, instinct, and occasionally getting it wrong.
+          </p>
+          <p>
+            I moved into Advanced Practice, eventually into a Trust Lead for
+            Enhanced and Advanced Practice, and along the way became a
+            University Lecturer &mdash; rebuilding several modules from scratch.
+            One was non-medical prescribing: NMC-regulated, taken by
+            clinicians with wildly different backgrounds and a patient safety
+            endpoint. These weren&rsquo;t sessions where it was fine if people
+            forgot by Friday.
+          </p>
+          <p>
+            Most of what&rsquo;s in this programme came from that problem &mdash; designing
+            education that <em>had</em> to work. I&rsquo;m a Fellow of the Higher
+            Education Academy (FHEA) through AdvanceHE. This is my attempt to
+            close the gap between what we know works and what actually gets
+            used. Freely, and for anyone who wants it.
+          </p>
+        </div>
+      </div>
+      <div class="about-section-fox" aria-hidden="true">
+        <img src="/images/fox/waving.png" alt="" class="about-fox-img" />
+      </div>
+    </section>
+
+  </div><!-- /about-body -->
+
+  <!-- ── Ko-fi (full-width tinted) ─────────────────────────────────────── -->
+  <section class="about-kofi">
+    <div class="about-kofi-inner">
+      <img src="/images/fox/coffee.png" alt="" class="about-kofi-fox" aria-hidden="true" />
+      <h2 class="about-kofi-heading">This is free. Help keep it that way.</h2>
+      <p class="about-kofi-body">
+        Teaching That Sticks is and will remain free. All materials are openly
+        licensed. No courses to sell, no subscriptions, no certification fees.
+        If you&rsquo;ve found it useful and want to support future sessions and
+        maintained materials, a contribution via Ko-fi helps.
+      </p>
+      <div class="about-kofi-btns">
+        <a class="about-kofi-btn about-kofi-btn--cc" href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener">CC&nbsp;BY&nbsp;4.0</a>
+        <a class="about-kofi-btn" href="https://ko-fi.com/transilluminate" target="_blank" rel="noopener">Support on Ko-fi &rarr;</a>
+      </div>
+      <p class="about-kofi-nudge">No pressure. Genuinely.</p>
+    </div>
+  </section>
+
+
+
+  <fragment slot="styles">
+    <style>
+      /* ── Hero ──────────────────────────────────────────────────────── */
+      .about-hero {
+        background: var(--base);
+        padding: 4rem 2.5rem 3.5rem;
+      }
+      .about-hero-inner {
+        max-width: 900px;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        gap: 2.5rem;
+      }
+      .about-hero-text { flex: 1; }
+      .about-hero-fox  { flex-shrink: 0; }
+      .about-hero-fox img { width: 180px; }
+
+      .about-kicker,
+      .about-section-kicker {
+        font-size: 0.6rem;
+        font-weight: 700;
+        letter-spacing: 0.15em;
+        text-transform: uppercase;
+        color: var(--lavender);
+        margin-bottom: 0.5rem;
+      }
+      .about-headline {
+        font-family: 'Playfair Display', Georgia, serif;
+        font-size: clamp(1.6rem, 3.5vw, 2.4rem);
+        font-weight: 700;
+        line-height: 1.3;
+        color: var(--text);
+        margin-bottom: 1.25rem;
+      }
+      .about-hero-sub {
+        font-size: 0.9rem;
+        color: var(--subtext0);
+        line-height: 1.7;
+        max-width: 52ch;
+      }
+
+      /* ── Body wrapper ──────────────────────────────────────────────── */
+      .about-body {
+        max-width: 900px;
+        margin: 0 auto;
+        padding: 0 2.5rem 2rem;
+      }
+
+      /* ── Sections ──────────────────────────────────────────────────── */
+      .about-section {
+        padding: 3.5rem 0;
+        border-bottom: 1px solid var(--surface0);
+      }
+      .about-section:last-child { border-bottom: none; }
+
+      .about-section--fox-left,
+      .about-section--fox-right {
+        display: grid;
+        gap: 3rem;
+        align-items: center;
+      }
+      .about-section--fox-left {
+        grid-template-columns: 180px 1fr;
+        grid-template-areas: "fox body";
+      }
+      .about-section--fox-right {
+        grid-template-columns: 1fr 180px;
+        grid-template-areas: "body fox";
+      }
+      .about-section-fox  { grid-area: fox;  display: flex; justify-content: center; }
+      .about-section-body { grid-area: body; }
+
+      .about-section-heading {
+        font-family: 'Playfair Display', Georgia, serif;
+        font-size: 1.35rem;
+        font-weight: 700;
+        color: var(--text);
+        margin-bottom: 1.25rem;
+      }
+
+      /* ── Fox images ────────────────────────────────────────────────── */
+      .about-fox-img {
+        width: 100%;
+        max-width: 150px;
+        max-height: 150px;
+        object-fit: contain;
+      }
+      /* death_by_powerpoint is naturally wider — give it a bit more room */
+      .about-fox-img--dbp {
+        max-width: 190px;
+        max-height: 190px;
+      }
+
+      /* ── Prose ─────────────────────────────────────────────────────── */
+      .about-prose p {
+        font-size: 0.9rem;
+        color: var(--subtext1);
+        line-height: 1.8;
+        max-width: 68ch;
+        margin-bottom: 1rem;
+      }
+      .about-prose p:last-child { margin-bottom: 0; }
+      .about-prose a {
+        color: var(--peach);
+        text-decoration: underline;
+        text-underline-offset: 2px;
+      }
+      .about-link-arrow {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.3rem;
+        margin-top: 1.25rem;
+        font-size: 0.82rem;
+        font-weight: 600;
+        color: var(--lavender);
+        text-decoration: none;
+        border-bottom: 1.5px solid color-mix(in srgb, var(--lavender) 40%, transparent);
+        padding-bottom: 1px;
+        transition: border-color 0.15s;
+      }
+      .about-link-arrow:hover { border-color: var(--lavender); }
+
+      /* ── Problem list ──────────────────────────────────────────────── */
+      .about-problem-list {
+        margin: 1.25rem 0 0;
+        padding-left: 0;
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        gap: 0.9rem;
+      }
+      .about-problem-list li {
+        font-size: 0.88rem;
+        color: var(--subtext1);
+        line-height: 1.75;
+        padding-left: 1.1rem;
+        border-left: 3px solid var(--surface0);
+      }
+      .about-problem-list li strong { color: var(--text); }
+
+      /* ── Testimonials ──────────────────────────────────────────────── */
+      .about-testimonial-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+        margin: 1.5rem 0 0.75rem;
+      }
+      .about-testimonial {
+        background: var(--mantle);
+        border-left: 3px solid var(--lavender);
+        border-radius: 0 8px 8px 0;
+        padding: 1.25rem 1.25rem 1rem;
+        margin: 0;
+      }
+      .about-testimonial p {
+        font-size: 0.88rem;
+        font-style: italic;
+        color: var(--text);
+        line-height: 1.7;
+        margin-bottom: 0.75rem;
+      }
+      .about-testimonial cite {
+        font-size: 0.72rem;
+        font-style: normal;
+        font-weight: 600;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+        color: var(--overlay0);
+      }
+      .about-testimonial-note {
+        font-size: 0.75rem;
+        color: var(--overlay0);
+        font-style: italic;
+      }
+
+      /* ── Ko-fi ─────────────────────────────────────────────────────── */
+      .about-kofi {
+        background: var(--mantle);
+        border-top: 1px solid var(--surface0);
+        border-bottom: 1px solid var(--surface0);
+        padding: 4rem 2.5rem;
+        text-align: center;
+      }
+      .about-kofi-inner {
+        max-width: 480px;
+        margin: 0 auto;
+      }
+      .about-kofi-fox {
+        width: 110px;
+        margin-bottom: 1.25rem;
+      }
+      .about-kofi-heading {
+        font-family: 'Playfair Display', Georgia, serif;
+        font-size: 1.35rem;
+        font-weight: 700;
+        color: var(--text);
+        margin-bottom: 1rem;
+      }
+      .about-kofi-body {
+        font-size: 0.88rem;
+        color: var(--subtext1);
+        line-height: 1.75;
+        margin-bottom: 1.5rem;
+      }
+      .about-kofi-btns {
+        display: flex;
+        gap: 0.75rem;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-bottom: 0;
+      }
+      .about-kofi-btn {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.35rem;
+        font-size: 0.82rem;
+        font-weight: 600;
+        color: var(--text);
+        padding: 0.55rem 1.2rem;
+        border: 1.5px solid var(--overlay0);
+        border-radius: 6px;
+        text-decoration: none;
+        transition: background 0.15s, border-color 0.15s;
+      }
+      .about-kofi-btn:hover { background: var(--surface0); border-color: var(--subtext1); }
+      .about-kofi-btn--cc { color: var(--subtext0); border-color: var(--surface0); }
+      .about-kofi-btn--cc:hover { color: var(--text); }
+      .about-kofi-nudge {
+        font-size: 0.75rem;
+        color: var(--overlay0);
+        margin-top: 0.75rem;
+      }
+
+      /* ── Responsive ────────────────────────────────────────────────── */
+      @media (max-width: 760px) {
+        .about-hero-inner { flex-direction: column; align-items: flex-start; }
+        .about-hero-fox   { display: none; }
+        .about-section--fox-left,
+        .about-section--fox-right { display: block; }
+        .about-section-fox        { display: none; }
+        .about-testimonial-grid   { grid-template-columns: 1fr; }
+      }
+    </style>
+  </fragment>
+
+  <fragment slot="scripts">
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+        var fox = document.getElementById('about-fox');
+        if (fox && (window as any).anime) {
+          (window as any).anime({
+            targets: fox,
+            opacity:    [0, 1],
+            translateX: [30, 0],
+            duration:   800,
+            delay:      250,
+            easing:     'easeOutCubic',
+          });
+        }
+
+        // Animate section fox images as they scroll into view
+        var sectionFoxes = document.querySelectorAll('.about-fox-img');
+        if (sectionFoxes.length && (window as any).anime) {
+          var foxObs = new IntersectionObserver(function(entries) {
+            entries.forEach(function(e) {
+              if (!e.isIntersecting) return;
+              (window as any).anime({
+                targets:    e.target,
+                opacity:    [0, 1],
+                translateY: [16, 0],
+                duration:   600,
+                easing:     'easeOutCubic',
+              });
+              foxObs.unobserve(e.target);
+            });
+          }, { threshold: 0.25 });
+          sectionFoxes.forEach(function(img) { foxObs.observe(img); });
+        }
+      });
+    </script>
+  </fragment>
+
+</Base>

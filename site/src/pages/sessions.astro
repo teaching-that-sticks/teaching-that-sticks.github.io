@@ -1,0 +1,63 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../layouts/Base.astro';
+
+const sessions = await getCollection('sessions');
+sessions.sort((a, b) => a.data.number - b.data.number);
+---
+
+<Base title="Sessions" bodyClass="session-page" currentNav="sessions" brandRole="Sessions">
+
+  <section class="session-section">
+    <div class="session-hero-inner">
+      <div class="session-hero-text">
+        <span class="session-overline">The Programme</span>
+        <h1 class="session-title">Three half-day sessions</h1>
+        <p class="session-subtitle">
+          Evidence first, application second, reflection throughout.
+          No prerequisites. No jargon. Free and open-source.
+        </p>
+      </div>
+      <img
+        id="sessions-fox"
+        class="session-fox"
+        src="/images/fox/lightbulb_off.png"
+        alt=""
+        aria-hidden="true"
+      />
+    </div>
+
+    <div class="session-stack" data-animate>
+      {sessions.map(s => (
+        <div class="prog-card">
+          <div class="prog-card-main">
+            <span class="prog-card-overline">Session {s.data.number}</span>
+            <h2 class="prog-card-title">{s.data.tagline}</h2>
+            {s.data.subtitle && <p class="prog-card-body">{s.data.subtitle}</p>}
+            <div class="prog-card-meta">
+              <span>{s.data.theories.length} theories</span>
+              <span>{s.data.duration}</span>
+            </div>
+          </div>
+          <div class="prog-card-action">
+            <a class="prog-card-link" href={`/sessions/${s.id}`}>Session {s.data.number} →</a>
+          </div>
+        </div>
+      ))}
+    </div>
+  </section>
+
+  <fragment slot="scripts">
+    <script>
+      document.addEventListener('DOMContentLoaded', () => {
+        const fox = document.getElementById('sessions-fox') as HTMLImageElement;
+        if (!fox) return;
+        setTimeout(() => {
+          fox.src = '/images/fox/lightbulb_on.png';
+          (window as any).anime({ targets: fox, scale: [0.88, 1.08, 1], duration: 500, easing: 'easeOutBack' });
+        }, 700);
+      });
+    </script>
+  </fragment>
+
+</Base>

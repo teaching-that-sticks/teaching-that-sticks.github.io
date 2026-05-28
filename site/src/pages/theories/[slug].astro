@@ -1,0 +1,132 @@
+---
+/**
+ * src/pages/theories/[slug].astro
+ *
+ * Generates one page per theory in src/content/theories/.
+ * URL: /theories/cognitive-load, /theories/dual-coding, etc.
+ *
+ * Cross-references: the theory frontmatter lists session slugs.
+ * We look up each session from the sessions collection to render
+ * the "Used in" pills in the hero.
+ */
+import { getCollection, getEntry, render } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+import SlideCompare from '../../components/SlideCompare.astro';
+
+export async function getStaticPaths() {
+  const theories = await getCollection('theories');
+  return theories.map(theory => ({
+    params: { slug: theory.id },
+    props:  { theory },
+  }));
+}
+
+const { theory } = Astro.props;
+const { Content } = await render(theory);
+
+// Look up every session this theory is used in
+const sessionEntries = await Promise.all(
+  (theory.data.sessions ?? []).map(id => getEntry('sessions', id))
+);
+const usedInSessions = sessionEntries.filter(Boolean);
+
+const pageTitle = theory.data.title;
+---
+
+<Base title={pageTitle} bodyClass="session-page theory-page" currentNav="theories" brandRole="Theory Library" brandRoleClass="brand-role--green">
+
+  <section class="session-section">
+
+    <!-- Hero -->
+    <div class="session-hero-inner">
+      <div class="session-hero-text">
+        <div class="session-breadcrumb" aria-label="Breadcrumb">
+          <a class="breadcrumb-parent" href="/theories">Theory Library</a>
+          <span class="breadcrumb-sep" aria-hidden="true">»</span>
+          <span class="breadcrumb-current">{theory.data.title}</span>
+        </div>
+        <h1 class="session-title">{theory.data.title}</h1>
+        <p class="session-subtitle">{theory.data.summary}</p>
+
+        {usedInSessions.length > 0 && (
+          <div class="theory-used-row">
+            <span class="theory-used-label">Used in:</span>
+            {usedInSessions.map(s => s && (
+              <a class="theory-used-pill" href={`/sessions/${s.id}`}>
+                Session {s.data.number} — {s.data.tagline}
+              </a>
+            ))}
+          </div>
+        )}
+      </div>
+      <img class="session-fox" src="/images/fox/reading.png" alt="" aria-hidden="true" style="opacity:0;" id="theory-hero-fox" />
+    </div>
+
+    <!-- Card stack -->
+    <div class="session-stack" data-animate>
+
+      <!-- Plain-language explanation (from Markdown body) -->
+      <div class="session-card">
+        <p class="section-overline">What it says, in plain language</p>
+        <div class="theory-prose">
+          <Content />
+        </div>
+      </div>
+
+      <!-- Slide comparison (only rendered if theory has images) -->
+      {theory.data.images && (
+        <div class="session-card">
+          <p class="section-overline">What this looks like in practice</p>
+          <SlideCompare
+            badSrc={theory.data.images.bad}
+            goodSrc={theory.data.images.good}
+            badAlt={theory.data.images.badAlt}
+            goodAlt={theory.data.images.goodAlt}
+          />
+        </div>
+      )}
+
+      <!-- Evidence -->
+      {theory.data.evidence.length > 0 && (
+        <div class="session-card">
+          <p class="section-overline">The evidence</p>
+          <div class="evidence-list">
+            {theory.data.evidence.map(e => (
+              <div class="theory-row">
+                <div class="theory-row-text">
+                  <span class="theory-row-cite" set:html={e.cite} />
+                </div>
+                {e.paper && (
+                  <div class="theory-row-action">
+                    <a class="theory-card-link" href={`/papers/${e.paper}`}>Read summary →</a>
+                  </div>
+                )}
+              </div>
+            ))}
+          </div>
+        </div>
+      )}
+
+    </div>
+
+  </section>
+
+  <fragment slot="scripts">
+    <script>
+      document.addEventListener('DOMContentLoaded', () => {
+        const fox = document.getElementById('theory-hero-fox');
+        if (fox && (window as any).anime) {
+          (window as any).anime({
+            targets: fox,
+            opacity: [0, 1],
+            translateX: [18, 0],
+            duration: 700,
+            delay: 300,
+            easing: 'easeOutCubic',
+          });
+        }
+      });
+    </script>
+  </fragment>
+
+</Base>

@@ -1,0 +1,114 @@
+---
+import Base from '../layouts/Base.astro';
+---
+
+<Base
+  title="404 — Teaching That Sticks"
+  bodyClass="error-page"
+  currentNav=""
+  brandRole="404"
+  brandRoleClass="brand-role--peach"
+>
+  <section class="error-section">
+    <div class="error-inner">
+
+      <div class="error-fox" aria-hidden="true">
+        <img src="/images/fox/shocked.png" alt="" />
+      </div>
+
+      <div class="error-body">
+        <p class="error-kicker">Error 404</p>
+        <h1 class="error-heading">This page didn't stick.</h1>
+        <p class="error-sub">
+          The URL you're looking for either never existed, has been moved, or —
+          like most mandatory training — was forgotten by Friday.
+        </p>
+        <p class="error-sub">
+          A single passive exposure to a broken link is unlikely to produce
+          reliable recall. No retrieval cue will help here.
+        </p>
+        <a class="error-cta" href="/">Back to the start...</a>
+      </div>
+
+    </div>
+  </section>
+</Base>
+
+<style>
+  .error-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: calc(100vh - 120px); /* nav + footer */
+    padding: 4rem 2rem;
+  }
+
+  .error-inner {
+    display: flex;
+    align-items: center;
+    gap: 3.5rem;
+    max-width: 820px;
+    width: 100%;
+  }
+
+  .error-fox img {
+    width: clamp(160px, 22vw, 260px);
+    display: block;
+    flex-shrink: 0;
+  }
+
+  .error-body {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .error-kicker {
+    font-size: 0.78rem;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--peach);
+  }
+
+  .error-heading {
+    font-size: clamp(2rem, 5vw, 3rem);
+    font-weight: 800;
+    line-height: 1.1;
+    color: var(--text);
+    margin: 0;
+  }
+
+  .error-sub {
+    font-size: 1.05rem;
+    line-height: 1.65;
+    color: var(--subtext1);
+    max-width: 44ch;
+  }
+
+  .error-cta {
+    display: inline-block;
+    margin-top: 0.5rem;
+    padding: 0.7rem 1.6rem;
+    background: var(--peach);
+    color: var(--base);
+    font-weight: 700;
+    font-size: 0.95rem;
+    border-radius: 6px;
+    text-decoration: none;
+    transition: opacity 0.15s;
+    align-self: flex-start;
+  }
+
+  .error-cta:hover { opacity: 0.85; }
+
+  @media (max-width: 600px) {
+    .error-inner {
+      flex-direction: column;
+      text-align: center;
+      gap: 2rem;
+    }
+    .error-cta { align-self: center; }
+    .error-sub { max-width: 100%; }
+  }
+</style>

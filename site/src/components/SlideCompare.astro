@@ -1,0 +1,29 @@
+---
+/**
+ * SlideCompare.astro — side-by-side bad/good slide comparison
+ * Used on theory pages that have images.bad / images.good frontmatter.
+ */
+export interface Props {
+  badSrc: string;
+  goodSrc: string;
+  badAlt?: string;
+  goodAlt?: string;
+}
+const { badSrc, goodSrc, badAlt = '', goodAlt = '' } = Astro.props;
+---
+<div class="slide-compare">
+  <figure class="slide-figure">
+    <img src={`/slides/${badSrc}`} alt={badAlt} />
+    <figcaption>
+      <span class="slide-label slide-label--bad">Overloaded</span>
+      <p class="slide-caption"><slot name="bad-caption">Dense text, competing visual elements, and spoken content all fighting for the same working memory resources simultaneously.</slot></p>
+    </figcaption>
+  </figure>
+  <figure class="slide-figure">
+    <img src={`/slides/${goodSrc}`} alt={goodAlt} />
+    <figcaption>
+      <span class="slide-label slide-label--good">Well-managed</span>
+      <p class="slide-caption"><slot name="good-caption">One visual, one headline, minimal on-screen text. The detail is spoken aloud — two channels working together, not against each other.</slot></p>
+    </figcaption>
+  </figure>
+</div>

@@ -1,0 +1,166 @@
+---
+/**
+ * src/pages/facilitator/index.astro
+ *
+ * Facilitator Hub — sky theme. Lists all facilitator entries:
+ * - Session blueprints (type: blueprint)
+ * - Reference materials (type: resource)
+ * - Stub cards for coming-soon content
+ *
+ * URL: /facilitator
+ */
+import { getCollection } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+
+const entries = await getCollection('facilitator');
+const blueprints = entries
+  .filter(e => e.data.type === 'blueprint')
+  .sort((a, b) => a.data.order - b.data.order);
+const resources = entries
+  .filter(e => e.data.type === 'resource')
+  .sort((a, b) => a.data.order - b.data.order);
+const preItems = entries
+  .filter(e => e.data.type === 'pre-programme')
+  .sort((a, b) => a.data.order - b.data.order);
+const commsItems = entries
+  .filter(e => e.data.type === 'comms')
+  .sort((a, b) => a.data.order - b.data.order);
+---
+
+<Base
+  title="Facilitator Hub — Teaching That Sticks"
+  bodyClass="session-page facilitator-hub-page"
+  currentNav="facilitator"
+  brandRole="Facilitator Hub"
+  brandRoleClass="brand-role--sky"
+>
+
+  <main class="library-section">
+    <div class="library-inner">
+
+      <!-- Hero -->
+      <div class="library-hero-inner">
+        <div class="library-hero-text">
+          <p class="library-overline">Facilitator Hub</p>
+          <h1 class="library-title">Run this programme</h1>
+          <p class="library-lede">
+            Session blueprints, technical setup, theory quick-reference,
+            and evaluation tools — everything you need to deliver
+            Teaching That Sticks.
+          </p>
+        </div>
+        <img
+          id="facilitator-hub-fox"
+          class="library-fox"
+          src="/images/fox/blueprint_demonstrate.png"
+          alt=""
+          aria-hidden="true"
+          style="opacity:0;"
+        />
+      </div>
+
+      <!-- Programme setup -->
+      <div class="fac-hub-section">
+        <p class="fac-section-header">Before you start</p>
+        <div class="fac-cards-grid" data-animate>
+          {preItems.map(entry => (
+            <a href={`/facilitator/${entry.id}`} class="fac-card">
+              <p class="fac-card-eyebrow">Programme setup</p>
+              <h2 class="fac-card-title">{entry.data.title}</h2>
+              {entry.data.tagline && (
+                <p class="fac-card-tagline">{entry.data.tagline}</p>
+              )}
+            </a>
+          ))}
+        </div>
+      </div>
+
+      <!-- Participant communications -->
+      <div class="fac-hub-section">
+        <p class="fac-section-header">Participant communications</p>
+        <div class="fac-cards-grid" data-animate>
+          {commsItems.map(entry => (
+            <a href={`/facilitator/${entry.id}`} class="fac-card">
+              <p class="fac-card-eyebrow">Before session {entry.data.session}</p>
+              <h2 class="fac-card-title">{entry.data.title}</h2>
+              {entry.data.tagline && (
+                <p class="fac-card-tagline">{entry.data.tagline}</p>
+              )}
+            </a>
+          ))}
+        </div>
+      </div>
+
+      <!-- Session blueprints -->
+      <div class="fac-hub-section">
+        <p class="fac-section-header">Session Blueprints</p>
+        <div class="fac-cards-grid" data-animate>
+          {blueprints.map(entry => (
+            <a href={`/facilitator/${entry.id}`} class="fac-card">
+              <p class="fac-card-eyebrow">Session {entry.data.session}</p>
+              <h2 class="fac-card-title">{entry.data.title}</h2>
+              {entry.data.tagline && (
+                <p class="fac-card-tagline">{entry.data.tagline}</p>
+              )}
+              {entry.data.duration && (
+                <p class="fac-card-meta">⏱ {entry.data.duration} &nbsp;·&nbsp; Facilitator guide</p>
+              )}
+            </a>
+          ))}
+        </div>
+      </div>
+
+      <!-- Reference materials -->
+      <div class="fac-hub-section">
+        <p class="fac-section-header">Reference Materials</p>
+        <div class="fac-cards-grid" data-animate>
+          {resources.map(entry => (
+            <a href={`/facilitator/${entry.id}`} class="fac-card">
+              <p class="fac-card-eyebrow">Reference</p>
+              <h2 class="fac-card-title">{entry.data.title}</h2>
+              {entry.data.tagline && (
+                <p class="fac-card-tagline">{entry.data.tagline}</p>
+              )}
+            </a>
+          ))}
+        </div>
+      </div>
+
+      <!-- Coming soon -->
+      <div class="fac-hub-section">
+        <p class="fac-section-header">Coming soon</p>
+        <div class="fac-cards-grid">
+          <div class="fac-stub-card">
+            <p class="fac-card-eyebrow">CPD &amp; Portfolio</p>
+            <h2 class="fac-card-title">Portfolio Mapping</h2>
+            <p class="fac-card-tagline">
+              Framework alignment by profession — helping participants record
+              this programme in their revalidation portfolio.
+            </p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+  <fragment slot="scripts">
+    <script>
+      document.addEventListener('DOMContentLoaded', () => {
+        const fox = document.getElementById('facilitator-hub-fox') as HTMLImageElement | null;
+        if (!fox) return;
+        const animeFn = (window as any).anime ?? null;
+        if (!animeFn) { fox.style.opacity = '1'; return; }
+        animeFn({
+          targets: fox,
+          opacity: [0, 1],
+          translateY: [18, 0],
+          duration: 700,
+          easing: 'easeOutCubic',
+          delay: 200,
+        });
+      });
+    </script>
+  </fragment>
+
+</Base>
