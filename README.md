@@ -102,7 +102,7 @@ Requires Node 18+. Dev server starts at `http://localhost:4321`.
 
 You are free to share and adapt this material for any purpose, including commercially, provided you give appropriate credit and indicate if changes were made.
 
-**Attribution:** *Teaching That Sticks* — [https://github.com/teaching-that-sticks/](https://github.com/teaching-that-sticks/)
+**Attribution:** *Teaching That Sticks* — [https://github.com/teaching-that-sticks/teaching-that-sticks.github.io](https://github.com/teaching-that-sticks/teaching-that-sticks.github.io)
 
 
 Pull requests are welcome. Please raise an issue before making large structural changes. Translations are especially welcome.
