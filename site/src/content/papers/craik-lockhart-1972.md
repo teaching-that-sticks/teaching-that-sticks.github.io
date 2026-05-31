@@ -3,6 +3,7 @@ title: "Levels of Processing: A Framework for Memory Research"
 authors: "Craik, F. I. M., & Lockhart, R. S."
 journal: "Journal of Verbal Learning and Verbal Behavior"
 year: 1972
+doi: "10.1016/S0022-5371(72)80001-X"
 openAccess: false
 theorists: []
 sessions: [1, 2]

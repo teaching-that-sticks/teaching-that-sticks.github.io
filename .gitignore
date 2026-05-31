@@ -16,3 +16,6 @@ node_modules/
 # editor
 .idea/
 .vscode/settings.json
+
+# local files
+/local/

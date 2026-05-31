@@ -5,7 +5,7 @@ journal: "Occasional Paper 1, ETL Project, Universities of Edinburgh and Coventr
 year: 1999
 doi: ""
 openAccess: true
-openAccessUrl: "https://www.etl.tla.ed.ac.uk/docs/ETLreport1.pdf"
+openAccessUrl: "https://www.research.ed.ac.uk/files/10096774/ETLfinalreport.pdf"
 theorists: ["biggs-constructive-alignment"]
 sessions: [1]
 imagePrompt: "Three horizontal rings aligned on a shared vertical axis — from bottom to top: Learning Outcomes, Teaching Methods, Assessment. The rings are linked by short vertical connectors, showing alignment between all three levels. Flat design, Teaching That Sticks house style, slate blue-grey and amber palette, clean white background, no people, professional educational illustration."

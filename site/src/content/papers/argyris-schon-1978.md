@@ -4,6 +4,7 @@ authors: "Argyris, C., & Schön, D. A."
 journal: "Addison-Wesley"
 year: 1978
 openAccess: false
+doi: "10.2307/40183951"
 theorists: ["argyris-schon-double-loop", "advocacy-inquiry"]
 sessions: [3]
 imagePrompt: "Two side-by-side loop diagrams. Left diagram labelled 'Single-loop learning': an arrow from 'Action' to 'Outcome', and a feedback arrow back only to 'Action' — the governing variables (a box to the left) are not touched. Right diagram labelled 'Double-loop learning': the same structure, but the feedback arrow reaches all the way back to 'Governing variables', questioning the assumption. Flat design, Teaching That Sticks house style, slate blue-grey and amber palette, clean white background, no people, professional educational illustration."

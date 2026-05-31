@@ -3,6 +3,7 @@ title: "The Reflective Practitioner: How Professionals Think in Action"
 authors: "Schön, D. A."
 journal: "Basic Books"
 year: 1983
+doi: "10.4324/9781315237473"
 openAccess: false
 theorists: []
 sessions: [2, 3]

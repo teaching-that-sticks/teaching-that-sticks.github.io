@@ -5,7 +5,7 @@ journal: "Improving Student Learning — Theory and Practice Ten Years On"
 year: 2003
 doi: ""
 openAccess: true
-openAccessUrl: "https://www.etl.tla.ed.ac.uk/docs/ETLreport4.pdf"
+openAccessUrl: "https://pressbooks.atlanticoer-relatlantique.ca/app/uploads/sites/803/2021/07/ETLreport4.pdf"
 theorists: ["meyer-land-threshold-concepts"]
 sessions: [3]
 imagePrompt: "A narrow archway or portal shape in the centre. On the left side of the arch, a flat landscape at ground level. On the right side, the landscape is elevated, showing a higher vantage point — a different view. The portal represents a conceptual threshold. Below the arch, a small tangled line cluster represents troublesome knowledge. Flat design, Teaching That Sticks house style, slate blue-grey and amber palette, clean white background, no people, professional educational illustration."

@@ -3,6 +3,7 @@ title: "Mind in Society: The Development of Higher Psychological Processes"
 authors: "Vygotsky, L. S. (Cole, M., John-Steiner, V., Scribner, S., & Souberman, E., Eds.)"
 journal: "Harvard University Press"
 year: 1978
+doi: "10.2307/j.ctvjf9vz4"
 openAccess: false
 theorists: ["vygotsky-zpd", "zone-of-proximal-development"]
 sessions: [1]
