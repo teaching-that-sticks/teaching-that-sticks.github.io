@@ -30,14 +30,14 @@ That is the stolen curriculum: a parallel evidence base for learning design, app
 
 Before crossing this threshold, an ad is noise — or manipulation to be resisted. After crossing it, an ad is a live teaching demo with a multi-million pound budget and real behaviour-change data behind its design choices. The two views cannot coexist. Once you see it, you cannot un-see it.
 
-This is pedagogically useful in a specific way: it creates a **free reinforcement loop**. Delegates are exposed to commercial advertising constantly and involuntarily. Every billboard, every pre-roll, every bus-shelter poster becomes unsolicited retrieval practice for the mechanisms covered in Sessions 1 and 2. The world is now running your spaced practice schedule, at no cost and no effort.
+This is pedagogically useful in a specific way: it creates a **free reinforcement loop**. We are all exposed to commercial advertising constantly and involuntarily. Every billboard, every pre-roll, every bus-shelter poster becomes unsolicited retrieval practice for the mechanisms covered in Sessions 1 and 2. The world runs the spaced practice schedule, at no cost and no effort.
 
-## What this means for teaching
+## What this means for your teaching
 
 - **Name the mechanism** — when you see an ad, identify which principle it is applying: *"that's dual coding"*, *"that's a retrieval cue"*, *"that's an implementation intention in four words."* The naming itself is a retrieval act. Do it once and the loop has started.
 
-- **The cohort challenge** — if your group has a shared channel or message thread, run a standing challenge: one spotted ad per week, mechanism named. This turns passive exposure into active retrieval, builds shared vocabulary, and sustains the learning community between sessions with zero facilitator effort.
+- **The standing challenge** — one spotted ad per week, mechanism named, shared with a colleague or in a group channel. This turns passive exposure into active retrieval and keeps the shared vocabulary alive between sessions.
 
-- **The design question** — when reviewing a session you're planning, ask: *"If a marketing team were briefed to make this learning change delegates' behaviour on Monday — and their fee depended on it — what would they do differently?"* The gap between your answer and your current design is a to-do list.
+- **The design question** — when reviewing a session you are planning, ask: *"If a marketing team were briefed to make this learning change behaviour on Monday — and their fee depended on it — what would they do differently?"* The gap between that answer and your current design is a to-do list.
 
 - **The uncomfortable corollary** — marketers are not better than educators. They simply had a metric that wouldn't let them off the hook. Most clinical education is evaluated at Level 1 (the post-session happy sheet), which means behaviour change was never in the brief. Changing the metric changes the design. That is the real lesson the curriculum was stolen from.
