@@ -12,47 +12,28 @@ evidence:
   - cite: "Christensen, C. M., Hall, T., Dillon, K., &amp; Duncan, D. S. (2016). Know your customers' &lsquo;jobs to be done.&rsquo; <em>Harvard Business Review</em>, 94(9), 54&ndash;62."
 ---
 
-Cognitive science didn't reach advertising through a formal handshake. Marketers discovered, empirically, that certain things worked — short messages, vivid images, emotional hooks, repetition, completing-the-jingle games — and then kept doing them. Researchers later arrived and named what was already happening. The mechanisms are identical to those underpinning effective teaching: dual coding, cognitive load reduction, spaced practice, retrieval practice, implementation intentions. The difference is that advertising never had the luxury of evaluating at Level 1. A campaign that people enjoyed but didn't act on was a failure. The industry was forced, by competitive survival, to design for behaviour change from the first brief.
+You have seen tens of thousands of advertisements. Some of them are still in your head decades later. A handful changed what you bought, where you went, or what you believed. None of that happened by accident.
 
-That is the stolen curriculum: a parallel evidence base for learning design, applied at vast scale and ruthless efficiency, sitting in plain sight — and invisible until now.
+Marketers didn't read the learning science literature and apply it carefully. They ran campaigns, tracked what shifted behaviour, and kept doing more of what worked. Researchers arrived later and gave it names. The names are the same ones in this library: spaced practice, retrieval practice, dual coding, cognitive load, implementation intentions. The difference is that advertising agencies couldn't hide behind a satisfaction survey. A campaign people enjoyed but didn't act on was a failure. They were forced to design for behaviour change from the start.
 
-| What marketers do | The learning mechanism |
+Once you see that, you cannot unsee it. Every ad you encounter becomes a free worked example — with a real budget behind it and real behaviour-change data validating the design. The world is now running your revision schedule, without being asked.
+
+| What the ad does | Why it works |
 |---|---|
-| One clear message per ad | Cognitive load reduction — no split attention, no extraneous load |
-| Jingle or sonic logo | Dual coding — verbal meaning anchored to auditory retrieval cue |
-| Same slogan, repeated across years | Spaced practice — the forgetting curve weaponised, not ignored |
-| "Can you finish the jingle...?" | Retrieval practice — the generation effect, built into the format |
-| "Just Do It" / "Every Little Helps" | Implementation intention — the if–then compressed to a mantra |
-| Before/after or problem/solution arc | Constructive alignment — outcome-first design, every time |
-| Emotional narrative | Levels of processing — deep, elaborative encoding via story |
-| Call to action | Kirkpatrick Level 3 designed in from the start — behaviour, not reaction |
-| Brand character / mascot | Dual coding — a concrete visual anchor for an abstract proposition |
-| Campaign frequency across contexts | Interleaving — varied contexts strengthen transfer |
-| Single-minded proposition — one message, one ad, one job | Constructive alignment — *what is the one thing I need this person to think, feel, or do differently?* Most lectures violate this before the title slide is finished |
-| Hook, open loop, cliffhanger | Curiosity gap — Loewenstein's information gap creates motivational pull; the discomfort of knowing just enough to know you don't know something |
-| Deliberate emotional peak and a designed ending | Peak-end rule — we remember experiences by their emotional high and their final moment, not their average; most teaching sessions fade out |
-| "What job is the customer hiring this product to do?" | Learner motivation — mismatches between the session's intended outcome and the learner's actual problem explain most disengagement that gets blamed on content |
-
-## Why this is a threshold concept
-
-Before crossing this threshold, an ad is noise — or manipulation to be resisted. After crossing it, an ad is a live teaching demo with a multi-million pound budget and real behaviour-change data behind its design choices. The two views cannot coexist. Once you see it, you cannot un-see it.
-
-This is pedagogically useful in a specific way: it creates a **free reinforcement loop**. We are all exposed to commercial advertising constantly and involuntarily. Every billboard, every pre-roll, every bus-shelter poster becomes unsolicited retrieval practice for the mechanisms covered in Sessions 1 and 2. The world runs the spaced practice schedule, at no cost and no effort.
+| One message, one ad — nothing else | One idea at a time is all working memory can hold. More than that and nothing lands. |
+| Jingle, slogan, sonic logo | Sound and meaning encoded together are harder to separate — and harder to forget. |
+| Same line, repeated across years and formats | Coming back to something beats doing it once. The gap between exposures is the point, not the problem. |
+| "Can you finish the jingle...?" | Having to retrieve something yourself cements it far more than being told it again. |
+| Hook, open loop, cliffhanger | Feeling like you *need* to know something is what makes you pay attention. Show the problem before you name it. |
+| Emotional story, not a list of facts | Memories tagged with feeling last longer. The discomfort or the laugh is not a distraction — it *is* the encoding. |
+| Clear call to action | If behaviour change was never the stated goal, the design never aimed for it. Happy-sheet scores are not evidence of impact. |
 
 ## What this means for your teaching
 
-- **Name the mechanism** — when you see an ad, identify which principle it is applying: *"that's dual coding"*, *"that's a retrieval cue"*, *"that's an implementation intention in four words."* The naming itself is a retrieval act. Do it once and the loop has started.
+- **Name it when you see it** — when an ad catches you, say which principle it is using. *That's spaced repetition. That's a retrieval cue. That's an implementation intention in four words.* The naming is itself a retrieval act, and it keeps the ideas from these sessions alive without any extra effort.
 
-- **The standing challenge** — one spotted ad per week, mechanism named, shared with a colleague or in a group channel. This turns passive exposure into active retrieval and keeps the shared vocabulary alive between sessions.
+- **The one-idea test** — advertising agencies have a rule: if a campaign is trying to say three things, it is saying nothing. Before you design a session, ask: *what is the single thing I need someone to think, feel, or do differently?* If you cannot say it in one sentence, the session does not yet have a shape.
 
-- **The single-minded proposition test** — advertising agencies have a rule: if a campaign is trying to say three things, it is saying nothing. Apply the same pressure to any session you plan. *What is the one thing you need participants to think, feel, or do differently?* If you cannot state it in a sentence, the session does not yet have a design.
+- **Design the ending deliberately** — we remember experiences by their high point and their final moment, not their average. Most sessions fade out with logistics or a quiet thank-you. That is what people carry home. A commitment, a question left open, a moment of recognition — these are design decisions, not extras.
 
-- **Create the gap before you fill it** — Loewenstein's curiosity gap only works if the learner knows just enough to feel the absence. A session opener that reveals a problem before naming a solution, a question that exposes a contradiction, a bad slide before a good one — these are hooks. They are also why pre-session reflective questions do real work: the reader arrives already curious.
-
-- **Design the peak and the ending** — Kahneman showed we remember experiences by their emotional high point and their final moment, not their average. Marketers and theme parks design both deliberately. Most teaching sessions fade out with housekeeping. A commitment activity, a moment of recognition, a question left deliberately open — these are peak-end design decisions, whether or not they are named as such.
-
-- **Emotion is not decoration** — emotionally-tagged memories are more durable. Affect and memory are neurologically coupled. The recognition laugh when something is uncomfortably accurate, the slight discomfort of a well-chosen image — these are not distractions from learning. They are the encoding mechanism. Clinical education has a habit of stripping emotion out in the name of professionalism. That habit has a retention cost.
-
-- **Ask the learner's question, not the curriculum's** — Clayton Christensen's jobs-to-be-done framework asks: what problem in the learner's actual life does this session solve? Not *what is the learning outcome* (your frame), but *what is the learner hiring this session to do?* Mismatches between those two framings are where disengagement lives.
-
-- **The uncomfortable corollary** — marketing is better at Kirkpatrick than education is, not because marketers are smarter, but because their feedback loop is fast and merciless. You either shifted behaviour or you did not, and you find out quickly. Most clinical education is evaluated at Level 1 (the post-session satisfaction survey, dressed up as evidence of quality), which means behaviour change was never in the brief. Changing the metric changes the design. That is the real lesson the curriculum was stolen from.
+- **Ask the learner's question, not yours** — *what is the learning outcome* is your question. The learner's question is *what problem in my actual working life does this session solve?* The gap between those two questions is where disengagement lives. Marketers call this jobs-to-be-done. It is also just good teaching.
