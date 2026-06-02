@@ -8,6 +8,7 @@ theories:
   - feedback-feedforward
   - action-learning
   - threshold-concepts
+  - stolen-curriculum
 fox: "thinking_bubble_left.png"
 duration: "90 min"
 subtitle: "Feedback, reflection, and the gap between leaving a session feeling inspired and actually doing something differently on Monday morning."
@@ -27,3 +28,5 @@ Session 3 opens with a retrieval quiz on Sessions 1 and 2 — spaced repetition 
 The structural centrepiece is an action learning set: triads working on real current teaching challenges, with a strict discipline of questions before advice. Participants then produce a personalised 30/60/90 day follow-up plan for a real learner group.
 
 The session also covers debrief with good judgement, feedback and feedforward, and the whole-person dimension — what the hierarchy of needs tells us about why learners sometimes cannot learn, and what the appropriate response is when the barrier is not pedagogical.
+
+Session 3 is also where the seed planted in Session 1 is named. The concept introduced without a label when participants compared the cluttered slide to the clean ad is given its proper title — The Stolen Curriculum — and delegates are shown that the free reinforcement loop it creates has already been running since Session 1. The 30/60/90 day follow-up plan includes a standing task: name the mechanism every time you see an ad. The world now delivers spaced practice on your behalf.

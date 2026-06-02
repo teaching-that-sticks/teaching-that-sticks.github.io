@@ -8,6 +8,7 @@ theories:
   - constructive-alignment
   - zone-of-proximal-development
   - implementation-intentions
+  - stolen-curriculum
 fox: "thinking_left_arm_down.png"
 duration: "90 min"
 subtitle: "Why the way we've been taught to teach with slides is working against learning — and what the evidence actually says."
@@ -27,3 +28,5 @@ From there the session works through why this happens: cognitive load theory, du
 The second half is practical. Participants redesign a real slide from their own teaching, get structured peer feedback, and apply an accessibility check. The session ends with a named, specific commitment posted to a shared space before the next session.
 
 No bullet points are used at any point in the session. If participants notice this, they are already learning the lesson.
+
+The session also plants a seed that will not be named until Session 3. The ad comparison at the opening is not incidental: it is the first exposure to a threshold concept that will follow delegates into the world. Participants who leave asking why the Apple ad works — and the NHS one doesn't — have already begun to cross it.

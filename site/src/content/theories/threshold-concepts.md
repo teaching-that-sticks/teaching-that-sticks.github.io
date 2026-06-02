@@ -22,3 +22,9 @@ The implication for teaching is significant. Threshold concepts cannot be transm
 - **Protect the liminal space** — students who are confused about a threshold concept are doing productive cognitive work. Resolving their confusion too quickly, by re-explaining, risks sending them back to a pre-threshold understanding that *feels* like comprehension. Sit with the confusion.
 - **Understand why thresholds are troublesome** — Meyer and Land describe troublesome knowledge as ritual (learned by rote without meaning), inert (known but not applicable), conceptually difficult (genuinely counterintuitive), or alien (contradicts a deeply held worldview). Different types of trouble need different teaching responses.
 - **The expert blind spot** — once you've crossed a threshold, it can be genuinely hard to remember not being able to see what you now see. This is why experts are sometimes poor at teaching foundational concepts: they've lost access to the pre-threshold perspective. Novice perspectives are pedagogically valuable.
+
+## A worked example: The Stolen Curriculum
+
+One threshold concept runs through this programme explicitly. Before Session 1, commercial advertising is background noise — or manipulation to be filtered out. After the ad comparison that opens that session, and fully named in Session 3, it becomes something else: a live, always-on applied demonstration of the same cognitive science delegates have just spent two sessions learning. Every billboard now carries a mechanism label. Every jingle is an audible retrieval cue. Every call-to-action is an implementation intention.
+
+The before/after states cannot coexist. This is the irreversibility criterion in practice. Delegates often report that the moment of naming — *this is what has been happening all along* — is among the most memorable moments of the programme. That is not a coincidence: the concept itself is a worked example of deep, elaborative encoding.

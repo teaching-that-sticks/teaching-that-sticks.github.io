@@ -917,6 +917,31 @@ a.theory-row:hover .theory-row-arrow {
 .theory-prose li:last-child { margin-bottom: 0; }
 .theory-prose strong { color: var(--text); font-weight: 600; }
 .theory-prose em { font-style: italic; }
+.theory-prose table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.9rem;
+  color: var(--subtext1);
+  line-height: 1.6;
+  margin: 0.75rem 0;
+  font-family: 'Inter', system-ui, sans-serif;
+}
+.theory-prose th {
+  text-align: left;
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--text);
+  padding: 0.5rem 0.75rem;
+  border-bottom: 2px solid var(--surface0);
+}
+.theory-prose td {
+  padding: 0.45rem 0.75rem;
+  border-bottom: 1px solid color-mix(in srgb, var(--surface0) 55%, transparent);
+  vertical-align: top;
+}
+.theory-prose tr:last-child td { border-bottom: none; }
 
 /* =================================================================
    Paper prose — rendered markdown inside paper summary pages.
