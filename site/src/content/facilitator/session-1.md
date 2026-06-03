@@ -161,37 +161,53 @@ The result will be sparse and fragmented, dominated by whatever was in the large
 
 Deliver this section using only images and spoken word. No bullet points. No text-heavy slides. If you find yourself putting words on a slide here, stop — you are undoing the lesson in real time.
 
-#### 1. Cognitive load — Sweller (1988) — 4 minutes
+#### 1. Cognitive load — Sweller (1988) — 3 minutes
 
-- Working memory holds approximately four items simultaneously (Miller 1956, revised by Cowan 2001)
-- Three types of load: *intrinsic* (complexity of the content itself), *extraneous* (how it is presented), *germane* (effort invested in learning)
-- Only extraneous load is within the designer's control
-- That slide participants just saw? Extraneous load in every element
-- Suggested image: a crowded noisy market versus a clean well-lit shop. Same products. Radically different cognitive experience.
+- Working memory is severely limited — roughly four chunks at once (Miller 1956, revised by Cowan 2001)
+- Three types of load: *intrinsic* (complexity of the content itself), *germane* (the useful effort of actually learning), *extraneous* (the noise — the only one within the designer's control)
+- That slide participants just saw? Every element — fonts, clip art, illegible graph, eleven bullet points — was extraneous load
+- Suggested image: a crowded market versus a clean well-lit shop. Same products. One teaches, one doesn't.
 
-#### 2. Dual coding — Mayer (2001) — 4 minutes
+> **Facilitator note:** The market/shop image is on the slide (CC BY-SA 2.0, credited in the slide notes). Participants often push back: "experienced clinicians can handle complexity." Acknowledge it — larger schemas reduce *intrinsic* load for familiar content. They are not immune to extraneous load, especially in novel domains or under time pressure.
 
-- Two processing channels: visual-spatial and auditory-verbal
-- Text on a slide + spoken explanation = both channels processing the same information simultaneously = redundancy effect = less learning
-- Image on a slide + spoken explanation = two channels processing different, complementary information = more learning
-- Suggested image: a simple diagram of the dual-channel model (deliberately self-referential)
+#### 2. Working memory architecture — 3 minutes
 
-#### 3. Accessibility — 4 minutes
+- Small working memory. Large, essentially unlimited long-term memory. A narrow bottleneck between them.
+- Learning is the process of moving something through that bottleneck into long-term memory
+- Everything about how we design teaching either helps that process or obstructs it
+- When you put everything on a slide, you are giving your *own* working memory a rest and taxing theirs
+- Note the retrieval arrow on the diagram (long-term → working) — don't explain it yet; plant it
 
-- Contrast ratios matter: WCAG 2.1 AA standard requires 4.5:1 for normal text
-- Minimum 24pt for anything participants need to read from a projector
-- Never use colour as the *only* means of conveying information
-- Alt text matters for digital slides that will be shared
-- Core principle: *accessible design is good design* — if it passes accessibility checks, it is almost always cleaner for everyone
-- Suggested image: same information, inaccessible version beside accessible version — the improvement is immediately visible
+> **Facilitator note:** The bottleneck diagram is often what participants remember from this section — which is itself evidence of dual coding working. The retrieval arrow is a deliberate seed for Session 2. Say: *"We'll come back to what that arrow means."* Do not unpack it here.
 
-#### 4. Whose anxiety does this slide serve? — Biggs (1996) — 3 minutes
+#### 3. Dual coding — Mayer (2001) — 3 minutes
 
-- Constructive alignment: every element of a teaching design should exist to serve a learning outcome
-- The 47-bullet-point slide is a security blanket, not a teaching tool
-- Ask: *"Has anyone ever put everything they needed to say on a slide so they would not forget it?"* Hands will go up. *"That is teaching for yourself, not for your learner."*
+- Two separate processing channels: verbal/language (handles both spoken and written words) and visual-spatial (handles images and diagrams)
+- Text on a slide + spoken explanation = both channels competing for the same resource = redundancy effect = less learning
+- Image on a slide + spoken explanation = two complementary channels = richer encoding = more learning
+- Call it out explicitly: *"Notice what is happening right now. There is a diagram on the screen. I am talking. The diagram is not a transcript of what I'm saying — it's a model of it. That is the principle in use."*
 
-> **Facilitator note:** When the timer goes off, stop. Even mid-sentence if necessary. Say: *"And that is 15 minutes of didactic. Notice how that felt."* If you overrun here you have undermined your own lesson. The timer is visible and deliberate — it models the principle.
+> **Facilitator note:** The self-referential moment matters. "Notice what is happening right now" models metacognition and gives participants a live example they can take away. Head off the common misconception: dual coding does not mean "always use images" — it means verbal + visual is stronger than verbal + verbal. A complex infographic is not dual coding; it is visual overload.
+
+#### 4. Accessibility — 3 minutes
+
+- Text at least 24pt for anything participants need to read from a projector
+- Never use colour as the *only* means of conveying information — approximately 8% of men have some form of colour vision deficiency; in a room of 15 people, that's statistically likely to include someone present
+- Contrast ratios matter: WCAG 2.1 AA requires 4.5:1 for normal text — PowerPoint has a built-in accessibility checker
+- Add alt text to any images in slides that will be shared digitally
+- Use animations to guide the audience through content rather than showing everything at once
+- Callback: *"Think back to the Apple advert — what can you remember from it? What were the key points?"* (MacBook, price, nothing else.) Clean design is not aesthetic preference — it is how encoding works.
+- Core principle: accessible design is good design. If it passes accessibility checks, it is almost always cleaner for everyone.
+
+> **Facilitator note:** The 8% figure makes this concrete — use "people in this room" rather than abstract statistics. Watch for: "our trust has a mandated slide template and I can't change it." Acknowledge it; don't try to resolve it here. Plant it for the debrief at minute 57.
+
+#### 5. Whose anxiety does this slide serve? — Biggs (1996) — 3 minutes
+
+- Constructive alignment: every element of a teaching design should exist to serve a learning outcome. If you cannot explain why an element is there in terms of what the learner gets from it, it probably should not be there.
+- Ask (don't take answers out loud): *"Has anyone here ever put everything they needed to say on a slide so they wouldn't forget it?"* Pause. *"That is not a slide designed for your learner. That is a security blanket. It is designed for your anxiety about forgetting, about silence, about a question you're not sure how to answer."*
+- Biggs' question is simple: *who is this slide for?* If the honest answer is 'me' — it needs redesigning.
+
+> **Facilitator note:** When the timer goes off, stop. Even mid-sentence. Say: *"And that is 15 minutes of didactic. Notice how that felt."* If you overrun here you have undermined your own lesson. The security blanket reframe is often the most memorable moment of this section — it names something participants recognise without having had words for it. The goal is structural understanding, not guilt.
 
 **Pedagogy modelled:** Multimedia principle (you are the exemplar), time-bounded didactic, showing the pedagogy.
 
