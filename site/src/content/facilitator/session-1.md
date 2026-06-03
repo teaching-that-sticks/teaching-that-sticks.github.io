@@ -148,6 +148,15 @@ The result will be sparse and fragmented, dominated by whatever was in the large
 
 ### 22–37 min | Didactic input: dual coding, cognitive load, accessibility
 
+<a class="slide-download" href="/slides/death_by_powerpoint.pptx" download>
+  <img src="/images/powerpoint_icon.svg" alt="" aria-hidden="true" class="slide-download-icon" />
+  <span class="slide-download-text">
+    <span class="slide-download-label">Download session slides</span>
+    <span class="slide-download-meta">death_by_powerpoint.pptx &middot; PowerPoint</span>
+  </span>
+  <span class="slide-download-arrow" aria-hidden="true">&#x2193;</span>
+</a>
+
 **15 minutes maximum. Set a visible timer.**
 
 Deliver this section using only images and spoken word. No bullet points. No text-heavy slides. If you find yourself putting words on a slide here, stop — you are undoing the lesson in real time.

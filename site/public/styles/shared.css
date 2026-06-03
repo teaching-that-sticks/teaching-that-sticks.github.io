@@ -1282,6 +1282,56 @@ a.theory-row:hover .theory-row-arrow {
   margin: 2.5rem 0;
 }
 
+/* Slide / resource download chip — reusable across all blueprint pages */
+.slide-download {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.55rem 0.9rem 0.55rem 0.65rem;
+  margin: 0.25rem 0 1.25rem;
+  background: var(--mantle);
+  border: 1px solid var(--surface1);
+  border-radius: 8px;
+  text-decoration: none !important;
+  color: inherit;
+  transition: background 0.15s, border-color 0.15s, box-shadow 0.15s;
+  box-shadow: 0 1px 3px var(--shadow-sm);
+}
+.slide-download:hover {
+  background: var(--surface0);
+  border-color: var(--overlay1);
+  box-shadow: 0 2px 6px var(--shadow-sm);
+  text-decoration: none !important;
+}
+.slide-download-icon {
+  width: 2rem;
+  height: 2rem;
+  flex-shrink: 0;
+}
+.slide-download-text {
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
+}
+.slide-download-label {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--text);
+  font-style: normal;
+}
+.slide-download-meta {
+  font-size: 0.68rem;
+  color: var(--overlay1);
+  font-family: monospace;
+  font-style: normal;
+}
+.slide-download-arrow {
+  font-size: 0.9rem;
+  color: var(--overlay0);
+  margin-left: 0.5rem;
+  flex-shrink: 0;
+}
+
 /* Inline code */
 .blueprint-prose code {
   background: var(--mantle);
