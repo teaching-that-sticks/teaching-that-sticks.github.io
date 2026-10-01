@@ -33,7 +33,7 @@ The book proposes a theory to explain this: **legitimate peripheral participatio
 
 ## The one finding worth quoting in a meeting
 
-*"Learning is an integral and inseparable aspect of social practice. The most powerful learning environments are those in which the learner is engaged in authentic activity with real consequences."*
+*"Learning is an integral and inseparable aspect of social practice"* (Lave & Wenger, 1991). In our words: the most powerful learning environments are those in which the learner is engaged in authentic activity with real consequences.
 
 For clinical education: a junior doctor who shadows a registrar's decision-making on a real patient, asks questions in real time, and has to act on the answer is having a more powerful learning experience than an equivalent number of hours in a lecture on clinical reasoning. The ward is the classroom. The question is whether it is being used well.
 

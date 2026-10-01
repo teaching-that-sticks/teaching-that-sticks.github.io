@@ -4,7 +4,7 @@ authors: "Hattie, J., & Timperley, H."
 journal: "Review of Educational Research"
 year: 2007
 doi: "10.3102/003465430298487"
-openAccess: true
+openAccess: false
 openAccessUrl: "https://doi.org/10.3102/003465430298487"
 theorists: ["hattie-timperley-feedback"]
 sessions: [1, 3]
@@ -18,21 +18,21 @@ Hattie and Timperley synthesised meta-analyses on the effects of feedback on stu
 
 ## What it found
 
-**Overall effect of feedback:** d = 0.73 — among the most powerful single influences on achievement identified in Hattie's database. But this average conceals enormous variation.
+**Overall effect of feedback:** across 12 earlier meta-analyses (196 studies, nearly 7,000 effect sizes), the average effect size was 0.79 — about twice the typical effect of schooling and in the top 5–10 influences on achievement in Hattie's database. (You may also see d = 0.73 quoted for feedback; that figure comes from Hattie's later book *Visible Learning*, not this paper.) But this average conceals enormous variation.
 
 **By level of feedback:**
-- **Self-level** (praise, reward, blame): near-zero or *negative* effect on learning. *"You're so clever"* is not feedback — it is noise, and it actively undermines the development of effort-based attribution.
+- **Self-level** (praise, reward, blame): the least effective level — praise averaged an effect of just 0.14 in the paper's summary table, and can be counterproductive. *"You're so clever"* is not feedback — it is noise, and it actively undermines the development of effort-based attribution.
 - **Task-level** (correct/incorrect, right/wrong): moderate effect when focused on the specific task, but does not transfer to future performance.
-- **Process-level** (how did you approach this, what strategy are you using): stronger effect, promotes deeper understanding and transfer.
-- **Self-regulation level** (how are you monitoring your own learning): strongest and most durable effect.
+- **Process-level** (how did you approach this, what strategy are you using): powerful — promotes deeper understanding and transfer.
+- **Self-regulation level** (how are you monitoring your own learning): also powerful — the authors group it with process-level feedback as the most effective levels.
 
-**On feedback to teachers:** The effect of students giving feedback to teachers about their own learning (d = 0.90) was among the most powerful findings — substantially larger than teachers giving feedback to students. Teachers who systematically seek information about how their teaching is landing outperform those who do not.
+**On feedback to teachers:** The authors conclude that teachers need to seek and learn from feedback — for example, from students' responses to tests — as much as students do, so they know how their teaching is landing and what to do next. (Specific effect sizes often attached to this idea, such as d = 0.90, come from Hattie's later *Visible Learning* work rather than this paper.)
 
 **Feed-up, feedback, feed-forward:** The three-question framework — *where am I going? how am I going? where to next?* — is derived from the synthesis. The most common feedback failure is providing feedback on *where am I going* (task goals) without providing direction for *where to next* (feed-forward). Without feed-forward, feedback closes down rather than opens up.
 
 ## The one finding worth quoting in a meeting
 
-*"Praise is the least effective form of feedback. It has near-zero effect on learning outcomes, and in some contexts actively undermines future performance by attributing success to fixed ability rather than effort."*
+**In our words (a paraphrase, not a quotation):** praise directed at the person is the least effective form of feedback. It carries little information about the task, and in some contexts it can undermine future performance.
 
 Or, for a clinical audience: the *"good job"* at the end of a procedure is not feedback. It is social reinforcement. These are different things, and conflating them is why most clinical feedback produces no learning.
 

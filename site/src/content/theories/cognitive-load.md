@@ -20,6 +20,8 @@ When a slide, explanation, or task asks learners to track too many things simult
 working memory fills up and learning stops — not because learners are disengaged,
 but because the cognitive machinery that creates memories is at capacity.
 
+Cognitive load theory distinguishes **intrinsic load** — the complexity built into the material itself, which depends on how many elements must be held in mind and related to each other at once (*element interactivity*) — from **extraneous load**, the effort imposed by how the material is presented. Teachers cannot remove intrinsic load, but they can sequence it; extraneous load is the part design can cut. What counts as overload also depends on the learner: support that helps a novice, such as a fully worked example, can become redundant and even unhelpful for someone with more expertise (the *expertise reversal effect*).
+
 ## What this means for teaching
 
 - **Reduce extraneous load** — remove anything on screen that isn't doing teaching work. Decorative images, dense text, and animations all cost working memory without buying learning.

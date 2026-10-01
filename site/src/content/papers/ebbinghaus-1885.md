@@ -3,7 +3,6 @@ title: "Über das Gedächtnis: Untersuchungen zur experimentellen Psychologie"
 authors: "Ebbinghaus, H."
 journal: "(Monograph — Duncker & Humblot, Leipzig)"
 year: 1885
-doi: "10.5214/ans.0972-7531.1017309"
 openAccess: true
 openAccessUrl: "https://psychclassics.yorku.ca/Ebbinghaus/index.htm"
 theorists: ["ebbinghaus-forgetting-curve"]
@@ -16,11 +15,11 @@ imagePrompt: "A smooth descending exponential curve from upper-left to lower-rig
 
 Hermann Ebbinghaus ran one of the most remarkable self-experiments in the history of psychology. Working alone in Berlin in the early 1880s, he memorised thousands of lists of nonsense syllables (consonant-vowel-consonant trigrams: *DAX*, *BUP*, *ZOL*) — meaningless strings specifically designed to exclude prior knowledge or association — and tested his own retention over varying intervals ranging from minutes to a month. He measured retention using the *savings method*: how much less time did he need to relearn a list he had previously memorised, compared to learning it fresh? This is a more sensitive measure than recall and is the paper's key methodological innovation.
 
-The 1885 monograph is available in English translation (Dover Publications, 1964). A free digital text is available at the York University Classics in the History of Psychology archive. The monograph is in the public domain.
+The 1885 monograph is available in English translation (Ruger & Bussenius, 1913; reprinted by Dover Publications, 1964). A free digital text is available at the York University Classics in the History of Psychology archive. The monograph is in the public domain.
 
 ## What it found
 
-**The forgetting curve:** Ebbinghaus found that retention decays exponentially over time. The steepest forgetting occurs in the first hour to first day after learning. Within 20 minutes, roughly 40% of new material is forgotten. Within 24 hours, approximately 60-70%. After 30 days, retention of unreinforced material has stabilised at approximately 20-30%. The curve is not linear — most forgetting happens early.
+**The forgetting curve:** Ebbinghaus found that forgetting is very rapid at first and then slows sharply. Note what he was measuring: not how many syllables he could recall, but how much relearning effort he saved. After one hour, he needed about half the original effort to relearn a list; after 8 hours, about two-thirds. After 24 hours, about one third of the original work was still saved; after 6 days about a quarter; and after a month about a fifth. He summarised the results with a formula based on the *logarithm* of time (not, as often stated, an exponential). The curve is not linear — most forgetting happens early, and the remainder fades very slowly.
 
 **The spacing effect:** Relearning a list distributed over time required substantially fewer trials than massed relearning. If a list was practised once per day for three days, total learning time was significantly less than studying the same material for three hours in one session. This is the *spacing effect*, first demonstrated quantitatively here.
 
@@ -28,7 +27,7 @@ The 1885 monograph is available in English translation (Dover Publications, 1964
 
 ## The one finding worth quoting in a meeting
 
-*"Ebbinghaus showed that 60% of what is learned in a single session is forgotten within 24 hours if not reinforced. The steep part of the forgetting curve is in the first day — which is precisely when clinical educators never follow up."*
+**In our words (a paraphrase, not a quotation):** a day after learning a list, Ebbinghaus had lost around two-thirds of the benefit of his original study effort. The steep part of the forgetting curve is in the first day — which is precisely when clinical educators rarely follow up.
 
 The implication is that a single 45-minute teaching session, however excellent, produces learning that has largely decayed before the learner reaches the ward the following morning without a retrieval event.
 
@@ -36,7 +35,7 @@ The implication is that a single 45-minute teaching session, however excellent, 
 
 - Single participant (himself) — no external validity in the conventional sense; no control for individual differences, circadian variation, or day-to-day state
 - Nonsense syllables are specifically designed to exclude meaning — they are the *opposite* of meaningful clinical material. Real clinical learning has rich associative structure, which improves retention substantially (the meaningfulness advantage). The forgetting curve for clinical knowledge decays less steeply than Ebbinghaus's nonsense syllable curve
-- The specific percentages (20 minutes = 40% forgotten, etc.) have been widely reproduced in management and education training but are based on a single 19th-century experiment on a single person memorising meaningless trigrams — they should be treated as indicative orders of magnitude, not precise empirical constants
+- The specific percentages are savings in relearning time, not percentages recalled — yet they are often presented as "you forget X% within a day". They have been widely reproduced in management and education training but are based on a single 19th-century experiment on a single person memorising meaningless trigrams — they should be treated as indicative orders of magnitude, not precise empirical constants
 - The savings method measures latent trace strength, not clinical performance — what survives in latent memory may not be retrievable under time pressure in a clinical encounter
 
 ## What it means for your practice
@@ -48,5 +47,5 @@ Two implications:
 
 ## How it appears in Teaching That Sticks
 
-The forgetting curve is introduced in Session 2 as the foundational evidence for the programme's spacing and retrieval design. The image on Ebbinghaus's theorist page ([ebbinghaus-forgetting-curve.md](/theory/ebbinghaus-forgetting-curve)) was the programme's first generated illustration. The 30-day and 90-day follow-up surveys are directly timed against the forgetting curve — they are retrieval events, not just evaluation instruments.
+The forgetting curve is introduced in Session 2 as the foundational evidence for the programme's spacing and retrieval design. The curve and its implications are explained further on the [Spaced Practice](/theories/spaced-practice) theory page. The 30-day and 90-day follow-up surveys are directly timed against the forgetting curve — they are retrieval events, not just evaluation instruments.
 

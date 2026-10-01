@@ -14,7 +14,7 @@ evidence:
 
 It works poorly with adults — and it works particularly poorly with experienced NHS clinicians, who have a decade or more of practice, strong professional identity, and a clear sense of what does and doesn't match their clinical reality.
 
-Andragogy, the term Malcolm Knowles proposed to describe the art and science of teaching adults, rests on six assumptions about adult learners that are almost exactly the opposite of the pedagogical model. Understanding these assumptions does not produce a list of teaching techniques — it produces a shift in orientation: from *what do I want to teach?* to *what does this learner bring, and how do I build on it?*
+Andragogy, the term Malcolm Knowles proposed to describe the art and science of teaching adults, rests on six assumptions about adult learners that Knowles contrasted with the traditional pedagogical model. Understanding these assumptions does not produce a list of teaching techniques — it produces a shift in orientation: from *what do I want to teach?* to *what does this learner bring, and how do I build on it?*
 
 ## The six assumptions
 
@@ -24,9 +24,9 @@ Andragogy, the term Malcolm Knowles proposed to describe the art and science of 
 
 **3. Readiness to learn.** Adults are ready to learn what is relevant to their current situation and developmental stage. The 30-year-old ward sister preparing for a teaching responsibility is intensely motivated to understand adult learning theory. The same person at 22, with no teaching responsibilities, would find the same content abstract. Timing matters.
 
-**4. Orientation to learning.** Children learn subjects. Adults learn to solve problems. The learner who is asked "can you explain spaced practice?" is less engaged than the one asked "your simulation debrief keeps getting cut short — what would you change?" Problem-centred framing is not just motivationally useful; it is how adult cognition works. New knowledge sticks when it has a practical home to land in.
+**4. Orientation to learning.** Children learn subjects. Adults learn to solve problems. The learner who is asked "can you explain spaced practice?" is less engaged than the one asked "your simulation debrief keeps getting cut short — what would you change?" Problem-centred framing is motivationally useful, and new knowledge tends to stick better when it has a practical home to land in.
 
-**5. Motivation.** Children are primarily motivated by external reward and consequence (grades, praise, parental approval). Adults are primarily motivated by internal factors — professional self-improvement, increased job satisfaction, the personal rewards of growing competence. External compliance training delivered as mandatory attendance conflicts directly with this. It is not that NHS staff don't want to develop — it is that mandatory box-ticking signals that the organisation does not respect the intrinsic motivation that is already there.
+**5. Motivation.** Knowles argued that while children's learning is often driven by external reward and consequence (grades, praise, parental approval), adults respond most to internal factors — professional self-improvement, increased job satisfaction, the personal rewards of growing competence. External compliance training delivered as mandatory attendance conflicts directly with this. It is not that NHS staff don't want to develop — it is that mandatory box-ticking signals that the organisation does not respect the intrinsic motivation that is already there.
 
 **6. Need to know.** Before adults invest effort in learning something, they need a convincing answer to *why?* "You need to know this because it's on the curriculum" does not work. "You need to know this because it will change how your simulation debriefs land" does.
 
@@ -38,3 +38,8 @@ The session design in *Teaching That Sticks* is built around these six assumptio
 - **"Need to know" must be answered explicitly.** If learners can see why this matters for their actual work, the resistance drops and the motivation rises. If they cannot, they are waiting for it to be over.
 - **Experience is not an obstacle to learning — unless you ignore it.** The most powerful learning happens when a new principle makes contact with a lived experience the learner already has. "Has anyone ever sat through a three-hour lecture on hand hygiene and then found themselves not washing their hands?" does more work in 30 seconds than three slides on the limitations of didactic teaching.
 - **Learners who feel directed rather than self-directing disengage.** This is not laziness or ingratitude; it is a structural feature of how adults relate to their own learning. Design for participation, not compliance.
+
+## Caveats
+
+- **These are assumptions, not research findings.** Knowles presented andragogy as a set of working assumptions about adult learners, and they have limited direct empirical support. Merriam (2001) concluded it is better understood as a description of adult learners and a guide to planning than as a theory of how adults learn.
+- **Adults versus children is a continuum, not a divide.** Knowles himself later softened the contrast — the subtitle of his main work changed from *Andragogy Versus Pedagogy* to *From Pedagogy to Andragogy* — recognising that either approach can fit a learner of any age, depending on the situation. A clinician who is new to a topic may genuinely need more structure, not less.

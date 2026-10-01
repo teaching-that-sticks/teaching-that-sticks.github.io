@@ -33,7 +33,7 @@ The paper is in the public domain. A clean digital text is available at the York
 
 ## The one finding worth quoting in a meeting
 
-*"Maslow never drew a pyramid. The pyramid implies you climb needs like a ladder — meet one, move to the next. Maslow's actual argument is about pre-potency: unmet lower needs pull attention away from higher concerns. A learner who doesn't feel safe in their team is not primarily motivated by professional development, however excellent the training content is."*
+**In our words (a paraphrase, not a quotation):** Maslow never drew a pyramid. The pyramid implies you climb needs like a ladder — meet one, move to the next. Maslow's actual argument is about pre-potency: unmet lower needs pull attention away from higher concerns. A learner who doesn't feel safe in their team is not primarily motivated by professional development, however excellent the training content is.
 
 This reframing is clinically significant. If a foundation doctor's psychological safety is threatened by their team environment, no amount of high-quality educational content will be as salient as that unmet need.
 

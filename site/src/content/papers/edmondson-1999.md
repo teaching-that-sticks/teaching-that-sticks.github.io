@@ -5,7 +5,7 @@ journal: "Administrative Science Quarterly"
 year: 1999
 doi: "10.2307/2666999"
 openAccess: true
-openAccessUrl: "https://doi.org/10.2307/2666999"
+openAccessUrl: "https://dash.harvard.edu/entities/publication/13a7b031-0fdd-45ec-a7e0-2b80e2bc679f"
 theorists: ["edmondson-psychological-safety"]
 sessions: [2, 3]
 imagePrompt: "Two side-by-side team clusters of five geometric nodes. In the left cluster, nodes are connected by open lines and each has a small upward arc above it representing speech or openness. In the right cluster, nodes face outward with no connecting lines and each has a closed shape above it. A performance arrow beneath the left cluster points upward; beneath the right cluster it points downward. Flat design, Teaching That Sticks house style, slate blue-grey and amber palette, clean white background, no people, professional educational illustration."
@@ -14,7 +14,7 @@ imagePrompt: "Two side-by-side team clusters of five geometric nodes. In the lef
 
 ## What the study did
 
-Edmondson studied 51 work teams in a large manufacturing company, examining the relationship between team psychological safety, team learning behaviour, and team performance. The study used a combination of surveys (measuring perceived psychological safety and learning behaviours) and manager-rated performance data. She then developed a causal model: team psychological safety enables learning behaviour, and learning behaviour enables performance. A parallel sub-study examined nursing units in two hospitals, yielding a finding that has reverberated through patient safety literature ever since.
+Edmondson studied 51 work teams in a large manufacturing company, examining the relationship between team psychological safety, team learning behaviour, and team performance. The study used a combination of surveys (measuring perceived psychological safety and learning behaviours) and manager-rated performance data. She then tested a model: team psychological safety enables learning behaviour, and learning behaviour enables performance. The famous nursing-unit finding often attributed to this paper actually comes from Edmondson's earlier hospital study (1996, *Journal of Applied Behavioral Science*), summarised below because it is the result most relevant to healthcare.
 
 ## What it found
 
@@ -22,20 +22,20 @@ Edmondson studied 51 work teams in a large manufacturing company, examining the 
 
 **Learning behaviour predicts performance:** Team learning behaviour significantly predicted manager-assessed team performance. The effect of psychological safety on performance was *mediated* by learning behaviour — meaning psychological safety improves performance *because* it enables learning, not independently of it.
 
-**Manager behaviour is the proximal cause:** Teams whose managers were perceived as accessible, willing to listen, and non-punitive when mistakes were raised had significantly higher psychological safety. The single most predictive managerial behaviour was responding to questions and concerns without visible frustration or dismissal.
+**Leadership matters:** Team leader coaching and a supportive organisational context were associated with higher psychological safety — the way leaders respond when people ask questions or raise problems shapes whether the team feels safe to do so.
 
-**The nursing unit finding — the most important result for healthcare:** When Edmondson examined medication error reporting rates across nursing units, she found that the *highest-performing* units reported *more* errors, not fewer. Initial interpretation might be: those units have more errors. The correct interpretation: those units have higher psychological safety, which produces more honest reporting. High-performing teams are not error-free — they are more transparent about the errors they make.
+**The nursing unit finding (Edmondson, 1996 — the earlier companion study):** Studying eight nursing units across two teaching hospitals, Edmondson found that units with better-rated nurse-manager leadership and coworker relationships had *higher* detected medication-error rates, not lower. The obvious interpretation would be that those units made more errors. A researcher blind to the error data then observed each unit and found the better-led units were also far more open about discussing mistakes — suggesting the difference lay largely in willingness to report, not in errors made. High-performing teams are not error-free — they are more transparent about the errors they make. (The term "psychological safety" was developed in the later 1999 paper; this was the observation that prompted it.)
 
 ## The one finding worth quoting in a meeting
 
-*"The best nursing units in the study reported more errors than the worst. Not because they made more errors — but because their teams felt safe enough to admit them."*
+**In our words (a paraphrase of Edmondson, 1996, not a quotation):** the better-led nursing units reported more errors than the others — most likely not because they made more errors, but because their staff felt safe enough to admit them.
 
 This finding reframes error reporting in healthcare entirely. Low reporting rates are not evidence of a safe system. They are evidence of a team that does not feel safe enough to speak.
 
 ## Honest limitations
 
 - The manufacturing company context does not directly replicate clinical healthcare environments — hierarchies, stakes, and team structures differ
-- The nursing sub-study was smaller and more exploratory than the main manufacturing study
+- The nursing-unit finding comes from a separate, smaller and more exploratory study (Edmondson, 1996: eight units) — it is not part of the 1999 manufacturing data
 - Self-reported psychological safety scales may be subject to social desirability bias — people may rate their team more positively than experience reflects
 - The study is cross-sectional; causal direction (does safety produce learning, or does learning produce safety?) cannot be definitively established from this design alone
 - Psychological safety is a team-level construct but is typically measured through individual responses, which introduces aggregation issues

@@ -20,7 +20,7 @@ The implication for teaching is significant. Threshold concepts cannot be transm
 
 - **Identify the thresholds in your domain** — what are the ideas in your specialty that, once understood, make everything else make sense? What are the things you notice that novices genuinely cannot see until a certain point? Those are candidates for threshold concepts.
 - **Protect the liminal space** — students who are confused about a threshold concept are doing productive cognitive work. Resolving their confusion too quickly, by re-explaining, risks sending them back to a pre-threshold understanding that *feels* like comprehension. Sit with the confusion.
-- **Understand why thresholds are troublesome** — Meyer and Land describe troublesome knowledge as ritual (learned by rote without meaning), inert (known but not applicable), conceptually difficult (genuinely counterintuitive), or alien (contradicts a deeply held worldview). Different types of trouble need different teaching responses.
+- **Understand why thresholds are troublesome** — Building on David Perkins (1999), Meyer and Land describe troublesome knowledge as ritual (learned by rote without meaning), inert (known but not applicable), conceptually difficult (genuinely counterintuitive), alien (contradicts a deeply held worldview), or tacit (understood but rarely made explicit). Different types of trouble need different teaching responses.
 - **The expert blind spot** — once you've crossed a threshold, it can be genuinely hard to remember not being able to see what you now see. This is why experts are sometimes poor at teaching foundational concepts: they've lost access to the pre-threshold perspective. Novice perspectives are pedagogically valuable.
 
 ## A worked example: The Stolen Curriculum

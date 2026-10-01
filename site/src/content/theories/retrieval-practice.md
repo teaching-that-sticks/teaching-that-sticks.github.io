@@ -4,6 +4,7 @@ summary: "Testing yourself on material does more for long-term retention than re
 sessions: ["session-2"]
 evidence:
   - cite: "Roediger, H. L., &amp; Karpicke, J. D. (2006). Test-enhanced learning: Taking memory tests improves long-term retention. <em>Psychological Science</em>, 17(3), 249–255."
+    paper: "roediger-karpicke-2006"
   - cite: "Karpicke, J. D., &amp; Roediger, H. L. (2008). The critical importance of retrieval for learning. <em>Science</em>, 319(5865), 966–968."
   - cite: "Adesope, O. O., Trevisan, D. A., &amp; Sundararajan, N. (2017). Rethinking the use of tests: A meta-analysis of practice testing. <em>Review of Educational Research</em>, 87(3), 659–701."
   - cite: "Dunlosky, J., Rawson, K. A., Marsh, E. J., Nathan, M. J., &amp; Willingham, D. T. (2013). Improving students' learning with effective learning techniques. <em>Psychological Science in the Public Interest</em>, 14(1), 4–58."

@@ -20,15 +20,15 @@ This is the paper that introduced cognitive load theory to the educational psych
 
 **Means-ends analysis imposes high cognitive load:** Solving a problem through means-ends analysis requires holding multiple goals, subgoals, current state, and operators in working memory simultaneously. This places high demands on working memory capacity — leaving little resource available for the deeper processing required to build a transferable schema (a mental framework that can be applied to new problems).
 
-**Worked examples outperform problem-solving for schema acquisition:** Sweller's experiments showed that learners who studied worked examples (observing the steps of a solved problem) rather than solving equivalent problems independently acquired transferable schemas more efficiently. They could apply the underlying principle to new problems more successfully, despite having done less active problem-solving.
+**Why worked examples help:** The 1988 paper supports its argument with a computational model and experiments on means-ends problem solving. The direct evidence for worked examples comes mainly from Sweller's earlier work with Cooper (Sweller & Cooper, 1985), in which algebra students who studied worked examples (observing the steps of a solved problem) rather than solving equivalent problems later solved similar problems faster and with fewer errors. Notably, those gains were specific to problems with the same structure — evidence for broader transfer came later and is more mixed. The 1988 paper explains *why* the effect occurs: worked examples free up the working memory that means-ends search would otherwise consume.
 
 **The learning paradox:** Problem-solving practice can actually *hinder* learning when the cognitive demands of the problem-solving process consume working memory capacity that would otherwise be used for schema formation. The very act of trying to solve the problem prevents the learner from learning *from* the problem.
 
-**The three-load model:** While the formal three-load distinction (intrinsic, extraneous, germane) was developed in Sweller's later work, this paper establishes the foundational claim: not all cognitive activity during learning is useful learning activity, and instructional design must manage the total cognitive load to optimise what gets encoded.
+**The three-load model:** While the formal three-load distinction (intrinsic, extraneous, germane) was developed in Sweller's later work, this paper establishes the foundational claim: not all cognitive activity during learning is useful learning activity, and instructional design must manage the total cognitive load to optimise what gets encoded. (The third category, germane load, has since been contested: Sweller (2010) redefined it as the working-memory resources devoted to dealing with intrinsic load, rather than an independent source of load, and Kalyuga (2011) argued it is redundant.)
 
 ## The one finding worth quoting in a meeting
 
-*"Learners who studied worked examples outperformed learners who practised equivalent problems on transfer tests — despite having solved fewer problems. Solving problems consumes working memory. Understanding problems requires it."*
+**In our words (a paraphrase, not a quotation):** for novices, conventional problem solving uses up the working memory that learning needs. Solving problems consumes working memory; understanding them requires it.
 
 For clinical education: watching an expert perform a complex procedure with narrated reasoning is not passive. It may be more cognitively effective than independent practice for schema acquisition, particularly early in learning. The question of when to switch from observation to practice is a cognitive load management question.
 
@@ -48,5 +48,5 @@ Two implications that run against clinical teaching intuition:
 
 ## How it appears in Teaching That Sticks
 
-Session 1's bad-slide demonstration is a direct worked example of cognitive load theory in action — learners experience the overloaded slide before they are given the theory to explain it. The 15-minute cap on didactic content is a structural application: sustained lecturing accumulates intrinsic load across multiple concepts without allowing consolidation. The session design itself models the worked-example approach: show the principle in action, name it, then ask participants to apply it.
+Session 1's bad-slide demonstration is a direct worked example of cognitive load theory in action — learners experience the overloaded slide before they are given the theory to explain it. The 15-minute cap on didactic content is a design choice in the same spirit: it limits how many new concepts arrive before learners get to use them. (It is not based on a fixed "attention span" — the popular claim that attention collapses after 10–15 minutes is not well supported by primary data; see Bradbury, 2016.) The session design itself models the worked-example approach: show the principle in action, name it, then ask participants to apply it.
 

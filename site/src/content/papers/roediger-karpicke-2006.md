@@ -22,13 +22,13 @@ Both experiments used prose passages as study material — short factual texts t
 
 **More testing beats more studying for long-term retention:** Participants who studied once and were then tested multiple times retained more at one week than participants who studied the same material four times with no testing. This held even when the tests were unguided recall — no cues, no feedback, just the attempt to retrieve.
 
-**The testing effect applies even when the test is failed:** Attempting to retrieve information, and failing, still produces a memory benefit at delayed testing compared to passively reading the same information. The retrieval *attempt* — not just the retrieval *success* — does productive cognitive work.
+**A related finding — failed attempts can still help:** This paper did not test it directly, but later work by Kornell, Hays and Bjork (2009) showed that attempting to retrieve an answer, failing, and then being shown the correct answer produced better learning than simply studying the answer for the same time. The retrieval *attempt* — not just the retrieval *success* — does productive cognitive work, provided the learner then gets the right answer.
 
 **Why re-studying misleads:** Re-reading produces a feeling of familiarity and fluency that learners (and instructors) mistake for learning. It is relatively easy — the material feels known. But fluency is not retention. The sense that you understand something after reading it twice is not a reliable indicator that you will remember it next week.
 
 ## The one finding worth quoting in a meeting
 
-*"Testing enhances learning more than additional study does, and the benefits of testing are especially large when learners are tested after a delay."*
+**In our words (a paraphrase, not a quotation):** Testing enhances learning more than additional study does, and the benefits of testing are especially large when learners are tested after a delay.
 
 For clinical education: every quiz, every *"what do you remember from last time?"*, every *"without looking — what are the three types of cognitive load?"* is doing more for retention than giving participants time to re-read their notes. The test is not the measurement of learning — it is the mechanism of it.
 

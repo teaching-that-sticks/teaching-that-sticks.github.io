@@ -1,11 +1,10 @@
 ---
-title: "Enhancing teaching-learning environments in undergraduate courses"
+title: "Enhancing teaching through constructive alignment"
 authors: "Biggs, J."
-journal: "Occasional Paper 1, ETL Project, Universities of Edinburgh and Coventry"
-year: 1999
-doi: ""
-openAccess: true
-openAccessUrl: "https://www.research.ed.ac.uk/files/10096774/ETLfinalreport.pdf"
+journal: "Higher Education"
+year: 1996
+doi: "10.1007/BF00138871"
+openAccess: false
 theorists: ["biggs-constructive-alignment"]
 sessions: [1]
 imagePrompt: "Three horizontal rings aligned on a shared vertical axis — from bottom to top: Learning Outcomes, Teaching Methods, Assessment. The rings are linked by short vertical connectors, showing alignment between all three levels. Flat design, Teaching That Sticks house style, slate blue-grey and amber palette, clean white background, no people, professional educational illustration."
@@ -30,9 +29,9 @@ This entry covers two key Biggs publications that together establish the theory 
 
 ## The one finding worth quoting in a meeting
 
-*"If you want learners to apply knowledge clinically, you have to practise application and assess application. Testing recall rewards recall learners. The learning the system assesses is the learning the system gets."*
+**In our words (a paraphrase, not a quotation):** If you want learners to apply knowledge clinically, you have to practise application and assess application. Testing recall rewards recall learners. The learning the system assesses is the learning the system gets.
 
-The misalignment problem is almost universal in NHS clinical education. CME is often designed as information delivery assessed by attendance, which guarantees that attendance is what participants optimise for — not learning.
+The misalignment problem is almost universal in NHS clinical education. CPD is often designed as information delivery assessed by attendance, which guarantees that attendance is what participants optimise for — not learning.
 
 ## Honest limitations
 

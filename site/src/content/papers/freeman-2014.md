@@ -18,17 +18,17 @@ Freeman and colleagues conducted a meta-analysis of 225 studies comparing active
 
 ## What it found
 
-**Examination scores:** Students in active learning courses outperformed lecture-only students on examinations by an average of 6% (weighted standardised mean difference d = 0.47). This is a medium-to-large effect by conventional standards — equivalent to roughly half a letter grade.
+**Examination scores:** Students in active learning courses outperformed lecture-only students on examinations by an average of 6% (weighted standardised mean difference d = 0.47). This is a moderate effect by conventional standards — the authors estimate it would raise average grades by about half a letter grade (e.g. from a B to a B+).
 
 **Failure rates:** This is the finding with teeth. Failure rates in traditional lecture courses were **33.8%**, compared to **21.8%** in active learning courses. Students in traditional lectures were **1.5 times more likely to fail** than their peers in active learning courses (OR = 1.95, 95% CI [1.67, 2.28]).
 
-The effect was consistent across class sizes, course levels, and STEM disciplines.
+The authors found no statistically significant variation across STEM disciplines or between introductory and upper-level courses. The benefit was statistically significant in small, medium and large classes, but it was largest in classes of 50 or fewer students — so the evidence for very large lecture-hall classes is weaker.
 
 ## The one finding worth quoting in a meeting
 
-The authors themselves draw the comparison: if a medical trial showed that the control condition produced a 1.5× increase in failure relative to the intervention condition, it would be halted on ethical grounds. The same logic, they argue, applies here. Continuing to deliver traditional lectures in the face of this evidence is not a neutral choice.
+The authors themselves draw the comparison: had these experiments been randomised controlled trials of a medical intervention, they might have been stopped early *for benefit* — because the intervention (active learning) was so clearly better that continuing to enrol people in the control condition (traditional lecturing) would be hard to justify. Continuing to deliver traditional lectures in the face of this evidence is not a neutral choice.
 
-**The quotable version:** *"If the data from our meta-analysis had come from a clinical trial, the trial would have been stopped for harm."*
+**The quotable version (verbatim from the paper):** *"If the experiments analyzed here had been conducted as randomized controlled trials of medical interventions, they may have been stopped for benefit."*
 
 ## Honest limitations
 

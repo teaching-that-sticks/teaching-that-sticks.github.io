@@ -4,8 +4,7 @@ authors: "Rudolph, J. W., Simon, R., Rivard, P., Dufresne, R. L., & Raemer, D. B
 journal: "Anesthesiology Clinics"
 year: 2007
 doi: "10.1016/j.anclin.2007.03.007"
-openAccess: true
-openAccessUrl: "https://pubmed.ncbi.nlm.nih.gov/17574196/"
+openAccess: false
 theorists: ["rudolph-debriefing-good-judgement"]
 sessions: [3]
 imagePrompt: "Two speech bubbles facing each other across a narrow gap. The left bubble contains a solid geometric shape — a specific observation (advocacy). The right bubble contains a question mark — genuine inquiry. Between them, a small curved bridge connects the two across the gap. Flat design, Teaching That Sticks house style, slate blue-grey and amber palette, clean white background, no people, professional educational illustration."
@@ -34,7 +33,7 @@ The advocacy-inquiry structure has two moves:
 
 ## The one finding worth quoting in a meeting
 
-*"Good judgment does not mean withholding judgment. It means sharing your observation and interpretation — transparently and specifically — and then asking a real question, because the learner's reasoning might change your view."*
+**In our words (a paraphrase, not a quotation):** Good judgment does not mean withholding judgment. It means sharing your observation and interpretation — transparently and specifically — and then asking a real question, because the learner's reasoning might change your view.
 
 The common clinical feedback failure is the *"anything you'd do differently?"* question, which is technically inquiry but carries no advocacy — the learner has no idea what the facilitator actually observed or thought. This is the gentle debrief failure mode. Naming the observation and the interpretation first is not punitive — it is respectful.
 

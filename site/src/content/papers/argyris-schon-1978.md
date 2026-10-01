@@ -4,7 +4,6 @@ authors: "Argyris, C., & Schön, D. A."
 journal: "Addison-Wesley"
 year: 1978
 openAccess: false
-doi: "10.2307/40183951"
 theorists: ["argyris-schon-double-loop", "advocacy-inquiry"]
 sessions: [3]
 imagePrompt: "Two side-by-side loop diagrams. Left diagram labelled 'Single-loop learning': an arrow from 'Action' to 'Outcome', and a feedback arrow back only to 'Action' — the governing variables (a box to the left) are not touched. Right diagram labelled 'Double-loop learning': the same structure, but the feedback arrow reaches all the way back to 'Governing variables', questioning the assumption. Flat design, Teaching That Sticks house style, slate blue-grey and amber palette, clean white background, no people, professional educational illustration."
@@ -36,7 +35,7 @@ The advocacy-inquiry move: *"I noticed [specific observable behaviour]. My inter
 
 ## The one finding worth quoting in a meeting
 
-*"The skill of double-loop learning begins with recognising the difference between what you say you do and what you actually do. Most people, if they are honest, have never looked at this gap carefully."*
+**In our words (a paraphrase, not a quotation):** The skill of double-loop learning begins with recognising the difference between what you say you do and what you actually do. Most people, if they are honest, have never looked at this gap carefully.
 
 For clinical education: when a debrief produces the same observations and the same recommendations every time, single-loop learning is occurring. The question is never "should we be running debriefs in this format at all?" — only "how do we run the debrief better?" The assumption is protected. Double-loop learning would ask the first question.
 

@@ -29,13 +29,13 @@ Meyer and Land were investigating disciplinary learning — specifically why cer
 
 **Liminality:** Learners approaching a threshold concept enter a *liminal space* — a state of being stuck, of oscillating between old and new understanding, of confusion that feels like failure. This is not a sign that the learner is failing. It is a sign that a genuine transformation is underway. Forcing learners through liminality too quickly (by telling them the answer) short-circuits the integration process that makes the learning durable.
 
-**Troublesome knowledge:** Not all difficult knowledge is threshold knowledge. Meyer and Land identify several kinds of troublesome knowledge: conceptually dense knowledge, tacit knowledge, alien knowledge (counter-intuitive to existing worldview), and ritualised knowledge (learned by rote without understanding). Threshold concepts are a subset of troublesome knowledge that have the specific transformative potential described above.
+**Troublesome knowledge:** Not all difficult knowledge is threshold knowledge. The idea of troublesome knowledge comes from David Perkins (1999), whose categories Meyer and Land adopted: ritual knowledge (learned by rote without understanding), inert knowledge (known but not used), conceptually difficult knowledge, alien or foreign knowledge (counter-intuitive to an existing worldview), and tacit knowledge (understood but rarely made explicit). Threshold concepts are a subset of troublesome knowledge that have the specific transformative potential described above.
 
 **Expert blindness:** Because threshold concepts are irreversible, experts frequently cannot perceive the conceptual barrier they crossed. They present the concept as if it were obvious — because for them it now is. This is the proximal cause of much ineffective teaching: the expert cannot locate their own threshold, so they cannot scaffold the learner across it.
 
 ## The one finding worth quoting in a meeting
 
-*"When a learner is genuinely stuck on a threshold concept, the problem is not deficient effort — it is the necessary pain of conceptual transformation. Telling them the answer does not resolve the liminal space; it just adds information to it. The learner has to cross their own threshold."*
+**In our words (a paraphrase, not a quotation):** When a learner is genuinely stuck on a threshold concept, the problem is not deficient effort — it is the necessary pain of conceptual transformation. Telling them the answer does not resolve the liminal space; it just adds information to it. The learner has to cross their own threshold.
 
 This is critical for clinical education's reflex toward information provision. When a trainee cannot grasp a concept after explanation, the educator's reflex is to explain it again more carefully. If the concept is a threshold concept, more explanation is not the answer. A different approach — metaphor, worked example from a different domain, deliberate discussion of why it is confusing — is more likely to facilitate crossing.
 

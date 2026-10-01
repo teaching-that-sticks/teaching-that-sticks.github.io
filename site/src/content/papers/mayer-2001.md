@@ -19,9 +19,9 @@ This is a book of findings rather than a single study. Across dozens of tightly 
 
 **The multimedia principle:** People learn more deeply from words and pictures combined than from words alone. Using both channels simultaneously with complementary information produces better retention and transfer than using only the verbal channel.
 
-**The redundancy principle:** People learn worse when the same information is presented in both spoken and printed text simultaneously — even though this intuitively feels like reinforcement. Both forms of words compete for the verbal channel. The visual channel sits idle or processes the printed text instead of a supporting image. This is the most counter-intuitive finding in the book, and the one with the most direct implication for clinical teaching: slides that reproduce the presenter's words do not reinforce the message, they impair processing of it.
+**The redundancy principle:** People learn worse when the same information is presented in both spoken and printed text simultaneously — even though this intuitively feels like reinforcement. In Mayer's account, the problem is mainly in the *visual* channel: printed text on screen competes with the picture or animation for the learner's eyes, while learners also try to reconcile the printed and spoken versions. This is the most counter-intuitive finding in the book, and the one with the most direct implication for clinical teaching: slides that reproduce the presenter's words do not reinforce the message, they impair processing of it.
 
-**The modality principle:** When combined with images, people learn better from narration than from on-screen text. Reading a slide while listening to someone speak creates competition in the verbal channel. Listening to narration while looking at an image uses two channels for different, complementary information.
+**The modality principle:** When combined with images, people learn better from narration than from on-screen text. Printed words and images both arrive through the eyes, so on-screen text overloads the visual channel. Listening to narration while looking at an image uses two channels for different, complementary information.
 
 **The coherence principle:** Removing extraneous material — words, images, animations that are present but do not advance the learning objective — improves learning. Adding material because it looks engaging or comprehensive is not neutral: it costs cognitive resource.
 
@@ -31,7 +31,7 @@ This is a book of findings rather than a single study. Across dozens of tightly 
 
 ## The one finding worth quoting in a meeting
 
-*"Students who received a multimedia presentation (words and pictures) learned more deeply than those who received a verbal presentation alone. The superiority of words-and-pictures over words-alone was consistent across multiple replications."*
+**In our words (a paraphrase, not a quotation):** students who received words and pictures learned more deeply than those who received words alone — and this held across repeated experiments.
 
 For clinical education: the standard NHS PowerPoint template, with speaker notes reproduced as slide text and a trust logo in three corners, is a studied example of the redundancy and coherence effects in combination. It does not aid memory. It actively impairs it.
 
@@ -39,7 +39,7 @@ For clinical education: the standard NHS PowerPoint template, with speaker notes
 
 - Mayer's experiments were predominantly conducted in laboratory settings with undergraduate students and short learning sequences. Ecological validity to sustained postgraduate clinical training is not established by this work
 - Most experiments measured immediate retention or short-delay transfer tests; far fewer followed up to assess retention at one week or longer
-- The 12 principles have different effect sizes and different levels of replication — the redundancy and modality principles are very well supported; some others are more context-dependent
+- The principles (the commonly cited list of 12 comes from the 2009 second edition, not this 2001 first edition) have different effect sizes and different levels of replication — the redundancy and modality principles are very well supported; some others are more context-dependent
 - The CTML assumes a relatively straightforward two-channel model of working memory that has since been refined. The framework is a useful approximation, not a complete account
 - Principles apply most clearly to self-contained multimedia explanations. They become harder to apply mechanically to interactive, social, or discursive forms of teaching
 

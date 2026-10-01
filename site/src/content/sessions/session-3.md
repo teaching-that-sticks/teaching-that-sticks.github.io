@@ -4,6 +4,7 @@ number: 3
 tagline: "Did It Stick?"
 theories:
   - kirkpatrick-model
+  - millers-pyramid
   - constructive-alignment
   - implementation-intentions
 fox: "thinking_bubble_left.png"
@@ -22,6 +23,7 @@ keyIdeas:
     theory: kirkpatrick-model
   - idea: "Your verb decides your evidence."
     detail: "You can't see someone 'be aware of' something. Use verbs you can observe: explain, demonstrate, decide."
+    theory: millers-pyramid
   - idea: "Line it up."
     detail: "Your outcome, your activity and how you check it should all show the same performance."
     theory: constructive-alignment

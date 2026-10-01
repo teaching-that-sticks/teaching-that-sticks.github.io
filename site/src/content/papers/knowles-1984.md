@@ -33,7 +33,7 @@ The enduring value is the conceptual model, not the case study data.
 
 ## The one finding worth quoting in a meeting
 
-*"The richest resource for learning in most situations is the learners themselves — not the teacher, not the curriculum, not the materials. A teacher's first task is to develop procedures for tapping into that resource."*
+**In our words (a paraphrase, not a quotation):** The richest resource for learning in most situations is the learners themselves — not the teacher, not the curriculum, not the materials. A teacher's first task is to develop procedures for tapping into that resource.
 
 For clinical education: every ward teaching session already has subject matter experts in it. The learners have been treating patients for years. The question is not what to tell them but how to help them articulate, test, and build on what they already know.
 

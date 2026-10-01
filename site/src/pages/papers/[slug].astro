@@ -19,7 +19,7 @@ const usedInSessions = paper.data.sessions
   .map((num: number) => allSessions.find(s => s.data.number === num))
   .filter(Boolean);
 
-const pageTitle = `${paper.data.title} — Teaching That Sticks`;
+const pageTitle = paper.data.title;
 const fullCite = `${paper.data.authors} (${paper.data.year}). ${paper.data.title}. ${paper.data.journal}.`;
 ---
 

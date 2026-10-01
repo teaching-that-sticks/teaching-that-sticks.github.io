@@ -4,6 +4,7 @@ summary: "Learning from experience only works when experience is followed by ref
 sessions: ["session-2"]
 evidence:
   - cite: "Kolb, D. A. (1984). <em>Experiential Learning: Experience as the Source of Learning and Development</em>. Prentice Hall."
+    paper: "kolb-1984"
   - cite: "Boud, D., Keogh, R., &amp; Walker, D. (Eds.). (1985). <em>Reflection: Turning Experience into Learning</em>. Kogan Page."
   - cite: "Moon, J. A. (1999). <em>Reflection in Learning and Professional Development</em>. Kogan Page."
   - cite: "Gibbs, G. (1988). <em>Learning by Doing: A Guide to Teaching and Learning Methods</em>. Further Education Unit, Oxford Polytechnic."

@@ -1,7 +1,7 @@
 ---
-title: "Evaluating Training Programs: The Four Levels"
+title: "Techniques for evaluating training programs"
 authors: "Kirkpatrick, D. L."
-journal: "American Society for Training and Development"
+journal: "Journal of the American Society of Training Directors"
 year: 1959
 openAccess: false
 theorists: ["kirkpatrick-evaluation"]
@@ -25,17 +25,17 @@ The model was designed to solve a practical problem: training departments needed
 
 **Level 4 — Results:** What organisational or patient outcomes resulted from the behaviour change? Fewer medication errors? Shorter debrief times? Improved learner satisfaction scores? Level 4 requires a causal chain from training through behaviour change to organisational impact — which is difficult to establish and almost never attempted in routine clinical education.
 
-**The critical insight:** The four levels are not correlated automatically. High Level 1 scores (participants enjoyed the session) do not predict Level 2 outcomes (they learned something). High Level 2 outcomes (they passed the post-test) do not predict Level 3 change (they changed their practice). Kirkpatrick's most important contribution is making this explicit: enjoyment is not learning, and learning is not change.
+**The critical insight:** The four levels are not correlated automatically. High Level 1 scores (participants enjoyed the session) do not reliably predict Level 2 outcomes (they learned something), and Level 2 outcomes do not guarantee Level 3 change (they changed their practice). This is less Kirkpatrick's own finding than what later research showed: a meta-analysis by Alliger and colleagues (1997, *Personnel Psychology*) found that reaction measures were largely unrelated to learning, behaviour or results. The model's lasting contribution is giving us the vocabulary to say it: enjoyment is not learning, and learning is not change.
 
 ## The one finding worth quoting in a meeting
 
-*"Most organisations evaluate training only at Level 1 — and then draw conclusions about whether it worked. The question 'did they like it?' is not the same question as 'did it change anything?' The two are related but not identical."*
+**In our words (a paraphrase, not a quotation):** most organisations evaluate training only at Level 1 — and then draw conclusions about whether it worked. The question *"did they like it?"* is not the same question as *"did it change anything?"*
 
 For clinical education: a post-session feedback form asking *"was this session well-organised?"* and *"was the facilitator knowledgeable?"* measures facilitator performance and first impressions. It does not measure learning. It certainly does not measure whether anyone teaches differently three months later.
 
 ## Honest limitations
 
-- The four levels are a conceptual framework, not an empirically derived theory. Kirkpatrick did not establish statistically how often each level predicts the next — subsequent research has found the inter-level correlations are modest and inconsistent
+- The four levels are a conceptual framework, not an empirically derived theory. Kirkpatrick did not establish statistically how often each level predicts the next — subsequent research (e.g. Alliger et al., 1997) has found the inter-level correlations are modest and inconsistent
 - The model has been critiqued for presenting a linear, hierarchical relationship between levels that is more complex in practice. High Level 3 outcomes do not always require strong Level 2 outcomes; some behaviour change occurs through social and environmental mechanisms that bypass measured knowledge acquisition
 - Level 4 is theoretically important but practically difficult. Establishing a causal chain from a 90-minute session to patient outcomes requires research design capability that most clinical education teams do not have
 - The model focuses on individual training events; it was not designed for the kind of cumulative, practice-embedded learning that Lave and Wenger (1991) argue is the primary mechanism of professional development

@@ -5,7 +5,7 @@ journal: "Advances in Experimental Social Psychology"
 year: 2006
 doi: "10.1016/S0065-2601(06)38002-1"
 openAccess: true
-openAccessUrl: "https://doi.org/10.1016/S0065-2601(06)38002-1"
+openAccessUrl: "https://kops.uni-konstanz.de/entities/publication/2e749bfb-8533-437c-8203-7e788c910c5f"
 theorists: ["gollwitzer-implementation-intentions"]
 sessions: [3]
 imagePrompt: "A split panel. Left panel: multiple dotted arrows pointing in different directions, most fading before they reach a target — representing vague goal intentions that dissipate. Right panel: a single solid if-then arrow that completes its path to a clear target — representing a specific implementation intention. Flat design, Teaching That Sticks house style, slate blue-grey and amber palette, clean white background, no people, professional educational illustration."
@@ -32,7 +32,7 @@ Gollwitzer and Sheeran conducted a meta-analysis of 94 independent studies exami
 
 ## The one finding worth quoting in a meeting
 
-*"Across 94 studies, forming specific if-then plans produced a medium-to-large improvement in goal achievement (d = 0.65) compared to stating intentions alone. The mechanism is pre-made decisions — when you specify the when, where, and how in advance, the behaviour becomes automatic when the cue occurs."*
+**In our words (a paraphrase, not a quotation):** Across 94 studies, forming specific if-then plans produced a medium-to-large improvement in goal achievement (d = 0.65) compared to stating intentions alone. The mechanism is pre-made decisions — when you specify the when, where, and how in advance, the behaviour becomes automatic when the cue occurs.
 
 For clinical education: every commitment activity that ends with *"I'll try to teach better"* is a goal intention and will produce approximately what goal intentions always produce — good intentions that fail at the first competing demand. *"When I start handover on Thursdays, I will ask one retrieval question before giving any information"* is an implementation intention. The difference in follow-through is substantial and quantified.
 

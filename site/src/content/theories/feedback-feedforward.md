@@ -10,11 +10,11 @@ evidence:
   - cite: "Sargeant, J., Lockyer, J., Mann, K., Holmboe, E., Silver, I., Armson, H., &amp; Power, M. (2015). Facilitated reflective performance feedback: Developing an evidence- and theory-based model. <em>Academic Medicine</em>, 90(12), 1698–1706."
 ---
 
-Hattie and Timperley's meta-analysis of over 500,000 students found that feedback was among the most powerful influences on achievement — but that the effect was highly variable, and some forms of feedback made things worse. Praise, in particular, reliably underperforms compared to task-focused feedback. Grade-only feedback — a mark without comment — produces minimal learning. Feedback that directs attention to the self rather than the task ("you're a natural at this") can reduce subsequent challenge-seeking.
+Hattie and Timperley's synthesis of 12 earlier meta-analyses (196 studies, nearly 7,000 effect sizes) found that feedback was among the most powerful influences on achievement — but that the effect was highly variable, and some forms of feedback made things worse. Praise, in particular, reliably underperforms compared to task-focused feedback. Grade-only feedback — a mark without comment — produces minimal learning. Feedback that directs attention to the self rather than the task ("you're a natural at this") can reduce subsequent challenge-seeking.
 
 Effective feedback answers three questions: Where am I going (the goal)? How am I doing against that goal? Where do I go next? The third question is what most clinical feedback omits. "Good, but work on your communication skills" is not feedforward — it's a direction with no map.
 
-*Feedforward*, a term associated with Hattie's collaborators but popularised independently in coaching literature, focuses exclusively on the future: what specific actions, in what contexts, would improve performance? It is more useful because it is actionable, and because it doesn't require the learner to first receive and process a judgement about the past before they can think about the future.
+*Feedforward* — Hattie and Timperley's name for the "where to next?" question, and a term also used, separately, in coaching literature — focuses on the future: what specific actions, in what contexts, would improve performance? It is more useful because it is actionable, and because it doesn't require the learner to first receive and process a judgement about the past before they can think about the future.
 
 ## What this means for teaching
 

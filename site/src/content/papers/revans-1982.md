@@ -23,15 +23,15 @@ An organisation or profession that relies only on P — on expert advice, best-p
 
 **Puzzles vs problems.** Revans distinguished between *puzzles* (which have knowable answers, yield to expert P, and can in principle be solved by looking up the right solution) and *problems* (which are complex, value-laden, context-dependent, and cannot be solved by expertise alone). Most management and clinical challenges are problems, not puzzles. Treating problems as if they were puzzles — by seeking expert advice, following protocols, applying someone else's solution — is one of the primary ways that professional practice fails.
 
-**Action learning sets.** The practical structure: a small group (typically five to eight people) who meet regularly, each bringing a real problem they are working on. The group's role is to ask questions — not to offer advice, not to share analogous experiences, not to solve the problem. For the first phase of each meeting, questioning only. The issue-holder is confronted with their own thinking in a way that self-reflection and expert consultation rarely produce.
+**Action learning sets.** The practical structure: a small group (typically four to six people) who meet regularly, each bringing a real problem they are working on. The group's role is to ask questions — not to offer advice, not to share analogous experiences, not to solve the problem. For the first phase of each meeting, questioning only. The issue-holder is confronted with their own thinking in a way that self-reflection and expert consultation rarely produce.
 
 **The comrades in adversity principle.** Peers facing similar challenges — people roughly at the same level, with comparable responsibilities and constraints — are often better learning partners than experts. They have sufficient shared context to ask relevant questions, and insufficient distance to be authoritative, which keeps the problem-owner in charge of their own solution.
 
-**The core principle.** *"There is no learning without action, and no (sonder) action without learning."* Learning that does not change what you do is not complete. Action that is not reflected upon is not educative.
+**The core principle.** In the words most often attributed to Revans: *"There can be no learning without action, and no action without learning."* Learning that does not change what you do is not complete. Action that is not reflected upon is not educative.
 
 ## The one finding worth quoting in a meeting
 
-*"The questions that matter most in any difficult situation are the ones that challenge the assumptions of the person who created or inherited it — not the answers that the experts bring in from outside."*
+**In our words (a paraphrase, not a quotation):** the questions that matter most in a difficult situation are the ones that challenge the assumptions of the person who created or inherited it — not the answers that experts bring in from outside.
 
 For clinical education: the most effective debrief of a difficult case is rarely the one where a senior consultant explains what should have happened. It is the one where the team is asked *"what were you assuming when you made that decision?"* and has to work through the answer together.
 
