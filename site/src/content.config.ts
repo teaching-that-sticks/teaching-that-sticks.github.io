@@ -50,6 +50,18 @@ const sessions = defineCollection({
     prep: z.string().optional(),
     /** Short meta strings (time, format, prerequisites) shown as pills */
     meta: z.array(z.string()).default([]),
+    /** Reassurance for anyone who couldn't do the prep */
+    prepFallback: z.string().optional(),
+    /** Recap: the session's key ideas in plain words, each optionally linked to a theory */
+    keyIdeas: z.array(z.object({
+      idea: z.string(),
+      detail: z.string().optional(),
+      theory: z.string().optional(),
+    })).default([]),
+    /** Which part of the design canvas this session builds */
+    canvas: z.string().optional(),
+    /** The ask, verbatim from the card participants write */
+    ask: z.string().optional(),
   }),
 });
 

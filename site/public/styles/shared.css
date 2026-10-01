@@ -11,7 +11,7 @@
   --crust:     #11111b;
   --surface0:  #313244;
   --surface1:  #45475a;
-  --overlay0:  #6c7086;
+  --overlay0:  #9399b2; /* was #6c7086 (3.4:1); now ~6:1 */
   --overlay1:  #7f849c;
   --text:      #cdd6f4;
   --subtext1:  #bac2de;
@@ -30,20 +30,28 @@
   --crust:     #dce0e8;
   --surface0:  #ccd0da;
   --surface1:  #bcc0cc;
-  --overlay0:  #9ca0b0;
+  --overlay0:  #6c6f85; /* was #9ca0b0 (2.4:1); now 4.7:1 for small grey labels */
   --overlay1:  #8c8fa1;
   --text:      #4c4f69;
   --subtext1:  #5c5f77;
   --subtext0:  #6c6f85;
-  /* --peach:     #fe640b; */
-  --peach:     #f98842; /* slightly darker catppuccin peach hue on light bg */
-  --sky:       #04a5e5;
-  --teal:      #179299;
-  --lavender:  #7287fd;
-  --green:     #40a02b;
+  /* Catppuccin Latte accents are too pale for text on --base (2.2–3.3:1).
+     These are the same hues darkened to >= 5:1, matching the slide decks. */
+  --peach:     #b24101;
+  --sky:       #036d97;
+  --teal:      #0f6e73;
+  --lavender:  #314ffc;
+  --green:     #2e741f;
   --shadow:    rgba(0,0,0,0.10);
   --shadow-sm: rgba(0,0,0,0.05);
 }
+
+/* Cards inside [data-animate] fade in on scroll, but are hidden first ONLY when
+   animation is actually available (html.anim, set in Base.astro). If the
+   anime.js CDN is blocked (common on NHS networks) or the reader prefers
+   reduced motion, content is simply visible. */
+html.anim [data-animate] > * { opacity: 0; }
+@media print { html.anim [data-animate] > * { opacity: 1 !important; transform: none !important; } }
 
 /* ── Reset ──────────────────────────────────────────────────────── */
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
@@ -96,7 +104,7 @@ nav {
   letter-spacing: -0.01em;
 }
 .brand-role {
-  font-size: 0.56rem;
+  font-size: 0.72rem;
   font-weight: 600;
   letter-spacing: 0.1em;
   text-transform: uppercase;
@@ -242,7 +250,7 @@ nav {
   align-items: center;
   gap: 0.4rem;
   margin-bottom: 0.6rem;
-  font-size: 0.62rem;
+  font-size: 0.72rem;
   font-weight: 600;
   letter-spacing: 0.14em;
   text-transform: uppercase;
@@ -286,7 +294,7 @@ nav {
 /* ── Session overline (top-level pages without breadcrumb) ────────── */
 .session-overline {
   display: block;
-  font-size: 0.62rem;
+  font-size: 0.72rem;
   font-weight: 700;
   letter-spacing: 0.14em;
   text-transform: uppercase;
@@ -351,7 +359,6 @@ nav {
   border-radius: 10px;
   padding: 2rem 2.5rem;
   box-shadow: 0 2px 4px var(--shadow-sm), 0 8px 22px var(--shadow);
-  opacity: 0; /* animated in by shared.js */
 }
 .session-card    { border-left: 3px solid var(--peach); }
 .concepts-card   { border-left: 3px solid var(--green); }
@@ -365,7 +372,7 @@ nav {
 
 /* Prep card internals */
 .section-overline {
-  font-size: 0.58rem;
+  font-size: 0.72rem;
   font-weight: 700;
   letter-spacing: 0.14em;
   text-transform: uppercase;
@@ -386,7 +393,7 @@ nav {
   border-top: 1px solid var(--surface0);
 }
 .prep-section-label {
-  font-size: 0.58rem;
+  font-size: 0.72rem;
   font-weight: 700;
   letter-spacing: 0.1em;
   text-transform: uppercase;
@@ -394,12 +401,12 @@ nav {
   margin-bottom: 0.4rem;
 }
 .prep-section-text {
-  font-size: 0.82rem;
+  font-size: 0.98rem;
   color: var(--subtext1);
   line-height: 1.65;
 }
 .session-meta {
-  font-size: 0.65rem;
+  font-size: 0.72rem;
   color: var(--overlay0);
   display: flex;
   flex-wrap: wrap;
@@ -409,9 +416,40 @@ nav {
   border-top: 1px solid var(--surface0);
 }
 
+/* "What we'll do" text and prep fallback in the Before-you-come card */
+.session-body p {
+  font-size: 0.98rem;
+  color: var(--subtext1);
+  line-height: 1.7;
+  margin-bottom: 0.75rem;
+}
+.session-body { margin-bottom: 0.6rem; }
+.prep-fallback { margin-top: 0.35rem; font-style: italic; }
+
+/* After-the-session recap: folded by default so the session isn't spoiled */
+.recap-summary {
+  list-style: none;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+}
+.recap-summary::-webkit-details-marker { display: none; }
+.recap-summary .concepts-card-overline { margin-bottom: 0; }
+.recap-title {
+  font-family: 'Playfair Display', Georgia, serif;
+  font-size: clamp(1.15rem, 2.4vw, 1.4rem);
+  color: var(--text);
+}
+.recap-title::after { content: ' ▸'; color: var(--green); }
+.recap-card[open] .recap-title::after { content: ' ▾'; }
+.recap-card[open] .recap-summary { margin-bottom: 1.1rem; }
+.recap-section { margin-top: 1.25rem; }
+.recap-ask { font-size: clamp(1.05rem, 2.2vw, 1.3rem); margin-bottom: 0; }
+
 /* Concepts card internals */
 .concepts-card-overline {
-  font-size: 0.58rem;
+  font-size: 0.72rem;
   font-weight: 700;
   letter-spacing: 0.14em;
   text-transform: uppercase;
@@ -448,20 +486,20 @@ a.theory-row:visited { color: inherit; }
 .theory-row-text { flex: 1; min-width: 0; }
 .theory-row-name {
   display: block;
-  font-size: 0.82rem;
+  font-size: 0.98rem;
   font-weight: 600;
   color: var(--green);
   margin-bottom: 0.15rem;
 }
 .theory-row-summary {
   display: block;
-  font-size: 0.75rem;
+  font-size: 0.9rem;
   color: var(--subtext1);
   line-height: 1.55;
 }
 .theory-row-cite {
   display: block;
-  font-size: 0.78rem;
+  font-size: 0.9rem;
   color: var(--subtext1);
   line-height: 1.65;
   font-style: italic;
@@ -480,7 +518,7 @@ a.theory-row:hover .theory-row-arrow {
 /* Facilitator card internals */
 .facilitator-card-body { flex: 1; }
 .facilitator-card-overline {
-  font-size: 0.58rem;
+  font-size: 0.72rem;
   font-weight: 700;
   letter-spacing: 0.14em;
   text-transform: uppercase;
@@ -580,7 +618,7 @@ a.theory-row:hover .theory-row-arrow {
 }
 .library-hero-text { flex: 1; }
 .library-overline {
-  font-size: 0.62rem;
+  font-size: 0.72rem;
   font-weight: 700;
   letter-spacing: 0.14em;
   text-transform: uppercase;
@@ -619,7 +657,7 @@ a.theory-row:hover .theory-row-arrow {
 /* ── Theory groups ───────────────────────────────────────────────── */
 .theory-group { margin-bottom: 3rem; }
 .theory-group-session {
-  font-size: 0.62rem;
+  font-size: 0.72rem;
   font-weight: 700;
   letter-spacing: 0.14em;
   text-transform: uppercase;
@@ -739,7 +777,7 @@ a.theory-row:hover .theory-row-arrow {
 }
 .slide-label {
   display: inline-block;
-  font-size: 0.6rem;
+  font-size: 0.72rem;
   font-weight: 700;
   letter-spacing: 0.1em;
   text-transform: uppercase;
@@ -770,10 +808,9 @@ a.theory-row:hover .theory-row-arrow {
   border-left: 3px solid var(--peach);
   border-radius: 10px;
   padding: 1.4rem 1.6rem;
-  opacity: 0;
 }
 .sessions-used-overline {
-  font-size: 0.58rem;
+  font-size: 0.72rem;
   font-weight: 700;
   letter-spacing: 0.14em;
   text-transform: uppercase;
@@ -813,7 +850,6 @@ a.theory-row:hover .theory-row-arrow {
   gap: 1.5rem 3rem;
   align-items: center;
   box-shadow: 0 2px 4px var(--shadow-sm), 0 8px 22px var(--shadow);
-  opacity: 0; /* animated in by shared.js */
   transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 .prog-card:hover {
@@ -822,7 +858,7 @@ a.theory-row:hover .theory-row-arrow {
 }
 .prog-card-main { display: flex; flex-direction: column; gap: 0.55rem; }
 .prog-card-overline {
-  font-size: 0.6rem;
+  font-size: 0.72rem;
   font-weight: 600;
   letter-spacing: 0.12em;
   text-transform: uppercase;
@@ -843,7 +879,7 @@ a.theory-row:hover .theory-row-arrow {
   max-width: 62ch;
 }
 .prog-card-meta {
-  font-size: 0.65rem;
+  font-size: 0.72rem;
   color: var(--overlay0);
   display: flex;
   gap: 1rem;
@@ -898,7 +934,7 @@ a.theory-row:hover .theory-row-arrow {
 }
 .theory-prose p:last-child { margin-bottom: 0; }
 .theory-prose h2 {
-  font-size: 0.58rem;
+  font-size: 0.72rem;
   font-weight: 700;
   letter-spacing: 0.14em;
   text-transform: uppercase;
@@ -1040,7 +1076,7 @@ a.theory-row:hover .theory-row-arrow {
   padding: 1.5rem 1.75rem;
 }
 .paper-cite-card .cite-overline {
-  font-size: 0.58rem;
+  font-size: 0.72rem;
   font-weight: 700;
   letter-spacing: 0.14em;
   text-transform: uppercase;
@@ -1080,7 +1116,7 @@ a.theory-row:hover .theory-row-arrow {
 /* Hub section headers */
 .fac-hub-section { margin-bottom: 3rem; }
 .fac-section-header {
-  font-size: 0.62rem;
+  font-size: 0.72rem;
   font-weight: 700;
   letter-spacing: 0.15em;
   text-transform: uppercase;
@@ -1113,7 +1149,7 @@ a.theory-row:hover .theory-row-arrow {
   border-left-color: color-mix(in srgb, var(--sky) 70%, var(--text));
 }
 .fac-card-eyebrow {
-  font-size: 0.62rem;
+  font-size: 0.72rem;
   font-weight: 700;
   letter-spacing: 0.14em;
   text-transform: uppercase;
@@ -1320,7 +1356,7 @@ a.theory-row:hover .theory-row-arrow {
   font-style: normal;
 }
 .slide-download-meta {
-  font-size: 0.68rem;
+  font-size: 0.72rem;
   color: var(--overlay1);
   font-family: monospace;
   font-style: normal;
@@ -1363,7 +1399,7 @@ a.theory-row:hover .theory-row-arrow {
 }
 .blueprint-candidate-body { flex: 1; }
 .blueprint-candidate-overline {
-  font-size: 0.58rem;
+  font-size: 0.72rem;
   font-weight: 700;
   letter-spacing: 0.14em;
   text-transform: uppercase;

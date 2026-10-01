@@ -4,29 +4,34 @@ number: 3
 tagline: "Did It Stick?"
 theories:
   - kirkpatrick-model
-  - debriefing
-  - feedback-feedforward
-  - action-learning
-  - threshold-concepts
-  - stolen-curriculum
+  - constructive-alignment
+  - implementation-intentions
 fox: "thinking_bubble_left.png"
 duration: "90 min"
-subtitle: "Feedback, reflection, and the gap between leaving a session feeling inspired and actually doing something differently on Monday morning."
-primingQuestion: "Think of the last time someone gave you feedback that actually changed how you work. What made it land?"
-prep: "Bring one piece of teaching you've done since Session 1 — however small. We'll use it."
+subtitle: "Start with what people should do differently, and you'll know whether your teaching worked."
+primingQuestion: "How do you currently know whether your teaching worked?"
+prep: "Bring the Menti or Kahoot you made after Session 2."
+prepFallback: "Didn't make one? Bring the idea. We'll build on it."
 meta:
   - "90 minutes"
-  - "Interactive · no rows"
+  - "Hands-on"
   - "Sessions 1 & 2 recommended"
+keyIdeas:
+  - idea: "Delivered isn't changed."
+    detail: "Attendance lists, smile sheets and photos show a session happened. Only what people do afterwards shows it worked."
+    theory: kirkpatrick-model
+  - idea: "Your verb decides your evidence."
+    detail: "You can't see someone 'be aware of' something. Use verbs you can observe: explain, demonstrate, decide."
+  - idea: "Line it up."
+    detail: "Your outcome, your activity and how you check it should all show the same performance."
+    theory: constructive-alignment
+  - idea: "Plan the follow-through."
+    detail: "Decide what you'll revisit at 30, 60 and 90 days, and who will ask you about it."
+    theory: implementation-intentions
+canvas: "Outcomes, evidence and follow-through. The whole canvas, complete."
+ask: "Your completed canvas, plus one named person who will ask you about it in 30 days."
 ---
 
-The hardest question in clinical education: did it work?
-Not did they enjoy it. Not could they pass a test at the end. Did their practice actually change?
+We'll try out what you made, then sort what counts as evidence that teaching worked (and what doesn't).
 
-Session 3 opens with a retrieval quiz on Sessions 1 and 2 — spaced repetition enacted before it is discussed. It then introduces Kirkpatrick's four-level evaluation model and immediately confronts the uncomfortable fact that most clinical teaching is evaluated only at Level 1, the smile sheet, while the only level that matters — Level 3, behaviour change — is almost never assessed.
-
-The structural centrepiece is an action learning set: triads working on real current teaching challenges, with a strict discipline of questions before advice. Participants then produce a personalised 30/60/90 day follow-up plan for a real learner group.
-
-The session also covers debrief with good judgement, feedback and feedforward, and the whole-person dimension — what the hierarchy of needs tells us about why learners sometimes cannot learn, and what the appropriate response is when the barrier is not pedagogical.
-
-Session 3 is also where the seed planted in Session 1 is named. The concept introduced without a label when participants compared the cluttered slide to the clean ad is given its proper title — The Stolen Curriculum — and delegates are shown that the free reinforcement loop it creates has already been running since Session 1. The 30/60/90 day follow-up plan includes a standing task: name the mechanism every time you see an ad. The world now delivers spaced practice on your behalf.
+Then you'll rewrite your session's learning outcomes, check everything lines up, and plan what happens next.

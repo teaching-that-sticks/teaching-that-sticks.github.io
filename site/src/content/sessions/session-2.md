@@ -7,21 +7,32 @@ theories:
   - spaced-practice
   - interleaving
   - experiential-learning
-  - psychological-safety
 fox: "thinking_left_arm_up.png"
 duration: "90 min"
-subtitle: "The science of retrieval practice, spacing, and why doing is so much more powerful than watching or reading."
-primingQuestion: "When did you last leave a training session and actually change something you do? What made the difference?"
-prep: "Bring a teaching activity you currently use. We'll analyse and rebuild it together during the session."
+subtitle: "Why doing beats watching, and how to make your teaching active."
+primingQuestion: "Think of something you learned and never forgot. Were you watching, or doing?"
+prep: "Bring the slides you redesigned (or found) after Session 1."
+prepFallback: "Didn't get to it? Come anyway. What got in the way is useful too."
 meta:
   - "90 minutes"
-  - "Interactive · no rows"
-  - "No prerequisites"
+  - "Hands-on"
+  - "Bring a phone"
+keyIdeas:
+  - idea: "Testing beats re-reading."
+    detail: "Pulling something back out of memory strengthens it. A quick quiz is a teaching tool, not just a test."
+    theory: retrieval-practice
+  - idea: "Space it out."
+    detail: "We forget fast at first, then more slowly. Coming back after a gap (like these weekly sessions) makes learning last."
+    theory: spaced-practice
+  - idea: "Active is a scale, not a switch."
+    detail: "Listening, discussing, doing, teaching: each step deepens learning. The setting decides how far you can go."
+    theory: experiential-learning
+  - idea: "Design for the real place."
+    detail: "A 6am handover isn't a study day. Build the activity for the corridor, ward or sim room where it will actually happen."
+canvas: "Activities, part 2: what learners do. You made ten minutes of your session active."
+ask: "Before next week I will spend 30–40 minutes playing with Menti or Kahoot and make one active learning thing for my session, and bring it."
 ---
 
-Most clinical educators know, somewhere, that lectures don't work — and then deliver lectures anyway.
-This session starts by asking participants to be honest about something uncomfortable: what do they think their learners actually remembered, one week after the last session they delivered?
+We'll start with your slides, then play: quizzes, polls and a few silly questions, before naming why they work.
 
-The session works through the science of retrieval practice, spacing, and interleaving — but not as lectures about those things. Participants experience them as learners first, through a jigsaw activity, a design challenge under authentic clinical constraints, and a hands-on exploration of low-barrier digital tools.
-
-The session closes with the hardest conversation: why most of what the first 70 minutes covered becomes unavailable in hierarchical clinical environments where learners do not feel safe to get things wrong. Psychological safety is not a warm-up topic — it is the precondition for everything else.
+Then you'll make ten minutes of your own session active, designed for the place it really happens.

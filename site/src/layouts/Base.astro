@@ -88,7 +88,12 @@ function current(page: string) {
     </div>
   </footer>
 
-  <script src="https://cdn.jsdelivr.net/npm/animejs@3.2.2/lib/anime.min.js" is:inline></script>
+  <script is:inline>
+    // Fade-in cards only when motion is welcome; undone below if anime.js can't load.
+    if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) document.documentElement.classList.add('anim');
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/animejs@3.2.2/lib/anime.min.js" is:inline
+          onerror="document.documentElement.classList.remove('anim')"></script>
   <script>
     // Shared JS: hamburger, footer fox, session-stack observer
     // Equivalent of test/shared.js — inlined here so Astro bundles it once.
@@ -143,6 +148,10 @@ function current(page: string) {
       }
 
       // ── Scroll-in card animation (any element with [data-animate]) ────────
+      if (!(window as any).anime || !document.documentElement.classList.contains('anim')) {
+        document.documentElement.classList.remove('anim');
+        return;
+      }
       document.querySelectorAll<HTMLElement>('[data-animate]').forEach(stack => {
         const obs = new IntersectionObserver(entries => {
           entries.forEach(e => {

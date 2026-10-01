@@ -12,10 +12,10 @@ sessions.sort((a, b) => a.data.number - b.data.number);
     <div class="session-hero-inner">
       <div class="session-hero-text">
         <span class="session-overline">The Programme</span>
-        <h1 class="session-title">Three half-day sessions</h1>
+        <h1 class="session-title">Three 90-minute sessions</h1>
         <p class="session-subtitle">
-          Evidence first, application second, reflection throughout.
-          No prerequisites. No jargon. Free and open-source.
+          One week apart. Bring one session you teach (or would like to teach)
+          and leave with it rebuilt. No prerequisites. Free and open.
         </p>
       </div>
       <img
@@ -35,7 +35,6 @@ sessions.sort((a, b) => a.data.number - b.data.number);
             <h2 class="prog-card-title">{s.data.tagline}</h2>
             {s.data.subtitle && <p class="prog-card-body">{s.data.subtitle}</p>}
             <div class="prog-card-meta">
-              <span>{s.data.theories.length} theories</span>
               <span>{s.data.duration}</span>
             </div>
           </div>

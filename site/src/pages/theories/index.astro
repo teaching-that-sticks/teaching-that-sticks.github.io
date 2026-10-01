@@ -12,6 +12,20 @@ sessions.sort((a, b) => a.data.number - b.data.number);
 
 const allTheories = await getCollection('theories');
 const theoryMap = Object.fromEntries(allTheories.map(t => [t.id, t]));
+
+// Each theory appears once: under the first session that uses it,
+// then everything else under "Also in the library".
+const seen = new Set<string>();
+const groups = sessions.map(session => {
+  const theories = (session.data.theories ?? [])
+    .filter(id => theoryMap[id] && !seen.has(id))
+    .map(id => { seen.add(id); return theoryMap[id]; });
+  return { label: `Session ${session.data.number}`, title: session.data.tagline, theories };
+}).filter(g => g.theories.length > 0);
+const rest = allTheories
+  .filter(t => !seen.has(t.id))
+  .sort((a, b) => a.data.title.localeCompare(b.data.title));
+if (rest.length) groups.push({ label: 'More', title: 'Also in the library', theories: rest });
 ---
 
 <Base title="Theory Library" bodyClass="session-page" currentNav="theories" brandRole="Theory Library" brandRoleClass="brand-role--green">
@@ -25,9 +39,8 @@ const theoryMap = Object.fromEntries(allTheories.map(t => [t.id, t]));
           <p class="library-overline">The Theory Library</p>
           <h1 class="library-title">The evidence behind the teaching</h1>
           <p class="library-lede">
-            Plain-language overviews of the 15 concepts that underpin the
-            programme — each with links to the original research so you can
-            go deeper. <a href="/papers">Read the evidence summaries →</a>
+            Plain-language overviews of the {allTheories.length} ideas behind
+            the programme, each linked to the original research. <a href="/papers">Read the evidence summaries →</a>
           </p>
         </div>
         <img
@@ -41,15 +54,11 @@ const theoryMap = Object.fromEntries(allTheories.map(t => [t.id, t]));
       </div>
 
       <!-- Session groups -->
-      {sessions.map(session => {
-        const theories = (session.data.theories ?? [])
-          .map(id => theoryMap[id])
-          .filter(Boolean);
-        if (theories.length === 0) return null;
+      {groups.map(({ label, title, theories }) => {
         return (
           <div class="theory-group">
-            <p class="theory-group-session">Session {session.data.number}</p>
-            <h2 class="theory-group-title">{session.data.tagline}</h2>
+            <p class="theory-group-session">{label}</p>
+            <h2 class="theory-group-title">{title}</h2>
             <div class="theory-list" data-animate>
               {theories.map(t => (
                 <div class="theory-card">

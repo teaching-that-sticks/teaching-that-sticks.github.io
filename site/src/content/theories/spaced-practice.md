@@ -11,7 +11,7 @@ evidence:
   - cite: "Smolen, P., Zhang, Y., &amp; Bhatt, D. L. (2016). The right time to learn: Mechanisms and optimization of spaced learning. <em>Nature Reviews Neuroscience</em>, 17(2), 77–88."
 ---
 
-Ebbinghaus mapped the forgetting curve in 1885 and the finding has held ever since: memory decays steeply after initial learning, and the decay accelerates unless the material is revisited. The antidote is not more intensive initial study — it's *distribution*. Learning the same material across multiple sessions, with gaps between them, produces dramatically stronger long-term retention than the same total study time massed together.
+Ebbinghaus mapped the forgetting curve in 1885 and the finding has held ever since: memory decays steeply soon after learning, then levels off; each revisit resets the curve and makes it shallower. The antidote is not more intensive initial study — it's *distribution*. Learning the same material across multiple sessions, with gaps between them, produces dramatically stronger long-term retention than the same total study time massed together.
 
 The mechanism involves sleep and memory consolidation, synaptic strengthening, and the reconstruction effect of retrieval practice. When you return to something after a gap — just before it would be forgotten — the act of re-accessing it strengthens the trace and extends the next forgetting curve. Space it correctly and you can achieve durable retention with surprisingly little total study time.
 

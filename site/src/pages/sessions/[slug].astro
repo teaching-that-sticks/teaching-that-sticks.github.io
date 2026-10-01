@@ -27,6 +27,16 @@ const theoryEntries = await Promise.all(
   (session.data.theories ?? []).map(id => getEntry('theories', id))
 );
 const theories = theoryEntries.filter(Boolean);
+
+// Short "what we'll do" text (markdown body) and the after-session recap
+const { Content } = await render(session);
+const keyIdeas = await Promise.all(
+  session.data.keyIdeas.map(async k => ({
+    ...k,
+    entry: k.theory ? await getEntry('theories', k.theory) : null,
+  }))
+);
+const hasRecap = keyIdeas.length > 0 || session.data.ask;
 ---
 
 <Base
@@ -64,17 +74,21 @@ const theories = theoryEntries.filter(Boolean);
     <!-- Card stack -->
     <div class="session-stack" data-animate>
 
-      <!-- Card 1: Priming question + prep + meta -->
+      <!-- Card 1: Before you come: priming question, what we'll do, what to bring -->
       {session.data.primingQuestion && (
         <div class="session-card">
-          <p class="section-overline">Before you arrive</p>
+          <p class="section-overline">Before you come</p>
           <blockquote class="priming-question">
             "{session.data.primingQuestion}"
           </blockquote>
+          <div class="session-body"><Content /></div>
           {session.data.prep && (
             <div class="prep-section">
-              <p class="prep-section-label">Preparation</p>
+              <p class="prep-section-label">Bring</p>
               <p class="prep-section-text">{session.data.prep}</p>
+              {session.data.prepFallback && (
+                <p class="prep-section-text prep-fallback">{session.data.prepFallback}</p>
+              )}
             </div>
           )}
           {session.data.meta.length > 0 && (
@@ -85,8 +99,48 @@ const theories = theoryEntries.filter(Boolean);
         </div>
       )}
 
-      <!-- Card 2: Theory concepts -->
-      {theories.length > 0 && (
+      <!-- Card 2: After the session: recap (folded, so the session isn't spoiled) -->
+      {hasRecap && (
+        <details class="concepts-card recap-card">
+          <summary class="recap-summary">
+            <span class="concepts-card-overline">After the session</span>
+            <span class="recap-title">Recap: the key ideas and your ask</span>
+          </summary>
+          <div class="concept-chips">
+            {keyIdeas.map(k => k.entry ? (
+              <a class="theory-row" href={`/theories/${k.theory}`}>
+                <div class="theory-row-text">
+                  <span class="theory-row-name">{k.idea}</span>
+                  {k.detail && <span class="theory-row-summary">{k.detail}</span>}
+                </div>
+                <span class="theory-row-arrow" aria-hidden="true">&#x2192;</span>
+              </a>
+            ) : (
+              <div class="theory-row">
+                <div class="theory-row-text">
+                  <span class="theory-row-name">{k.idea}</span>
+                  {k.detail && <span class="theory-row-summary">{k.detail}</span>}
+                </div>
+              </div>
+            ))}
+          </div>
+          {session.data.canvas && (
+            <div class="prep-section recap-section">
+              <p class="prep-section-label">Your canvas</p>
+              <p class="prep-section-text">{session.data.canvas}</p>
+            </div>
+          )}
+          {session.data.ask && (
+            <div class="prep-section recap-section">
+              <p class="prep-section-label">The ask</p>
+              <blockquote class="priming-question recap-ask">"{session.data.ask}"</blockquote>
+            </div>
+          )}
+        </details>
+      )}
+
+      <!-- Theory list, only for sessions without a recap (the recap ideas link to theories) -->
+      {!hasRecap && theories.length > 0 && (
         <div class="concepts-card">
           <p class="concepts-card-overline">What this session draws on</p>
           <div class="concept-chips">
