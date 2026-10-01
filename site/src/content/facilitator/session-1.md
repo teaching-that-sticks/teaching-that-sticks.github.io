@@ -166,9 +166,9 @@ Deliver this section using only images and spoken word. No bullet points. No tex
 - Working memory is severely limited — roughly four chunks at once (Miller 1956, revised by Cowan 2001)
 - Three types of load: *intrinsic* (complexity of the content itself), *germane* (the useful effort of actually learning), *extraneous* (the noise — the only one within the designer's control)
 - That slide participants just saw? Every element — fonts, clip art, illegible graph, eleven bullet points — was extraneous load
-- Suggested image: a crowded market versus a clean well-lit shop. Same products. One teaches, one doesn't.
+- Suggested image: a busy crowded advert page versus a clean product advert. Same product classes. One is remembered, one isn't.
 
-> **Facilitator note:** The market/shop image is on the slide (CC BY-SA 2.0, credited in the slide notes). Participants often push back: "experienced clinicians can handle complexity." Acknowledge it — larger schemas reduce *intrinsic* load for familiar content. They are not immune to extraneous load, especially in novel domains or under time pressure.
+> **Facilitator note:** The two contrasting adverts are on the slide (Black Friday ad scan CC BY-SA 2.0; MacBook advert CC BY 2.0; both credited in the slide notes). Participants often push back: "experienced clinicians can handle complexity." Acknowledge it — larger schemas reduce *intrinsic* load for familiar content. They are not immune to extraneous load, especially in novel domains or under time pressure.
 
 #### 2. Working memory architecture — 3 minutes
 
