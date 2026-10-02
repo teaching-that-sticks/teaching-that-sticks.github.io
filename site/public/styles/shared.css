@@ -1443,7 +1443,7 @@ a.theory-row:hover .theory-row-arrow {
 }
 .slide-viewer-hint {
   font-size: 0.78rem;
-  color: var(--overlay1);
+  color: var(--subtext0);
 }
 .slide-viewer-actions {
   display: flex;
