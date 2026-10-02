@@ -31,11 +31,15 @@ What will they practise, discuss or make, so they leave able to do the thing in 
 *Watch for:* an agenda that's a list of speakers. Watching isn't practising.
 
 **6. What happens after the day?**\
-What will people revisit at 30, 60 and 90 days? Who will ask them about it? Who owns the follow-up once the day is over?\
+What will people revisit at 30, 60 and 90 days? Who will hold them to it, and what support will that person give (time, release, a slot at the team meeting)? Who owns the follow-up once the day is over?\
 *Watch for:* commitments nobody follows up, and a Teams channel nobody opens.
 
 ---
 
 **If you can only do one thing:** answer question 3 before you write the agenda. Everything else gets easier once you know what people should be able to *do*.
 
-These six questions are the design canvas used throughout [the three sessions](/sessions). The ideas behind them: [constructive alignment](/theories/constructive-alignment), [Miller's pyramid](/theories/millers-pyramid) and [the Kirkpatrick model](/theories/kirkpatrick-model).
+These six questions are the design canvas used throughout [the three sessions](/sessions). Print it:
+
+<a class="file-download" href="/handouts/design-canvas.pdf">The design canvas (A4)</a>
+
+The ideas behind it: [constructive alignment](/theories/constructive-alignment), [Miller's pyramid](/theories/millers-pyramid) and [the Kirkpatrick model](/theories/kirkpatrick-model).

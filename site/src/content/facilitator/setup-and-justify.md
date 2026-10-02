@@ -22,7 +22,7 @@ Each participant brings one session they teach, or would like to teach, and rebu
 | 2. Active Beats Passive | Make ten minutes of their session active, using retrieval, spacing and interleaving |
 | 3. Did It Stick? | Write observable outcomes, decide what evidence would show them, and plan the follow-up |
 
-Each person leaves with a completed canvas and a named colleague who will ask them about it at 30 days.
+Each person leaves with a completed canvas and a named colleague (often their manager) who will hold them to it at 30 days, and give the time and support it needs.
 
 ## What it costs
 

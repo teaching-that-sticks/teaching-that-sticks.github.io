@@ -36,14 +36,22 @@ Before you collect anything, check these with your organisation:
 
 ## Level 1: end-of-programme form
 
-*End of Session 3, before people leave. Paper or Microsoft Forms via a QR code. Anonymous. About 3 minutes.*
+*End of Session 3, before people leave. Paper (printable below), two per A4 sheet. Anonymous. About 3 minutes.*
 
-1. How useful was the programme for the session you worked on? *Very useful / Useful / A little / Not useful*
-2. The pace was: *Too slow / About right / Too fast*
-3. Did anything about the room, timing, venue or technology get in the way? *(free text)*
-4. What was the most useful part? *(free text)*
-5. What one thing should we change for the next cohort? *(free text)*
-6. Anything else you want to tell us? *(free text, optional)*
+One prompt per Kirkpatrick level, tagged with its level in small grey type, so the form models what Session 3 teaches. Be honest about what each one can show:
+
+| Level | Prompt | What it really tells you |
+|---|---|---|
+| 1 | How happy were you with the sessions overall (organisation, room, pace)? *1–5* | Reaction and logistics |
+| 1 | What one thing would you change? *(free text)* | What to fix for the next cohort |
+| 2 | What was the most useful thing you learned? *(free text)* | Self-reported learning (and one last retrieval) |
+| 3 | What's the most useful change you could show someone you can do right now? *(free text)* | Readiness and capability, not yet changed behaviour |
+| 4 | When you evaluate your own teaching and see a difference because of this, tell us: *[facilitator email]* | An invitation, not data: impact can only come later |
+| — | Anything else you want to tell us? *(optional)* | |
+
+Levels 2–4 here are self-report or invitation. Behaviour and impact still come from the 30- and 90-day check (Level 3, below). The Level 4 prompt gives an email address rather than asking for a name, so the form stays anonymous.
+
+<a class="file-download" href="/handouts/feedback-form.pdf">End-of-programme feedback form (two per A4 sheet)</a>
 
 **Optional pulse at the end of Sessions 1 and 2:** *"One thing we should change for next week?"* on a sticky note by the door. Read them before the next session and say what you changed.
 
@@ -63,7 +71,7 @@ There is no separate knowledge test. The sessions already produce two pieces of 
 | **Evidence matches the verb** | The evidence sits at the right level of [Miller's pyramid](/theories/millers-pyramid): a "shows how" outcome is checked by watching someone do it, not by a quiz | Evidence is a quiz or attendance for a doing outcome, or there is no evidence |
 | **Activities line up** | Each activity gives learners practice at what the outcome asks them to do | Activities are mainly listening or reading when the outcome is about doing |
 | **Learners and need are specific** | Names who the learners are, their setting, and the problem the teaching should fix | "Staff" or "everyone"; the need is a topic rather than a problem |
-| **Follow-through is planned** | States what happens at 30/60/90 days, how, and who will ask | No follow-through, or "send the slides afterwards" |
+| **Follow-through is planned** | States what happens at 30/60/90 days, how, who will hold them to it, and what support they've agreed | No follow-through, or "send the slides afterwards" |
 
 Report counts, not scores: for example, *"8 of 10 canvases had at least one observable outcome with matching evidence."*
 
@@ -77,7 +85,7 @@ Report counts, not scores: for example, *"8 of 10 canvases had at least one obse
 
 The same three questions work as a 10-minute phone or Teams conversation if people don't reply to forms.
 
-**The named follow-up person.** At the end of Session 3, each participant names one person in their own world who will ask them about their canvas at 30 days. Record only that a name was given, not the name. At 30 days, ask: *"Did anyone ask you about it?"*
+**The named follow-up person.** At the end of Session 3, each participant agrees with one person in their own world (often their manager) who will hold them to their canvas at 30 days, and the support they need from them (time, release, a slot at the team meeting). Record only that a name was given, not the name. At 30 days, ask: *"Did anyone ask you about it? Did you get the support you agreed?"*
 
 **Optional corroboration.** Invite participants to send one of: a before-and-after slide or session plan, or a short comment from a learner or peer. One artefact per person is plenty.
 

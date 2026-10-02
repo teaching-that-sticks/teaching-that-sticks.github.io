@@ -66,7 +66,7 @@ Decide this before Session 1, not after Session 3. Use the design in the [Evalua
 | Required attendees arrive disengaged | Medium | Medium | Facilitator acknowledges it openly at the start |
 | Tech fails | High | Low | Every tool has a low-tech fallback |
 | No follow-up data | High | High | Name the follow-up owner and put the dates in their diary today |
-| Nothing changes back at work | High | High | Brief line managers; each participant names who will ask them at 30 days |
+| Nothing changes back at work | High | High | Brief line managers; each participant agrees with a named person (often their manager) who will hold them to it at 30 days, and the support they need |
 
 Add your own rows. The risks you skip here are the ones that surprise you.
 

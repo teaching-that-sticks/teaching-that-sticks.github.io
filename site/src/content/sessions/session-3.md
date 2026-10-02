@@ -28,10 +28,10 @@ keyIdeas:
     detail: "Your outcome, your activity and how you check it should all show the same performance."
     theory: constructive-alignment
   - idea: "Plan the follow-through."
-    detail: "Decide what you'll revisit at 30, 60 and 90 days, and who will ask you about it."
+    detail: "Decide what you'll revisit at 30, 60 and 90 days, who will hold you to it, and what you need from them."
     theory: implementation-intentions
 canvas: "Outcomes, evidence and follow-through. The whole canvas, complete."
-ask: "Your completed canvas, plus one named person who will ask you about it in 30 days."
+ask: "Your completed canvas, plus one named person who will hold you to it, and the support you've agreed you need from them."
 ---
 
 We'll try out what you made, then sort what counts as evidence that teaching worked (and what doesn't).

@@ -86,7 +86,7 @@ If nobody near you has run it yet, you build the experience yourself.
 |---|---|---|
 | Session 1 or 2: the ask was given in full, with its canonical wording | | |
 | Session 1 or 2: each participant wrote the ask on a card and photographed it | | |
-| Session 3: each participant named a person who will ask them about their canvas at 30 days | | |
+| Session 3: each participant named a person who will hold them to their canvas at 30 days, and the support they need from them | | |
 | Session 3: the reveal (the programme on its own canvas) had its full time | | |
 
 ### Session-specific

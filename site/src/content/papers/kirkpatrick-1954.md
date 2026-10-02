@@ -50,7 +50,7 @@ For most clinical educators running a session, a feasible minimum is:
 - **Level 2:** One question or brief task that checks whether the key learning objective was met
 - **Level 3:** A single follow-up contact — email, Padlet, or message — at 30 days asking: *"What has changed in your teaching since the session?"*
 
-Level 3 is the level that changes culture. It is also the one that almost nobody does. The follow-through loop in Session 3 (30, 60 and 90 days, and who will ask you) is a direct response to this finding.
+Level 3 is the level that changes culture. It is also the one that almost nobody does. The follow-through loop in Session 3 (30, 60 and 90 days, and who will hold you to it, and what support you need from them) is a direct response to this finding.
 
 ## How it appears in Teaching That Sticks
 
