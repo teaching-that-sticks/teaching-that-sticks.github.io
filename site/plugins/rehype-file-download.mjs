@@ -60,7 +60,7 @@ function card(attrs, label, file) {
     meta.push(formatSize(size));
   }
 
-  return el('a', { className: ['file-download', ext && `file-download--${ext}`].filter(Boolean), href, download: true }, [
+  return el('a', { className: ['file-download', ext && `file-download--${ext}`].filter(Boolean), href, download: name }, [
     el('img', { src: type?.icon ?? FALLBACK_ICON, alt: '', ariaHidden: 'true', className: ['file-download-icon'] }),
     el('span', { className: ['file-download-text'] }, [
       el('span', { className: ['file-download-label'] }, [{ type: 'text', value: label.trim() }]),
