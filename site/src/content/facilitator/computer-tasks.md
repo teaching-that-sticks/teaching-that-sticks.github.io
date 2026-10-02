@@ -16,7 +16,9 @@ You only need to do a few things on a computer in this programme. They're all be
 
 On a work computer, PowerPoint may open in your web browser instead of as an app. The steps are almost the same.
 
-### Session 1: working on a slide
+### Session 1: working on a slide (laptop route)
+
+The Session 1 redesign is on paper. These steps are only for people who choose to do it in PowerPoint.
 
 **Open a PowerPoint file**\
 Double-click the file. Or open PowerPoint, then **File → Open**, and find the file.

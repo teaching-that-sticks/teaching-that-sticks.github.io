@@ -26,9 +26,7 @@ Looking forward to Session 1, *Death by PowerPoint?*
 
 **One ask:** if you can, bring a slide you think is bad. One of your own, or one you've sat through. On a laptop, a phone or on paper is fine.
 
-If you have a laptop or tablet, bring it too. A phone is enough otherwise.
-
-You'll need to open a web browser and a PowerPoint file. If you're not sure how, tell us and we'll pair you up.
+The redesign is on paper, so you don't need a computer. If you'd rather work in PowerPoint and you're comfortable with it, bring a laptop.
 
 No slide, or no time? Come anyway. We'll have some in the room.
 

@@ -26,7 +26,7 @@ The spine question is asked in the first ten minutes and answered on the canvas 
 By the end of the session, participants will have:
 
 1. **Redesigned** one slide to cut extraneous load, replacing text-plus-voice with image-plus-voice. *(Redesign round 1)*
-2. **Checked and corrected** the same slide for readability: size, contrast, no colour-only meaning, PowerPoint's accessibility checker. *(Redesign round 2)*
+2. **Checked and corrected** the same slide for readability: size, contrast, no colour-only meaning (on a laptop, PowerPoint's accessibility checker too). *(Redesign round 2)*
 3. **Explained** to a peer what they cut and who each remaining element is for. *(Swap, Show us, "Who is this slide for?")*
 4. **Written** a specific plan to redesign one or two slides before next week. *(The ask)*
 
@@ -46,6 +46,14 @@ The Day 1 deck as delivered: 23 slides, one idea each, built to the programme's 
 
 <div class="slide-viewer" data-pptx="/slides/tts-day1-death-by-powerpoint.pptx" data-title="Day 1 deck"></div>
 
+### The slide kit (paper first)
+
+Both redesign rounds start on paper. The kit takes apart the fabricated "Falls Prevention Update" slide: a 16:9 frame with a heads zone and a speaker-notes strip, then titles, the message at four densities, sizes, contrast chips, pictures, charts, noise and some "almost good" pieces worth arguing about. The task: *build one slide that helps a nurse do one thing before leaving the bedside.* Choose, arrange, discard; what's needed but doesn't belong on the slide goes in the notes strip. Image credits are on the last page.
+
+Paper takes the computer out of the way (no extraneous load from the tool), and the kit makes it a completion task: everything's there, the skill is choosing. People who are comfortable with PowerPoint can take the **laptop route** instead: their own slide, one from the bad-slide pack, or the same falls slide.
+
+<a class="file-download" href="/handouts/slide-kit-falls.pdf">Download the slide kit (PDF, A4)</a>
+
 ### Assume nothing
 
 Many won't teach yet, won't have a slide, or won't have seen the message. And don't assume digital skills: in the second cohort, several people didn't know Shift-click or "save a copy", and one didn't know how to open the internet. It wasn't who the facilitator expected. Plan for it:
@@ -53,7 +61,7 @@ Many won't teach yet, won't have a slide, or won't have seen the message. And do
 - **Bad-slide pack:** 3–4 bad slides, printed and on a laptop (include the fabricated one).
 - **Find one live:** search the intranet or shared drive for `.pptx`. There is always one.
 - **Running artefact:** "a session you teach, or one you'd like to teach". Non-teachers pick a topic they know well.
-- **Task sheet:** print the [Computer Task Sheet](/facilitator/computer-tasks), one each. Scaffold only the computer tasks the programme needs; below that floor, pair people up, use paper, and signpost the organisation's IT or digital skills support.
+- **Task sheet:** print the [Computer Task Sheet](/facilitator/computer-tasks) for anyone taking the laptop route, and for the Session 2 ask. Scaffold only the computer tasks the programme needs; below that floor, pair people up, use paper, and signpost the organisation's IT or digital skills support.
 
 ### The colour-vision moment
 
@@ -66,7 +74,8 @@ If you know someone in the group is colour-blind, ask them privately *beforehand
 - [ ] Visible timer
 - [ ] Menti open on your laptop ("What do you remember?" word cloud loaded; QR code big enough for the back of the room)
 - [ ] Bad-slide pack, printed and digital
-- [ ] Paper and pens for storyboarding (the no-device redesign)
+- [ ] Slide kits: printed, cut up and in envelopes (one per person or pair), plus a frame sheet each
+- [ ] Scissors, Blu Tack or glue sticks, pens
 - [ ] Seats in groups, not rows
 
 ## Session flow
@@ -100,33 +109,32 @@ Three bursts, each three minutes or less.
 
 ### 22–39 · Redesign: round 1
 
-- SAY: one slide, not the whole deck. Yours, one from the pack, or one you find on the intranet. Cut the noise; image plus voice. 15 minutes, then 2 minutes swapping with a neighbour: what did they cut?
-- PAIR by confidence: sit someone less confident with the computer next to someone more confident (from the opener's hands-up).
-- WHY: apply it straight away, on their own material, while it's fresh.
-- SHOW FIRST: expect basic PowerPoint gaps (in the second cohort, selecting several slides was a mystery). Demonstrate once on screen: Shift-click or Ctrl-click (Cmd-click on Mac) to select slides, right-click → Duplicate slide, Ctrl/Cmd+Z to undo, and switch off Designer suggestions. Then go round the room: this is where one facilitator earns their keep.
-- WATCH FOR: "my organisation's template won't let me". Acknowledge it; park it for Show us.
-- FALLBACK: no slide → the pack. No device → redesign on paper (a storyboard counts).
+- SAY: one slide, on paper. Open the envelope: build one slide that helps a nurse do *one thing* before leaving the bedside. Pick your pieces, cut the noise, image plus voice. Anything needed that doesn't belong on the slide goes in the speaker-notes strip. 15 minutes, then 2 minutes swapping with a neighbour: what did they cut?
+- LAPTOP ROUTE (if you're comfy): the same task in PowerPoint, on your own slide, one from the bad-slide pack, or the falls slide. Offer it; don't push it.
+- WHY: apply it straight away, while it's fresh. Paper removes the tool's extraneous load, and the kit makes it a completion task: the skill is choosing, not finding the menu ([cognitive load](/theories/cognitive-load)).
+- SHOW FIRST (laptop route only, at their tables): expect basic PowerPoint gaps (in the second cohort, selecting several slides was a mystery). Shift-click or Ctrl-click (Cmd-click on Mac) to select slides, right-click → Duplicate slide, Ctrl/Cmd+Z to undo, and switch off Designer suggestions.
+- WATCH FOR: the "almost good" pieces. They're there to be argued about, so let the arguments happen. And "my organisation's template won't let me": acknowledge it; park it for Show us.
 - IF SHORT: cut the swap, not the redesign.
 
 ### 39–44 · Who can see all the numbers? → Readable?
 
 - Three Ishihara plates. ASK: who can read every plate? *Voluntary: share only if you're comfortable.* Then reveal: about 1 in 12 men, 1 in 200 women. SAY: in a room of 15, odds are someone sees this differently, so colour never carries meaning on its own. Don't linger.
-- Size ladder, three "Hard to read" colour pairs, then the 0–9 contrast strip, then the heads appear over the bottom of the screen (deliberately). ASK: from where you're sitting, where does it stop being readable? SAY: 24pt or more, strong contrast, nothing important at the bottom. PowerPoint has a checker; you'll use it next.
+- Size ladder, three "Hard to read" colour pairs, then the 0–9 contrast strip, then the heads appear over the bottom of the screen (deliberately). ASK: from where you're sitting, where does it stop being readable? SAY: 24pt or more, strong contrast, nothing important at the bottom. On a laptop, PowerPoint has a checker; the laptop route uses it next.
 - WHY: accessible means less extraneous load for everyone. → [WCAG quick reference](https://www.w3.org/WAI/WCAG22/quickref/)
 - IF SHORT: fold "Readable?" into the round 2 instructions.
 
 ### 44–59 · Redesign: round 2
 
-- SAY: same slide, accessibility pass. Readable from the back; no colour-only meaning; Review → Check Accessibility. 15 minutes.
-- WHY: two short theory-then-practice cycles beat one long lecture plus one long task.
-- FALLBACK: on paper, write the size and contrast choices onto the storyboard.
+- SAY: same slide, accessibility pass. Readable from the back; no colour-only meaning; nothing in the heads zone. Swap pieces for bigger or higher-contrast ones. Then **hold it up** across the room: can the far side read it? 15 minutes.
+- LAPTOP ROUTE: the same checks, plus Review → Check Accessibility.
+- WHY: two short theory-then-practice cycles beat one long lecture plus one long task. Holding it up makes "readable from the back" a test, not a claim.
 
 ### 59–71 · Show us
 
 - SAY: 2–3 volunteers, before and after. Room responds with *one thing that works, one question.*
 - WHY: peer slides are worked examples; the two-part frame keeps feedback specific and kind.
 - WATCH FOR: the mandated template. Agree it's real; ask what's still in their control (fewer words, images, size, order).
-- Larger group: gallery walk, laptops open.
+- Larger group: gallery walk, slides (and laptops) on the tables.
 - IF SHORT: **cut this first**, down to one volunteer.
 
 ### 71–77 · Who is this slide for? (four slides)

@@ -1320,11 +1320,14 @@ a.theory-row:hover .theory-row-arrow {
 
 /* Slide / resource download chip — reusable across all blueprint pages */
 .file-download {
-  display: inline-flex;
+  /* block-level, so consecutive downloads stack like a list */
+  display: flex;
+  width: fit-content;
+  max-width: 100%;
   align-items: center;
   gap: 0.75rem;
   padding: 0.55rem 0.9rem 0.55rem 0.65rem;
-  margin: 0.25rem 0 1.25rem;
+  margin: 0.25rem 0 0.6rem;
   background: var(--mantle);
   border: 1px solid var(--surface1);
   border-radius: 8px;
@@ -1375,7 +1378,7 @@ a.theory-row:hover .theory-row-arrow {
   gap: 0.6rem;
   margin: 0.25rem 0 1.25rem;
 }
-.file-actions .file-download { margin: 0; }
+.file-actions .file-download { margin: 0; width: auto; }
 .slide-live-toggle {
   font: inherit;
   text-align: left;

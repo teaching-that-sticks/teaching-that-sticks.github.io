@@ -37,4 +37,4 @@ Hands-on from the first minute. We'll look at what makes teaching memorable, tes
 
 Over the three sessions you'll rebuild one teaching session, step by step. Today: the slides.
 
-You'll need to open a web browser and a PowerPoint file. Not sure how? Tell us and we'll pair you up, or see the [computer task sheet](/facilitator/computer-tasks).
+The redesign is on paper: a kit of pieces to cut, choose and arrange. If you're comfortable with PowerPoint, you can do it on a laptop instead; the [computer task sheet](/facilitator/computer-tasks) has the steps.
