@@ -28,6 +28,8 @@ Looking forward to Session 1, *Death by PowerPoint?*
 
 If you have a laptop or tablet, bring it too. A phone is enough otherwise.
 
+You'll need to open a web browser and a PowerPoint file. If you're not sure how, tell us and we'll pair you up.
+
 No slide, or no time? Come anyway. We'll have some in the room.
 
 [Your name]

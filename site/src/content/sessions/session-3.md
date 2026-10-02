@@ -38,4 +38,6 @@ We'll try out what you made, then sort what counts as evidence that teaching wor
 
 Then you'll rewrite your session's learning outcomes, check everything lines up, and plan what happens next.
 
+To show what you made, you'll open your link on a computer. Not sure how? The [computer task sheet](/facilitator/computer-tasks) walks you through it.
+
 Recording the programme for revalidation, appraisal or an advanced practice portfolio? See [Portfolio mapping](/facilitator/portfolio-mapping).

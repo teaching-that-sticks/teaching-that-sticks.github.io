@@ -53,6 +53,8 @@ Plan for these. Several of them happened in the pilot.
 - **Fixed furniture.** A fixed round table works fine for pairs and show-and-tell. Don't plan anything that needs the room rearranged.
 - **The whiteboard.** Bring your own **whiteboard pens**. Check every pen before you write: in the pilot the board was written on in permanent marker.
 - **No device, no slide.** Some participants won't have a laptop or a slide. Bring the printed bad-slide pack. Redesign on paper (a storyboard counts).
+- **Digital skills.** Don't assume them. Print the [Computer Task Sheet](/facilitator/computer-tasks), pair people by confidence, and demo anything you ask people to do on a computer.
+- **Ratio.** One facilitator works with about **4–8 people**. Beyond that, bring a co-facilitator: one person stuck on a computer task stalls the whole activity.
 
 ## The room
 

@@ -19,7 +19,7 @@ Whichever route you take, be observed on **Session 2 or Session 3**, not only Se
 ## Roles
 
 - **Facilitator:** leads the session, keeps time, and owns the asks and the read-backs.
-- **Co-facilitator:** leads agreed blocks, runs the tools and fallbacks, watches the clock, and joins pairs during activities. Swap roles between sessions.
+- **Co-facilitator:** leads agreed blocks, runs the tools and fallbacks, watches the clock, and joins pairs during activities. Swap roles between sessions. **Needed above about 8 participants:** one facilitator can get round 4–8 people during activities, not more.
 - **Observer:** sits outside the action, uses the checklist below, and leads the debrief afterwards. An observer does not need to have run the programme, but should have read the session blueprint.
 
 ## Who can facilitate

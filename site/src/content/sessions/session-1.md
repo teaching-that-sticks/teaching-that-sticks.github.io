@@ -36,3 +36,5 @@ ask: "Before next week I will identify and redesign one or two slides (my own, o
 Hands-on from the first minute. We'll look at what makes teaching memorable, test our own memories, then use the science of how memory works to redesign a real slide, twice.
 
 Over the three sessions you'll rebuild one teaching session, step by step. Today: the slides.
+
+You'll need to open a web browser and a PowerPoint file. Not sure how? Tell us and we'll pair you up, or see the [computer task sheet](/facilitator/computer-tasks).

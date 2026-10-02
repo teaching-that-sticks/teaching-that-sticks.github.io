@@ -113,6 +113,7 @@ Keep everything free of patient information, and check local information-governa
 - Hand out setting cards to anyone without a real setting. Produce one A3 sheet: what learners do, which strategy, what you need, what happens if you're interrupted.
 - SAY ("Sometimes the best slide is no slide"): the answer might have no screen at all.
 - WHY: situated learning: design for the real constraints, not the ideal room ([Lave & Wenger 1991](/papers/lave-wenger-1991)).
+- PAIR by confidence, as in Session 1, so nobody stalls on a computer task.
 - Circulate. ASK: what will learners be doing in minute 3? Which strategy is that?
 - FALLBACK: no session yet? Use "a session you'd like to teach".
 
@@ -125,6 +126,7 @@ Keep everything free of patient information, and check local information-governa
 
 ### 84–90 · The ask
 
+- DEMO first (2 minutes, live on screen): sign in to Menti, make one slide, click Share, copy the link. Point to the [Computer Task Sheet](/facilitator/computer-tasks) for the same steps on paper.
 - Show the card wording: **"Before next week I will spend 30–40 minutes playing with Menti or Kahoot and make one active learning thing for my session, and bring it."**
 - SAY: write it on the card now. Add *when* you'll do the 30–40 minutes. Photograph it. Next week we'll try some of them on the group.
 - SAY: you don't need a class to do this. Just play from the presenter's side.

@@ -29,7 +29,7 @@ const commsItems = entries
 // Hub order follows a new facilitator's path: start → prepare → deliver → evaluate.
 const byId = (id: string) => entries.find(e => e.id === id);
 const startIds = ['train-the-trainer'];
-const prepareIds = ['technical-brief', 'theory-guide', 'session-plan-example'];
+const prepareIds = ['technical-brief', 'computer-tasks', 'theory-guide', 'session-plan-example'];
 const evaluateIds = ['evaluation-toolkit', 'portfolio-mapping'];
 const placed = [...startIds, ...prepareIds, ...evaluateIds];
 const pick = (ids: string[]) => ids.map(byId).filter(Boolean) as typeof entries;

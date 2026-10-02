@@ -53,13 +53,14 @@ The Day 1 deck as delivered: 23 slides, one idea each, built to the programme's 
 
 <div class="slide-viewer" data-pptx="/slides/tts-day1-death-by-powerpoint.pptx" data-title="Day 1 deck"></div>
 
-### Assume nobody read the email
+### Assume nothing
 
-Many won't teach yet, won't have a slide, or won't have seen the message. Plan for it:
+Many won't teach yet, won't have a slide, or won't have seen the message. And don't assume digital skills: in the second cohort, several people didn't know Shift-click or "save a copy", and one didn't know how to open the internet. It wasn't who the facilitator expected. Plan for it:
 
 - **Bad-slide pack:** 3–4 bad slides, printed and on a laptop (include the fabricated one).
 - **Find one live:** search the intranet or shared drive for `.pptx`. There is always one.
 - **Running artefact:** "a session you teach, or one you'd like to teach". Non-teachers pick a topic they know well.
+- **Task sheet:** print the [Computer Task Sheet](/facilitator/computer-tasks), one each. Scaffold only the computer tasks the programme needs; below that floor, pair people up, use paper, and signpost the organisation's IT or digital skills support.
 
 ### The colour-vision moment
 
@@ -83,6 +84,7 @@ If you know someone in the group is colour-blind, ask them privately *beforehand
 - SAY (only once nobody has said it): did anyone say "good slides"? Hold onto that.
 - SAY: the question for all three weeks is *what do we need people to do differently, and how will our teaching make that happen?* Most teaching starts with the content or the agenda. We'll start with the change.
 - SAY: show the six-box canvas (Learners & context · Need · Outcomes · Evidence · Activities · Follow-through). One of *your* sessions, rebuilt over three weeks. Today, the most visible bit: the slides.
+- ASK (2 minutes, hands up): who's used Menti? Who can save a copy of a file? Select several slides at once? Note who's confident, for pairing later. SAY: this is the canvas's first box, *learners and context*, applied to this room.
 - WHY: adults learn from what they bring ([andragogy](/theories/andragogy)). The canvas is a map they'll see at every move, and it plants [constructive alignment](/theories/constructive-alignment) before it's named.
 - IF SHORT: three minutes on the opener is enough. Never cut the canvas.
 
@@ -106,6 +108,7 @@ Three bursts, each three minutes or less.
 ### 22–39 · Redesign: round 1
 
 - SAY: one slide, not the whole deck. Yours, one from the pack, or one you find on the intranet. Cut the noise; image plus voice. 15 minutes, then 2 minutes swapping with a neighbour: what did they cut?
+- PAIR by confidence: sit someone less confident with the computer next to someone more confident (from the opener's hands-up).
 - WHY: apply it straight away, on their own material, while it's fresh.
 - SHOW FIRST: expect basic PowerPoint gaps (in the second cohort, selecting several slides was a mystery). Demonstrate once on screen: Shift-click or Ctrl-click (Cmd-click on Mac) to select slides, right-click → Duplicate slide, Ctrl/Cmd+Z to undo, and switch off Designer suggestions. Then go round the room: this is where one facilitator earns their keep.
 - WATCH FOR: "my organisation's template won't let me". Acknowledge it; park it for Show us.

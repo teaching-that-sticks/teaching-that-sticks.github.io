@@ -36,3 +36,5 @@ ask: "Before next week I will spend 30–40 minutes playing with Menti or Kahoot
 We'll start with your slides, then play: quizzes, polls and a few silly questions, before naming why they work.
 
 Then you'll make ten minutes of your own session active, designed for the place it really happens.
+
+The task after this session needs a web browser. Not sure how? Tell us and we'll pair you up, or see the [computer task sheet](/facilitator/computer-tasks).
