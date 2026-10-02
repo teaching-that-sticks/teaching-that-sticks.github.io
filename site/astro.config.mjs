@@ -1,5 +1,6 @@
 // @ts-check
 import { defineConfig } from 'astro/config';
+import rehypeFileDownload from './plugins/rehype-file-download.mjs';
 
 // https://astro.build/config
 export default defineConfig({
@@ -8,4 +9,8 @@ export default defineConfig({
   base: '',
   site: 'https://teaching-that-sticks.github.io',
   output: 'static',
+  markdown: {
+    // <a class="file-download" href="/slides/…">Label</a> → download card
+    rehypePlugins: [rehypeFileDownload],
+  },
 });

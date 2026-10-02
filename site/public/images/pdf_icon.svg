@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 128">
+  <!-- Teaching That Sticks, CC BY 4.0. Matches the silhouette of powerpoint_icon.svg. -->
+  <defs>
+    <linearGradient id="pdf-page" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#e5372f"/>
+      <stop offset="1" stop-color="#c4211c"/>
+    </linearGradient>
+  </defs>
+  <path d="M22 0C2 0 0 2 0 22v84c0 20 2 22 22 22h56c20 0 22-2 22-22V36L64 0z" fill="url(#pdf-page)"/>
+  <path d="M64 0v22c0 10 4 14 14 14h22z" fill="#fff" fill-opacity="0.45"/>
+  <path d="M22 56h56M22 70h56M22 84h38" stroke="#fff" stroke-width="7" stroke-linecap="round"/>
+  <rect x="18" y="98" width="64" height="18" rx="4" fill="#fff"/>
+  <text x="50" y="112.5" text-anchor="middle" font-family="Inter, Helvetica, Arial, sans-serif" font-size="15" font-weight="800" fill="#c4211c" letter-spacing="1.5">PDF</text>
+</svg>

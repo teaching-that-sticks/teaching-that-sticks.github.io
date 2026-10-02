@@ -3,7 +3,7 @@
  * /public/slides in Microsoft's Office Online viewer, with Expand
  * (fullscreen). Closed by default; nothing loads from Microsoft until opened.
  *
- * Usage in any Markdown page (ideally straight after its .slide-download link,
+ * Usage in any Markdown page (ideally straight after its .file-download link,
  * which the button then sits beside):
  *   <div class="slide-viewer" data-pptx="/slides/tts-day1-death-by-powerpoint.pptx"
  *        data-title="Day 1 deck"></div>
@@ -31,25 +31,25 @@ function build(el: HTMLElement) {
   // The toggle, styled like the download link and placed beside it
   const toggle = document.createElement('button');
   toggle.type = 'button';
-  toggle.className = 'slide-download slide-live-toggle';
+  toggle.className = 'file-download slide-live-toggle';
   toggle.dataset.slideViewerToggle = el.id;
   toggle.setAttribute('aria-expanded', 'false');
   toggle.setAttribute('aria-controls', el.id);
   toggle.innerHTML = `
-    <svg class="slide-download-icon slide-live-icon" viewBox="0 0 32 32" aria-hidden="true">
+    <svg class="file-download-icon slide-live-icon" viewBox="0 0 32 32" aria-hidden="true">
       <circle cx="16" cy="16" r="15" fill="currentColor"/>
       <path d="M13 10.5v11l9-5.5z" fill="var(--base)"/>
     </svg>
-    <span class="slide-download-text">
-      <span class="slide-download-label">Open live</span>
-      <span class="slide-download-meta">Click through in the browser</span>
+    <span class="file-download-text">
+      <span class="file-download-label">Open live</span>
+      <span class="file-download-meta">Click through in the browser</span>
     </span>
-    <span class="slide-download-arrow slide-live-chevron" aria-hidden="true">&#x25BE;</span>`;
+    <span class="file-download-arrow slide-live-chevron" aria-hidden="true">&#x25BE;</span>`;
 
   const prev = el.previousElementSibling;
-  if (prev?.classList.contains('slide-download')) {
+  if (prev?.classList.contains('file-download')) {
     const row = document.createElement('div');
-    row.className = 'slide-actions';
+    row.className = 'file-actions';
     prev.before(row);
     row.append(prev, toggle);
   } else {
@@ -114,7 +114,7 @@ function setOpen(el: HTMLElement, toggle: HTMLElement, open: boolean) {
   el.classList.toggle('is-open', open);
   if (open && panel?.classList.contains('is-loaded')) focusFrame(panel);
   toggle.setAttribute('aria-expanded', String(open));
-  toggle.querySelector('.slide-download-label')!.textContent = open ? 'Hide live view' : 'Open live';
+  toggle.querySelector('.file-download-label')!.textContent = open ? 'Hide live view' : 'Open live';
 }
 
 function setExpanded(panel: HTMLElement, on: boolean) {

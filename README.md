@@ -35,7 +35,8 @@ site/                     Astro website
     facilitator/          Session guides, setup pages, evaluation toolkit
     theories/             Theory library
     papers/               Summaries of key papers
-  public/slides/          Downloadable slide decks
+  public/slides/          Downloadable files (slide decks, PDFs)
+  plugins/                Build plugins (download cards)
 .github/workflows/        GitHub Pages deploy
 Justfile                  Shortcuts (just dev, just build)
 LICENCE.md                CC BY 4.0
@@ -52,6 +53,22 @@ npm run dev
 ```
 
 The dev server runs at `http://localhost:4321`. `npm run build` writes the static site to `site/dist/`. If you have [just](https://github.com/casey/just), `just dev` and `just build` do the same from the repo root.
+
+## Adding downloads and slide decks
+
+Put the file in `site/public/slides/`, then add a link to any Markdown page:
+
+```html
+<a class="file-download" href="/slides/your-file.pdf">Download the handout</a>
+```
+
+At build time it becomes a download card with the right icon, the file name, type and size. PowerPoint and PDF have their own icons; anything else gets a generic one (add types in `site/plugins/rehype-file-download.mjs`). A link to a file that isn't there stops the build, so a broken download never goes live.
+
+For a PowerPoint deck, add a live viewer straight after the link. An "Open live" button appears beside it and plays the deck in the browser (once deployed):
+
+```html
+<div class="slide-viewer" data-pptx="/slides/your-deck.pptx" data-title="Your deck"></div>
+```
 
 ## Licence and attribution
 
