@@ -1432,6 +1432,18 @@ a.theory-row:hover .theory-row-arrow {
   transition: opacity 0.5s ease;
 }
 .slide-viewer-panel.is-loaded iframe { opacity: 1; }
+/* Focus ring: shows when the arrow keys will work (the frame has focus) */
+.slide-viewer-stage::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  box-shadow: inset 0 0 0 3px transparent;
+  transition: box-shadow 0.2s ease;
+}
+.slide-viewer-panel.has-focus .slide-viewer-stage::after { box-shadow: inset 0 0 0 3px var(--sky); }
+.slide-viewer-bar { cursor: pointer; }
+.slide-viewer-bar a, .slide-viewer-bar button { cursor: pointer; }
 .slide-viewer-bar {
   display: flex;
   align-items: center;

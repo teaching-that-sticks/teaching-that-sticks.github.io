@@ -63,7 +63,7 @@ function build(el: HTMLElement) {
           <span class="slide-viewer-loading">Loading slides&hellip;</span>
         </div>
         <div class="slide-viewer-bar">
-          <span class="slide-viewer-hint">Click the slide or use the arrow keys to advance</span>
+          <span class="slide-viewer-hint" aria-live="polite">Click the slide to use the arrow keys</span>
           <span class="slide-viewer-actions">
             <a class="slide-viewer-btn" href="${url}" target="_blank" rel="noopener noreferrer">New tab&nbsp;&#x2197;</a>
             <button type="button" class="slide-viewer-btn slide-viewer-btn--primary"
@@ -74,6 +74,30 @@ function build(el: HTMLElement) {
     </div>`;
 }
 
+// The deck runs in a cross-site frame, so the page can't pass key presses into it.
+// Arrow keys only work while the frame has focus: give it focus when it matters,
+// and keep the hint (and a focus ring) honest about whether the keys will work.
+const HINT_OFF = 'Click the slide to use the arrow keys';
+const HINT_ON = '← → to change slides';
+
+function focusFrame(panel: HTMLElement) {
+  const iframe = panel.querySelector<HTMLIFrameElement>('iframe');
+  if (!iframe) return;
+  iframe.focus({ preventScroll: true });
+  try { iframe.contentWindow?.focus(); } catch { /* cross-site: iframe.focus() is enough */ }
+  setTimeout(updateHints, 0);
+}
+
+function updateHints() {
+  const active = document.activeElement;
+  document.querySelectorAll<HTMLElement>('.slide-viewer-panel').forEach(panel => {
+    const focused = !!active && active === panel.querySelector('iframe');
+    panel.classList.toggle('has-focus', focused);
+    const hint = panel.querySelector('.slide-viewer-hint');
+    if (hint) hint.textContent = focused ? HINT_ON : HINT_OFF;
+  });
+}
+
 function setOpen(el: HTMLElement, toggle: HTMLElement, open: boolean) {
   const panel = el.querySelector<HTMLElement>('.slide-viewer-panel');
   if (open && panel && !panel.querySelector('iframe')) {
@@ -81,16 +105,21 @@ function setOpen(el: HTMLElement, toggle: HTMLElement, open: boolean) {
     iframe.src = panel.dataset.src!;
     iframe.title = `${el.dataset.title || 'Slide deck'} (PowerPoint viewer)`;
     iframe.allowFullscreen = true;
-    iframe.addEventListener('load', () => panel.classList.add('is-loaded'), { once: true });
+    iframe.addEventListener('load', () => {
+      panel.classList.add('is-loaded');
+      if (el.classList.contains('is-open')) focusFrame(panel);
+    }, { once: true });
     panel.querySelector('.slide-viewer-stage')!.appendChild(iframe);
   }
   el.classList.toggle('is-open', open);
+  if (open && panel?.classList.contains('is-loaded')) focusFrame(panel);
   toggle.setAttribute('aria-expanded', String(open));
   toggle.querySelector('.slide-download-label')!.textContent = open ? 'Hide live view' : 'Open live';
 }
 
 function setExpanded(panel: HTMLElement, on: boolean) {
   panel.classList.toggle('is-expanded', on);
+  if (on) focusFrame(panel);
   document.documentElement.classList.toggle('slide-viewer-open', on);
   const btn = panel.querySelector<HTMLButtonElement>('[data-slide-viewer-expand]');
   if (btn) {
@@ -127,7 +156,9 @@ document.addEventListener('click', e => {
     return;
   }
   const panel = target.closest?.('[data-slide-viewer-expand]')?.closest<HTMLElement>('.slide-viewer-panel');
-  if (panel) toggleExpanded(panel);
+  if (panel) { toggleExpanded(panel); return; }
+  const bar = target.closest?.('.slide-viewer-bar');
+  if (bar && !target.closest('a, button')) focusFrame(bar.closest<HTMLElement>('.slide-viewer-panel')!);
 });
 
 document.addEventListener('fullscreenchange', () => {
@@ -140,3 +171,11 @@ document.addEventListener('keydown', e => {
   if (e.key !== 'Escape' || document.fullscreenElement) return;
   document.querySelectorAll<HTMLElement>('.slide-viewer-panel.is-expanded').forEach(p => setExpanded(p, false));
 });
+
+// Focus moving into the frame blurs the page window; moving back fires focusin.
+window.addEventListener('blur', () => setTimeout(updateHints, 0));
+window.addEventListener('focus', updateHints);
+document.addEventListener('focusin', updateHints);
+document.addEventListener('focusout', () => setTimeout(updateHints, 0));
+// Clicking plain page text moves focus to <body> without a focusin, so re-check after any click.
+document.addEventListener('pointerdown', () => setTimeout(updateHints, 0));
