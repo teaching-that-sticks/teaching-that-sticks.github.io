@@ -1,7 +1,7 @@
 ---
 title: "Zone of Proximal Development"
 summary: "Learning happens in the gap between what a student can do alone and what they can do with support — not beyond it"
-sessions: []
+sessions: ["session-1"]
 evidence:
   - cite: "Vygotsky, L. S. (1978). <em>Mind in Society: The Development of Higher Psychological Processes</em>. Harvard University Press."
     paper: "vygotsky-1978"
@@ -22,4 +22,4 @@ The practical mechanism is **scaffolding**: temporary structure provided by the 
 - **Worked examples move the zone** — seeing a solved problem builds a mental model that extends what a student can then attempt independently. This is why novices need examples and experts need problems.
 - **Peers are underused scaffolds** — a student who learned something last week often explains it better than a teacher who learned it twenty years ago. Structured pair or small-group work is not time off from teaching; it's a precision instrument.
 
-*In this programme:* Not taught directly in the three core sessions. Useful background for pitching teaching to a mixed group, and for why seeing peers' work helps.
+*In this programme:* Scaffolding is named briefly in Session 1, after the "Who is this slide for?" sequence: one idea at a time, revealed when learners are ready, with support taken away as they gain confidence (as in the two redesign rounds). The term comes from Wood, Bruner & Ross (1976). The zone of proximal development itself isn't taught directly; it's useful background for pitching teaching to a mixed group.

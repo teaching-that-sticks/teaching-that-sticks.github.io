@@ -5,8 +5,8 @@
  *
  * Usage in any Markdown page (ideally straight after its .slide-download link,
  * which the button then sits beside):
- *   <div class="slide-viewer" data-pptx="/slides/death_by_powerpoint.pptx"
- *        data-title="Pilot theory slides"></div>
+ *   <div class="slide-viewer" data-pptx="/slides/tts-day1-death-by-powerpoint.pptx"
+ *        data-title="Day 1 deck"></div>
  *
  * Microsoft fetches the file itself, so it always points at the live site:
  * a new deck only previews once it has been deployed. Transitions and

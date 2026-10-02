@@ -11,7 +11,7 @@ evidence:
 images:
   bad: "cognitive_load_bad.png"
   good: "cognitive_load_good.png"
-  badAlt: "A dense slide with long paragraphs, a speech bubble saying HELP, a logo, and a full reference list — six or seven competing elements at once."
+  badAlt: "A deliberately bad, fabricated \"Falls Prevention Update\" slide: a shouting title in three fonts, nine bullets of red bold text on a green box, a cluttered chart with tiny labels, a LOGO box, a HELP! cloud, a diagonal CONFIDENTIAL watermark and a line of small-print references."
   goodAlt: "A clean slide with a single pie chart, a short title, and a few brief labels. A note says the detail is spoken."
 ---
 
