@@ -40,7 +40,7 @@ By the end of the session, participants will have:
 
 ### The deck
 
-The Day 1 deck as delivered: 23 slides, one idea each, built to the programme's own rules (labels not sentences, no bullets, nothing meaning something by colour alone). Timings, prompts and credits are in the speaker notes. Before you use it: paste your own Menti QR code and joining code onto slide 8, and swap in your own organisation's bad slide on slide 6 if you have one (never publish it).
+The Day 1 deck as delivered: 23 slides, one idea each, built to the programme's own rules (labels not sentences, no bullets, nothing meaning something by colour alone). Timings, prompts and credits are in the speaker notes. Tool slides show only the prompt (slide 8: "What do you remember?"), so they work with Menti or a flipchart without editing; the notes say how to run each. If you have one, swap in your own organisation's bad slide on slide 6 (never publish it).
 
 <a class="file-download" href="/slides/tts-day1-death-by-powerpoint.pptx">Download the Day 1 deck</a>
 
@@ -85,7 +85,7 @@ If you know someone in the group is colour-blind, ask them privately *beforehand
 
 - SAY: "Look at the next slide… No notes, no phones. It disappears after 30 seconds."
 - The bad slide shows for 30 s, auto-advances to black. Say nothing while it's up. Silence is the point.
-- ASK: "What do you remember?" One or two words each into Menti. Read out the cloud; let the laughter happen.
+- ASK: "What do you remember?" One or two words each: a Menti word cloud shown alongside the slide, or shout-outs onto the flipchart. Read them out; let the laughter happen.
 - WHY: concrete experience before theory ([Kolb](/theories/experiential-learning)). They feel the overload, then test their own recall.
 - FALLBACK: shout-outs onto the whiteboard.
 
