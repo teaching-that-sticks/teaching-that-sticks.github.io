@@ -30,7 +30,7 @@ const commsItems = entries
 const byId = (id: string) => entries.find(e => e.id === id);
 const startIds = ['train-the-trainer'];
 const prepareIds = ['technical-brief', 'theory-guide', 'session-plan-example'];
-const evaluateIds = ['evaluation-toolkit'];
+const evaluateIds = ['evaluation-toolkit', 'portfolio-mapping'];
 const placed = [...startIds, ...prepareIds, ...evaluateIds];
 const pick = (ids: string[]) => ids.map(byId).filter(Boolean) as typeof entries;
 const sections = [
@@ -40,7 +40,7 @@ const sections = [
     items: [...pick(prepareIds), ...resources.filter(r => !placed.includes(r.id))] },
   { header: '3 · Deliver', eyebrow: (e: any) => `Session ${e.data.session}`, items: blueprints, blueprint: true },
   { header: 'Messages between sessions', eyebrow: (e: any) => `Before session ${e.data.session}`, items: commsItems },
-  { header: '4 · Evaluate', eyebrow: () => 'Evaluation', items: pick(evaluateIds) },
+  { header: '4 · Evaluate and record', eyebrow: (e: any) => e.id === 'portfolio-mapping' ? 'For participants' : 'Evaluation', items: pick(evaluateIds) },
 ].filter(sec => sec.items.length > 0);
 ---
 
@@ -95,20 +95,6 @@ const sections = [
         </div>
       ))}
 
-      <!-- Coming soon -->
-      <div class="fac-hub-section">
-        <p class="fac-section-header">Coming soon</p>
-        <div class="fac-cards-grid">
-          <div class="fac-stub-card">
-            <p class="fac-card-eyebrow">CPD &amp; Portfolio</p>
-            <h2 class="fac-card-title">Portfolio Mapping</h2>
-            <p class="fac-card-tagline">
-              Framework alignment by profession — helping participants record
-              this programme in their revalidation portfolio.
-            </p>
-          </div>
-        </div>
-      </div>
 
     </div>
   </main>

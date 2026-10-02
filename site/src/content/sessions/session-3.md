@@ -37,3 +37,5 @@ ask: "Your completed canvas, plus one named person who will ask you about it in 
 We'll try out what you made, then sort what counts as evidence that teaching worked (and what doesn't).
 
 Then you'll rewrite your session's learning outcomes, check everything lines up, and plan what happens next.
+
+Recording the programme for revalidation, appraisal or an advanced practice portfolio? See [Portfolio mapping](/facilitator/portfolio-mapping).
