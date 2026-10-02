@@ -56,6 +56,7 @@ Print the sort board: four rungs (*Delivered → Produced → Implemented → Im
 
 ### Room and kit
 
+- [ ] Blorps retest slips (and last week's tally)
 - [ ] Card-sort sets and boards, one per table
 - [ ] Verb wall: a sheet headed "Can you see it?" and sticky notes
 - [ ] Miller's pyramid, drawn or on one slide
@@ -66,8 +67,9 @@ Print the sort board: four rungs (*Delivered → Produced → Implemented → Im
 
 ## Session flow
 
-### 0–10 · Try what you made
+### 0–10 · Blorps retest → try what you made
 
+- **First, 2 minutes, unannounced:** hand out the blorps retest slips again. Score and tally Group A (re-read) vs Group B (self-test) next to last week's numbers. Expected: the self-testers hold up better over a week (Roediger & Karpicke 2006). Whatever the result, SAY: that was spaced retrieval, and how would you *know* something stuck? That's today.
 - SAY: last week you planned to make something. Let's use it. 2–3 people run their Menti or Kahoot on the group, 2–3 minutes each.
 - Not done? ASK: what got in the way? Bring the idea; we'll build on it.
 - WHY: closes the Session 2 loop, puts the thing to real use, and retrieves Sessions 1–2 through their own questions. → [retrieval practice](/theories/retrieval-practice)

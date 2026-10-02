@@ -13,22 +13,39 @@ fox: "pointing_right.png"
 | | |
 |---|---|
 | **Duration** | 90 minutes. Session 2 of 3, a week after Session 1 |
-| **Group** | About 8–12 (works 6–20; above ~12, pitches become a gallery walk) |
+| **Group** | 4–12 (above ~12, pitches become a gallery walk). One facilitator can get round about 8; beyond that, a co-facilitator |
 | **Canvas box** | Activities, part 2: what learners do |
 | **Running artefact** | The same session as last week, now made active |
-| **Shape** | Do it, then name it. Kahoot before retrieval is explained; Menti tour before strategies are listed |
+| **Shape** | Do it, then name it. Paper in the room (nonsense words, a card sort, A3 designs); Kahoot and Menti run by you, so participants only need a phone |
 | **The ask** | "Before next week I will spend 30–40 minutes playing with Menti or Kahoot and make one active learning thing for my session, and bring it." |
 
 ## Learning outcomes
 
 By the end of the session, participants will have:
 
-1. **Identified** which strategy (retrieval, spacing, interleaving, elaboration) was at work in activities they have just experienced. *(What did you just do? · Name the strategies)*
+1. **Identified** which strategy (retrieval, spacing, interleaving, elaboration) was at work in activities they have just experienced. *(Blorps and Fizzwicks · Spot the strategy)*
 2. **Redesigned** ten minutes of their own session so learners do something, using at least one named strategy and fitting its real setting. *(Make 10 minutes active)*
 3. **Explained** their design in 60 seconds, naming the strategy and why it suits the setting. *(Pitches)*
 4. **Written** a specific plan to make one active learning thing before next week. *(The ask)*
 
 ## Before the session
+
+### The deck and printables
+
+The Day 2 deck: 16 slides plus hidden credits, built on the Day 1 template. Tool slides show only the prompt, so they work with Kahoot or Menti shown alongside, or with the paper fallback; the notes say how.
+
+<a class="file-download" href="/slides/tts-day2-active-beats-passive.pptx">Download the Day 2 deck</a>
+
+<div class="slide-viewer" data-pptx="/slides/tts-day2-active-beats-passive.pptx" data-title="Day 2 deck"></div>
+
+Print before the session:
+
+<a class="file-download" href="/handouts/blorps-and-fizzwicks.pdf">Blorps and Fizzwicks: word sheets (A and B), retest slips, answers</a>
+
+<a class="file-download" href="/handouts/spot-the-strategy.pdf">Spot the strategy: five mats, 14 cards, answers</a>
+
+- **Blorps:** half the group gets Version A (re-read), half Version B (fold and self-test). Print retest slips for today **and** Session 3.
+- **Spot the strategy:** one set per table: the five mats (one per A4 page), and the cards cut out and shuffled.
 
 ### Read back last week's asks
 
@@ -50,7 +67,7 @@ Four deliberately silly questions, one per format, so people meet each format as
 
 - **Multiple choice:** which of these do you dread most at work?
 - **100 points:** you have £100m; split it between these options.
-- **Pin on image:** put a dot on a picture.
+- **Pin on image:** put a dot on a picture. Suggested: ["Spot the difference"](https://commons.wikimedia.org/wiki/File:Spot_the_difference.png) by Muband, CC BY-SA 3.0 (mask one half in Menti; credit it, and keep the masked version CC BY-SA). Or choose any open picture from [Wikimedia Commons](https://commons.wikimedia.org) or [Flickr's Creative Commons search](https://www.flickr.com/search/?license=1%2C2%2C3%2C4%2C5%2C6%2C9%2C10).
 - **Ranking:** put these in order.
 
 Keep everything free of patient information, and check local information-governance rules before using free-tier tools.
@@ -60,7 +77,9 @@ Keep everything free of patient information, and check local information-governa
 - [ ] Session 1 card photos
 - [ ] Bad-slide pack (again, for anyone who didn't do the ask)
 - [ ] Kahoot and Menti loaded, tested on the venue wi-fi (have a phone hotspot)
-- [ ] One slide: the active↔passive continuum plus retrieval, spacing, interleaving, elaboration, one sentence each
+- [ ] Blorps word sheets (A and B) and retest slips (today and Session 3)
+- [ ] Spot the strategy: mats and a shuffled card set per table
+- [ ] Computer Task Sheet (for the ask)
 - [ ] Setting cards: ward corridor, handover, sim room, clinic, teaching room
 - [ ] A3 paper and pens for designs
 - [ ] Cards for the ask
@@ -70,68 +89,76 @@ Keep everything free of patient information, and check local information-governa
 
 ### 0–10 · Show us your slides
 
-- SAY: last week you wrote an ask. Show us. Invite 3–4 people: what did you change, and why?
+- SAY: last week you wrote an ask. Show us. Invite 3–4 people by name (from the card photos): what did you change, and why? Room: one thing that works, one question.
 - Not done? ASK: "What got in the way?" Take it as information, not failure. Hand them the bad-slide pack for later.
 - WHY: closes the loop the ask opened. Barriers are data about transfer.
-- Larger group: pairs show each other, then one or two to the room.
 - IF SHORT: two examples, not four. Never skip the read-back.
 
 ### 10–20 · Kahoot: Session 1 retrieval
 
-- SAY: phones out. Quick quiz on last week. Don't explain why yet.
-- Run the Kahoot. Celebrate, don't dwell.
-- WHY: [retrieval practice](/theories/retrieval-practice) a week later is also [spacing](/theories/spaced-practice) (Roediger & Karpicke 2006; Cepeda et al. 2006). They do it before it's named. Scores are useful Level 2 evidence (see the [Evaluation Toolkit](/facilitator/evaluation-toolkit)).
-- FALLBACK: read the questions aloud; answers on fingers (1–4), or A/B/C/D on paper.
+- SAY: phones out. Quick quiz on last week. Don't explain why yet. Celebrate, don't dwell.
+- WHY: [retrieval practice](/theories/retrieval-practice) a week later is also [spacing](/theories/spaced-practice) (Roediger & Karpicke 2006; Cepeda et al. 2006). They do it before it's named.
+- FALLBACK: read the questions aloud; answers on fingers (1–4).
 
-### 20–28 · What did you just do?
+### 20–23 · What did you just do?
 
-- ASK: "What did you just do?" Let them name it: remembering, a week later.
-- SAY: that was retrieval, and the week's gap was spacing. *Then* show the forgetting curve: without retrieval, most of it fades in days. That's why the sessions are a week apart, and why last week's retrieve arrow mattered.
-- WHY: the pilot showed the curve lands better *after* the Kahoot. Experience first, name it second. → [Ebbinghaus (1885)](/papers/ebbinghaus-1885)
+- ASK: "What did you just do?" Let them name it: remembered it, a week later.
+- SAY: that was retrieval, and the week's gap was spacing. Keep it short: the next 25 minutes show *why*.
 
-### 28–40 · Mentimeter tour
+### 23–30 · Blorps and Fizzwicks
 
-- SAY: four silly questions, four formats. Notice what each one makes you do.
-- Run the tour: dread MCQ, £100m points, pin-the-dot, ranking. After each, ASK in one line: where could this work in your teaching?
-- WHY: they meet each format as a learner, low stakes. This is the preview for this week's ask. → [experiential learning](/theories/experiential-learning)
-- FALLBACK: hands up for MCQ; sticky notes on a flipchart for points and ranking; dot stickers on a printed image.
-- IF SHORT: three formats, not four.
+- Hand out the word sheets: half Version A (re-read), half Version B (fold and self-test), alternate seats. Eight nonsense words with silly hospital meanings.
+- SAY (deadpan): eight important clinical terms you'll need later. Three minutes. Follow the instructions on *your* sheet.
+- After 3 minutes: sheets face down and collected. **Don't say there'll be a test.**
+- WHY: a nod to Ebbinghaus's nonsense syllables. A vs B is re-reading vs retrieval practice ([Roediger & Karpicke 2006](/papers/roediger-karpicke-2006)).
 
-### 40–46 · Name the strategies
+### 30–40 · Mentimeter tour
 
-- One slide. The active↔passive continuum, then four strategies, one sentence each:
-  - **Retrieval:** pull it out of memory, don't re-read it. → [retrieval practice](/theories/retrieval-practice)
-  - **Spacing:** come back to it after a gap. → [spaced practice](/theories/spaced-practice)
-  - **Interleaving:** mix related problems instead of blocking them. → [interleaving](/theories/interleaving)
-  - **Elaboration:** explain how and why, in your own words.
-- ASK: which ones did you use in the last 40 minutes?
-- WHY: these have some of the best evidence (Dunlosky et al. 2013). Active learning beats lecturing ([Freeman et al. 2014](/papers/freeman-2014)); say it was STEM undergraduates. Keep it to one slide: more than this overloaded the pilot.
+- SAY: four silly questions, four formats. Notice what each one makes you do. After each, ASK in one line: where could this work in your teaching?
+- WHY: they meet each format as a learner, low stakes: the preview for this week's ask. It's also the gap before the retest (don't mention that). → [experiential learning](/theories/experiential-learning)
+- FALLBACK: hands up; sticky notes on a flipchart; dot stickers on a printed picture.
+- IF SHORT: three formats.
 
-### 46–72 · Make 10 minutes of your session active
+### 40–45 · Surprise retest → the forgetting curve
 
-- SAY: take the session you rebuilt last week. Pick ten minutes. Make learners *do* something, in its real setting: ward corridor, handover, sim room. Use at least one named strategy.
-- Hand out setting cards to anyone without a real setting. Produce one A3 sheet: what learners do, which strategy, what you need, what happens if you're interrupted.
+- Hand out the retest slips: "Quick: what's a blorp?" Two minutes. Score 1 per meaning roughly right; tally Group A vs Group B on the whiteboard.
+- **Be ready for either result.** Over ten minutes, re-reading often does as well or better. That's what Roediger & Karpicke found: re-study won at 5 minutes; testing won at 2 days and a week. SAY (A wins): "re-reading *feels* better, and today it works. Watch what happens over a week." SAY (B wins): "already. Now imagine a week."
+- Then the drawn forgetting curve (four clicks: no review → Day 2 review → Day 3 review → labels). SAY: most of it goes fast, then levels off; each time you *pull it back out*, it fades more slowly. That's why the sessions are a week apart, and why we'll test the blorps again next week. → [Ebbinghaus (1885)](/papers/ebbinghaus-1885)
+- Collect the slips, names on. "Keep your blorps safe."
+
+### 45–50 · Spot the strategy
+
+- Each table: the four mats (retrieval, spacing, interleaving, elaboration), the "None of the above" bin, and a shuffled set of 14 daft scenario cards. Sort them. Some fit two: arguing is encouraged.
+- Debrief, one question: **which did *you* just do in the last 25 minutes?** (Retrieval: the Kahoot and the retest. Spacing: a week, and the Menti gap. Elaboration: "where could this work?")
+- WHY: some of the strongest evidence in learning science (Dunlosky et al. 2013). Active learning beats lecturing ([Freeman et al. 2014](/papers/freeman-2014); say it was STEM undergraduates). Naming by sorting is itself elaboration. → [interleaving](/theories/interleaving)
+
+### 50–70 · Make 10 minutes of your session active
+
+- SAY: take the session you rebuilt last week. Pick ten minutes. Make learners *do* something, in its real setting: ward corridor, handover, sim room. Use at least one strategy (the mats stay on the table as a menu).
+- On paper: one A3 sheet: what learners do, which strategy, what you need, what happens if you're interrupted. Setting cards for anyone without a real setting.
 - SAY ("Sometimes the best slide is no slide"): the answer might have no screen at all.
+- PAIR by confidence. Circulate. ASK: what will learners be doing in minute 3? Which strategy is that?
 - WHY: situated learning: design for the real constraints, not the ideal room ([Lave & Wenger 1991](/papers/lave-wenger-1991)).
-- PAIR by confidence, as in Session 1, so nobody stalls on a computer task.
-- Circulate. ASK: what will learners be doing in minute 3? Which strategy is that?
 - FALLBACK: no session yet? Use "a session you'd like to teach".
 
-### 72–84 · 60-second pitches
+### 70–80 · 60-second pitches
 
 - SAY: 60 seconds each. Room responds with *one thing that works, one question.*
 - WHY: explaining your own design is elaboration; hearing others gives varied worked examples.
 - Larger group: gallery walk with sheets on the wall, sticky-note questions.
-- IF SHORT: cut pitches to the time left. **Never cut the ask.**
+- IF SHORT: **cut this first.**
 
-### 84–90 · The ask
+### 80–88 · Menti demo → the ask
 
-- DEMO first (2 minutes, live on screen): sign in to Menti, make one slide, click Share, copy the link. Point to the [Computer Task Sheet](/facilitator/computer-tasks) for the same steps on paper.
+- DEMO first (2 minutes, live on screen, narrating each click): sign in to Menti, make one word-cloud slide, click Share, copy the link. Point to the [Computer Task Sheet](/facilitator/computer-tasks) for the same steps on paper.
 - Show the card wording: **"Before next week I will spend 30–40 minutes playing with Menti or Kahoot and make one active learning thing for my session, and bring it."**
-- SAY: write it on the card now. Add *when* you'll do the 30–40 minutes. Photograph it. Next week we'll try some of them on the group.
-- SAY: you don't need a class to do this. Just play from the presenter's side.
+- SAY: write it on the card now. Add *when* you'll do the 30–40 minutes. Photograph it. You don't need a class: just play from the presenter's side. Email yourself the link.
 - WHY: a time-boxed, written intention ([implementation intentions](/theories/implementation-intentions)). Building it yourself is the active experimentation step of [Kolb's cycle](/theories/experiential-learning).
-- IF SHORT: **never cut.** Start it at 84 minutes.
+- IF SHORT: **never cut.** Start it at 80 minutes, even mid-pitch.
+
+### 88–90 · Cliffhanger → close
+
+- SAY: "Next week: did it stick? (Bring your blorps.)" And how would you know? Hold that thought.
 - Optional: one-question pulse (see the [Evaluation Toolkit](/facilitator/evaluation-toolkit)).
 
 ## After the session
