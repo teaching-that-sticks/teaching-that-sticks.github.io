@@ -1365,8 +1365,10 @@ a.theory-row:hover .theory-row-arrow {
   flex-shrink: 0;
 }
 
-/* Buttons: on cards and in preview panels */
+/* Buttons: on cards and in preview panels. The :link/:visited forms keep the
+   page's link colours (.blueprint-prose a:visited) off buttons that are links. */
 .blueprint-prose .file-btn,
+.blueprint-prose .file-btn:is(:link, :visited),
 .file-btn {
   display: inline-flex;
   align-items: center;
@@ -1386,6 +1388,7 @@ a.theory-row:hover .theory-row-arrow {
 .file-btn:hover { border-color: var(--overlay1); }
 .file-btn[hidden] { display: none; }
 .blueprint-prose .file-btn--primary,
+.blueprint-prose .file-btn--primary:is(:link, :visited),
 .file-btn--primary {
   background: var(--sky);
   border-color: var(--sky);
