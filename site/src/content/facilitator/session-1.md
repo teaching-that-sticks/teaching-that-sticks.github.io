@@ -42,14 +42,7 @@ By the end of the session, participants will have:
 
 The Day 1 deck as delivered: 23 slides, one idea each, built to the programme's own rules (labels not sentences, no bullets, nothing meaning something by colour alone). Timings, prompts and credits are in the speaker notes. Before you use it: paste your own Menti QR code and joining code onto slide 8, and swap in your own organisation's bad slide on slide 6 if you have one (never publish it).
 
-<a class="slide-download" href="/slides/tts-day1-death-by-powerpoint.pptx" download>
-  <img src="/images/powerpoint_icon.svg" alt="" aria-hidden="true" class="slide-download-icon" />
-  <span class="slide-download-text">
-    <span class="slide-download-label">Download the Day 1 deck</span>
-    <span class="slide-download-meta">tts-day1-death-by-powerpoint.pptx &middot; PowerPoint &middot; 3.5 MB</span>
-  </span>
-  <span class="slide-download-arrow" aria-hidden="true">&#x2193;</span>
-</a>
+<a class="file-download" href="/slides/tts-day1-death-by-powerpoint.pptx">Download the Day 1 deck</a>
 
 <div class="slide-viewer" data-pptx="/slides/tts-day1-death-by-powerpoint.pptx" data-title="Day 1 deck"></div>
 

@@ -1319,7 +1319,7 @@ a.theory-row:hover .theory-row-arrow {
 }
 
 /* Slide / resource download chip — reusable across all blueprint pages */
-.slide-download {
+.file-download {
   display: inline-flex;
   align-items: center;
   gap: 0.75rem;
@@ -1333,35 +1333,35 @@ a.theory-row:hover .theory-row-arrow {
   transition: background 0.15s, border-color 0.15s, box-shadow 0.15s;
   box-shadow: 0 1px 3px var(--shadow-sm);
 }
-.slide-download:hover {
+.file-download:hover {
   background: var(--surface0);
   border-color: var(--overlay1);
   box-shadow: 0 2px 6px var(--shadow-sm);
   text-decoration: none !important;
 }
-.slide-download-icon {
+.file-download-icon {
   width: 2rem;
   height: 2rem;
   flex-shrink: 0;
 }
-.slide-download-text {
+.file-download-text {
   display: flex;
   flex-direction: column;
   gap: 0.15rem;
 }
-.slide-download-label {
+.file-download-label {
   font-size: 0.85rem;
   font-weight: 600;
   color: var(--text);
   font-style: normal;
 }
-.slide-download-meta {
+.file-download-meta {
   font-size: 0.72rem;
   color: var(--overlay1);
   font-family: monospace;
   font-style: normal;
 }
-.slide-download-arrow {
+.file-download-arrow {
   font-size: 0.9rem;
   color: var(--overlay0);
   margin-left: 0.5rem;
@@ -1369,13 +1369,13 @@ a.theory-row:hover .theory-row-arrow {
 }
 
 /* Slide viewer — "Open live" .pptx in Office Online, see src/scripts/slide-viewer.ts */
-.slide-actions {
+.file-actions {
   display: flex;
   flex-wrap: wrap;
   gap: 0.6rem;
   margin: 0.25rem 0 1.25rem;
 }
-.slide-actions .slide-download { margin: 0; }
+.file-actions .file-download { margin: 0; }
 .slide-live-toggle {
   font: inherit;
   text-align: left;
