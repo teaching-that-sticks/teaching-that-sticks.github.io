@@ -51,6 +51,8 @@ The Day 1 deck is 20 slides, one idea each, built to the programme's own rules: 
   <span class="slide-download-arrow" aria-hidden="true">&#x2193;</span>
 </a>
 
+<div class="slide-viewer" data-pptx="/slides/death_by_powerpoint.pptx" data-title="Pilot theory slides"></div>
+
 ### Assume nobody read the email
 
 Many won't teach yet, won't have a slide, or won't have seen the message. Plan for it:
