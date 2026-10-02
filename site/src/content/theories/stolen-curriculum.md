@@ -1,7 +1,7 @@
 ---
 title: "The Stolen Curriculum"
 summary: "Marketers operationalised cognitive science harder than educators ever have — once you see it, every ad is a free lesson in learning design"
-sessions: ["session-1", "session-3"]
+sessions: []
 evidence:
   - cite: "Sharp, B. (2010). <em>How Brands Grow: What Marketers Don't Know</em>. Oxford University Press."
   - cite: "Heath, R. (2012). <em>Seducing the Subconscious: The Brain's Response to Advertising</em>. Wiley-Blackwell."

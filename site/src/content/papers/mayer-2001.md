@@ -5,7 +5,7 @@ journal: "Cambridge University Press"
 year: 2001
 openAccess: false
 theorists: ["mayer-multimedia", "dual-coding"]
-sessions: [1, 2]
+sessions: [1]
 imagePrompt: "Two side-by-side column diagrams. Left column labelled 'Text on slide + narration': two bars for the same channel both filling to near-capacity, labelled 'VERBAL CHANNEL × 2 — redundancy'. Right column labelled 'Image + narration': one visual bar half-full, one verbal bar half-full, total load lower, labelled 'TWO CHANNELS — complementary'. Flat design, Teaching That Sticks house style, slate blue-grey and amber palette, clean white background, no people, professional educational illustration."
 ---
 
@@ -53,4 +53,4 @@ Three high-value changes, in order of ease:
 
 ## How it appears in Teaching That Sticks
 
-Mayer's redundancy and modality principles are the direct theoretical basis for Session 1's core design rule: the presenter carries the words; the slide carries the image. The entire session is run in accordance with this rule — no text-heavy slides, no bullet points, no on-screen narration. The accessibility check in the redesign activity (contrast ratios, font sizes) is a practical application of the coherence principle: anything that creates unnecessary processing difficulty is extraneous load.
+Mayer's redundancy and modality principles are the basis for Session 1's core design rule: the presenter carries the words; the slide carries the picture. Participants meet the two channels, then apply them in two rounds of redesigning their own slides. The accessibility check (colour and readability) follows the coherence principle: anything that makes a slide harder to read is extraneous load.

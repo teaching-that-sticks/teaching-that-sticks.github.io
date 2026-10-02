@@ -1,402 +1,105 @@
 ---
-title: "Kirkpatrick Evaluation Toolkit"
+title: "Evaluation Toolkit"
 type: resource
 order: 7
-tagline: "Level 1–4 instruments: post-session feedback forms, learning check, 30/90-day practice surveys, and reporting guide"
+tagline: "The programme's one evaluation design: a short end-of-programme form, evidence from inside the sessions, and a three-question check at 30 and 90 days"
 fox: scientist.png
 ---
 
-All the evaluation instruments for the programme, plus guidance on using the data.
+This is the programme's only evaluation design. Other pages link here rather than repeating it. It uses the four levels of the [Kirkpatrick model](/theories/kirkpatrick-model), and it is deliberately small: a handful of questions you will actually send, and evidence the sessions already produce.
 
-| Instrument | When | Kirkpatrick level |
-|------------|------|-------------------|
-| Post-session feedback form (×3) | End of each session | Level 1: Reaction |
-| Learning check | 30 days after Session 3 | Level 2: Learning |
-| Practice change survey — 30 days | 30 days after Session 3 | Level 3: Behaviour |
-| Practice change survey — 90 days | 90 days after Session 3 | Level 3: Behaviour |
-| Qualitative interview guide | Optional, 90 days | Level 3–4: Behaviour + Results |
+## Overview: the design at a glance
 
-All forms are designed for digital delivery (Google Forms, Microsoft Forms, or equivalent). Paper versions can be prepared using the same questions.
+| Level | What you collect | When |
+|---|---|---|
+| 1 Reaction | One short form (6 questions) | End of Session 3. Optional one-question pulse at the end of Sessions 1 and 2 |
+| 2 Learning | The Session 2 Kahoot results, and each participant's completed canvas checked against a rubric | During Sessions 2 and 3 |
+| 3 Behaviour | Three questions to each participant | 30 and 90 days after Session 3 |
+| 4 Results | Not claimed | |
 
-## Post-Session Feedback
+**Level 1 has a narrow use.** It tells you about logistics, room and pace: the cold room, the venue nobody could find, the session that felt rushed. It is not evidence that anyone learned anything.
 
-*Administer at the end of each session, before participants leave the room. Digital: share a QR code linking to the form. Paper: distribute printed copies.*
+**Level 4 is not claimed.** The programme cannot attribute patient or service outcomes to itself. Too much else changes at the same time. Say so plainly when you report.
 
-### Session 1 feedback form
+**Plan this before Session 1.** Decide who sends the 30- and 90-day checks, and how. If you might move on before 90 days, hand the job to a named colleague now. Evaluation designed afterwards rarely happens.
 
-**Teaching That Sticks — Session 1 feedback**
-*Takes less than 3 minutes. Anonymous. Helps us improve.*
+## Governance
 
----
+Before you collect anything, check these with your organisation:
 
-**1.** Overall, how useful did you find today's session?
+- **Register it as a service evaluation** with your local audit, quality improvement or clinical effectiveness team. The HRA's [Is my study research?](https://www.hra-decisiontools.org.uk/research/) tool will confirm it is not research.
+- **Add a short privacy statement** to every form: what you collect, why, who sees it, how long you keep it.
+- **Collect the minimum identifiable data.** The Level 1 form is anonymous. Keep follow-up contact details in a separate list, and delete them after the 90-day check.
+- **Use Microsoft Forms in your organisation's tenant** (NHSmail or local Microsoft 365), not Google Forms or personal accounts.
+- **No patient information on free tools.** Menti, Kahoot and similar tools are for teaching content only. Never enter patient details, and ask participants not to either.
+- **Check local information governance** before using any free-tier tool, and before photographing participants' canvases.
 
-○ Very useful — I can apply this immediately
-○ Useful — I need to think about how to apply it
-○ Somewhat useful — some parts were relevant
-○ Not useful for my current context
+## Level 1: end-of-programme form
 
----
+*End of Session 3, before people leave. Paper or Microsoft Forms via a QR code. Anonymous. About 3 minutes.*
 
-**2.** The most useful thing from today's session was:
+1. How useful was the programme for the session you worked on? *Very useful / Useful / A little / Not useful*
+2. The pace was: *Too slow / About right / Too fast*
+3. Did anything about the room, timing, venue or technology get in the way? *(free text)*
+4. What was the most useful part? *(free text)*
+5. What one thing should we change for the next cohort? *(free text)*
+6. Anything else you want to tell us? *(free text, optional)*
 
-*(free text)*
+**Optional pulse at the end of Sessions 1 and 2:** *"One thing we should change for next week?"* on a sticky note by the door. Read them before the next session and say what you changed.
 
----
+## Level 2: evidence from the sessions
 
-**3.** The thing I would change about today's session is:
+There is no separate knowledge test. The sessions already produce two pieces of evidence.
 
-*(free text)*
+**The Session 2 Kahoot.** It retrieves Session 1 content a week later. Download the Kahoot report afterwards and note which questions most people got right and which they missed. Ask participants to play under a first name or nickname so the report holds no full names.
 
----
+**The Session 3 canvas.** With permission, photograph each completed canvas (or collect a copy). Check it against the rubric below. Do this with a colleague if you can, and agree the judgements together.
 
-**4.** The session used only images and spoken word — no bullet points. How did this affect your experience?
+### Canvas rubric
 
-○ Much better than the usual approach
-○ Better than the usual approach
-○ About the same
-○ I found it harder to follow
-○ I found it distracting
+| Criterion | Clear | Not yet |
+|---|---|---|
+| **Outcomes are observable** | Each outcome uses a verb you could watch or check: *demonstrate, explain to a patient, choose, calculate* | Outcomes say *know, understand, be aware of, appreciate* |
+| **Evidence matches the verb** | The evidence sits at the right level of [Miller's pyramid](/theories/millers-pyramid): a "shows how" outcome is checked by watching someone do it, not by a quiz | Evidence is a quiz or attendance for a doing outcome, or there is no evidence |
+| **Activities line up** | Each activity gives learners practice at what the outcome asks them to do | Activities are mainly listening or reading when the outcome is about doing |
+| **Learners and need are specific** | Names who the learners are, their setting, and the problem the teaching should fix | "Staff" or "everyone"; the need is a topic rather than a problem |
+| **Follow-through is planned** | States what happens at 30/60/90 days, how, and who will ask | No follow-through, or "send the slides afterwards" |
 
----
+Report counts, not scores: for example, *"8 of 10 canvases had at least one observable outcome with matching evidence."*
 
-**5.** How confident do you feel to redesign a slide using the principles from today?
+## Level 3: the 30- and 90-day check
 
-○ Very confident
-○ Fairly confident
-○ Somewhat confident
-○ Not yet confident
+*Send 30 and 90 days after Session 3, by Microsoft Forms or a short email. Not anonymous, because you need to follow up. Five minutes.*
 
----
+1. **What did you change** in your teaching since the programme?
+2. **What happened** when you did?
+3. **What got in the way?**
 
-**6.** Is there anything you would like the facilitator to know before the next session?
+The same three questions work as a 10-minute phone or Teams conversation if people don't reply to forms.
 
-*(free text, optional)*
+**The named follow-up person.** At the end of Session 3, each participant names one person in their own world who will ask them about their canvas at 30 days. Record only that a name was given, not the name. At 30 days, ask: *"Did anyone ask you about it?"*
 
-### Session 2 feedback form
+**Optional corroboration.** Invite participants to send one of: a before-and-after slide or session plan, or a short comment from a learner or peer. One artefact per person is plenty.
 
-**Teaching That Sticks — Session 2 feedback**
-*Takes less than 3 minutes. Anonymous. Helps us improve.*
+### The self-report caveat
 
----
+Most of this Level 3 evidence is self-report. People overstate change, and the ones who reply are often the ones who changed most. To strengthen it:
 
-**1.** Overall, how useful did you find today's session?
-
-○ Very useful — I can apply this immediately
-○ Useful — I need to think about how to apply it
-○ Somewhat useful — some parts were relevant
-○ Not useful for my current context
-
----
-
-**2.** The most useful thing from today's session was:
-
-*(free text)*
-
----
-
-**3.** The ward corridor design challenge — how useful was this activity?
-
-○ Very useful — it changed how I think about ward teaching
-○ Useful — it gave me a practical idea
-○ Somewhat useful
-○ Not useful for my context
-
----
-
-**4.** The psychological safety conversation — what was your reaction?
-
-○ Important and not talked about enough
-○ Useful but I've heard it before
-○ Uncomfortable but relevant
-○ Not relevant to my context
-
-*(space for any comments)*
-
----
-
-**5.** How confident do you feel to design and deliver an active learning session in your context?
-
-○ Very confident
-○ Fairly confident
-○ Somewhat confident
-○ Not yet confident
-
----
-
-**6.** Anything else you want the facilitator to know?
-
-*(free text, optional)*
-
-### Session 3 feedback form
-
-**Teaching That Sticks — Session 3 feedback and programme close**
-*Takes about 5 minutes. Anonymous. This feedback is especially important for programme improvement.*
-
----
-
-**1.** Overall, how useful did you find the programme across all three sessions?
-
-○ Very useful — it has already changed my practice
-○ Useful — I intend to change my practice
-○ Somewhat useful — I've picked up some ideas
-○ Not useful for my context
-
----
-
-**2.** Which session was most useful to you, and why?
-
-○ Session 1: Slide design
-○ Session 2: Active learning
-○ Session 3: Making it stick
-
-*(free text: why?)*
-
----
-
-**3.** The programme models what it teaches — did you notice the pedagogy?
-
-○ Yes — I could name the principles being used throughout
-○ Somewhat — I noticed some of it
-○ Not much — I was focused on the content
-○ No — this is the first I've heard of it
-
----
-
-**4.** What is the single most important thing you will do differently as a result of this programme?
-
-*(free text)*
-
----
-
-**5.** What is the main barrier to doing that?
-
-*(free text)*
-
----
-
-**6.** Would you recommend this programme to a colleague?
-
-○ Yes, definitely
-○ Yes, with some caveats *(please explain below)*
-○ Unsure
-○ No *(please explain below)*
-
-*(free text, optional)*
-
----
-
-**7.** Is there anything else you want to tell us?
-
-*(free text, optional)*
-
-## Level 2 Learning Check
-
-*Administer 30 days after Session 3. Not anonymous — needs to be linked to participant to track learning over time.*
-
-**Teaching That Sticks — 30-day learning check**
-
-*This is not a test. It is a learning check — it helps us understand what has lasted and what needs reinforcing.*
-
----
-
-**1.** Cognitive load theory identifies three types of load. Which one is within the teacher's direct control, and what does reducing it look like in practice?
-
-*(free text)*
-
----
-
-**2.** What is the difference between assessment *of*, *for*, and *as* learning? Give one example of each from clinical practice.
-
-*(free text)*
-
----
-
-**3.** Edmondson defines psychological safety as...
-
-*(free text)*
-
----
-
-**4.** You design a teaching session with clear learning outcomes and engaging activities, but three months later your learners show no change in practice. Using Kirkpatrick's model, what level is this outcome at — and what would you do next?
-
-*(free text)*
-
----
-
-**5.** Complete this sentence: *"The ward is not where you apply classroom learning — it is..."*
-
-*(free text)*
-
-### Scoring guidance
-
-This instrument is not scored numerically. Review responses for:
-
-- **Conceptual accuracy** — are the core ideas (cognitive load, Kirkpatrick levels, psychological safety, situated learning) being used correctly?
-- **Integration** — are participants connecting concepts across sessions, or treating them as isolated facts?
-- **Application** — are examples clinical and specific, or abstract and generic?
-
-If responses suggest a concept has not stuck, address it in the 30-day follow-up communication.
-
-## Level 3 Survey — 30 days
-
-*Send 30 days after Session 3. This is the core measure of programme effectiveness. Not anonymous.*
-
-**Teaching That Sticks — 30-day practice check**
-
-*Five minutes. Your honest answers matter more than positive ones.*
-
----
-
-**1.** At Session 3, you made a specific commitment. What was it?
-
-*(free text — ask them to recall it rather than showing it to them)*
-
----
-
-**2.** Have you done it?
-
-○ Yes, fully
-○ Yes, partially
-○ I tried but it didn't go as planned
-○ No — not yet
-○ No — something got in the way
-
----
-
-**3.** If you tried it: what happened? What did your learners do or say?
-
-*(free text)*
-
----
-
-**4.** If you did not try it yet: what got in the way?
-
-*(free text)*
-
----
-
-**5.** Since the programme, has anything changed in how you design or deliver teaching?
-
-*(free text)*
-
----
-
-**6.** Has anything changed in how your learners engage with teaching?
-
-*(free text — even small or early signals count)*
-
----
-
-**7.** On a scale of 1–10, how different does your teaching look compared to before the programme?
-
-○ 1 (no change)  ○ 2  ○ 3  ○ 4  ○ 5  ○ 6  ○ 7  ○ 8  ○ 9  ○ 10 (completely different)
-
-*(optional: what does that score feel like in practice?)*
-
----
-
-**8.** Is there anything you need to make the change sustainable? (Support, resources, permission, time, confidence?)
-
-*(free text)*
-
-## Level 3 Survey — 90 days
-
-*Send 90 days after Session 3. The 90-day response is your primary evidence for external adoption conversations.*
-
-**Teaching That Sticks — 90-day practice check**
-
-*The most important feedback form in the programme. Five minutes.*
-
----
-
-**1.** Think back to the commitment you made at Session 3. Have you sustained it?
-
-○ Yes — it is now part of how I teach
-○ Mostly — I do it regularly but not always
-○ Partially — I tried it but it hasn't stuck
-○ Not yet — still intending to
-○ No — circumstances prevented it
-
----
-
-**2.** Describe the most significant change in your teaching practice since the programme. Be specific.
-
-*(free text)*
-
----
-
-**3.** Describe the most significant change in how your learners engage. Be specific. If there is no change, say so.
-
-*(free text)*
-
----
-
-**4.** Has anything changed at team or ward level as a result of what you or colleagues learned in this programme?
-
-*(free text — even if small)*
-
----
-
-**5.** What is still getting in the way of the teaching you want to do?
-
-*(free text)*
-
----
-
-**6.** If you were to describe this programme to a sceptical colleague, what would you say?
-
-*(free text)*
-
----
-
-**7.** Overall rating: how would you rate the impact of this programme on your teaching practice?
-
-○ High impact — clear, sustained changes
-○ Medium impact — some changes, some barriers
-○ Low impact — minimal change so far
-○ Too early to tell
+- Ask about specific actions (*"what did you change?"*), not ratings or satisfaction.
+- Ask for one artefact: a before-and-after slide or session plan.
+- Ask for a comment from someone who saw the change: a learner, peer or the named follow-up person.
+- Report the response rate alongside the findings.
 
 ## Using the data
 
-### Responding to Level 1 feedback
+**When someone says "nothing changed".** Thank them: it is the most useful answer you can get. Ask what got in the way, and listen for the type of barrier. *System* (no time, no support), *confidence* (knew what to do, didn't feel ready) or *competing priorities*. Ask: *"What would need to be true for this to be a yes in four weeks?"* Collect the barriers. They are evidence for leaders about what the programme alone cannot fix.
 
-Read all Level 1 responses before each subsequent session. Look for:
+**Reporting.** A one-page summary is enough:
 
-- Consistent themes across multiple respondents (these are real signals)
-- The specific request to change something — address it explicitly at the start of the next session: *"Some of you said X — I've adjusted the plan accordingly"*
-- Anything that suggests a participant is struggling or disengaged
+- Number who started and finished.
+- Level 1: main themes, and what you changed in response.
+- Level 2: Kahoot questions most and least often answered correctly; canvas rubric counts.
+- Level 3: response rate at 30 and 90 days; the most common changes, with one or two examples; the most common barriers.
+- A plain statement that Level 4 is not claimed.
 
-Do not be defensive about critical feedback. It is Level 1 data — valuable, but measuring reaction, not learning.
-
-### Responding to "nothing changed" at Level 3
-
-This is the most important response to handle well. The correct response sequence:
-
-1. **Acknowledge without judgment:** *"Thank you for being honest — that is the most useful response I can get."*
-2. **Advocacy-inquiry:** *"Tell me more about what got in the way — I'd like to understand it."*
-3. **Distinguish causes:**
-   - *System barrier* (no time, no managerial support, mandatory training culture): acknowledge it as real; focus on minimum viable change within the constraint
-   - *Confidence barrier* (knew what to do, didn't feel ready): offer a low-risk first step; pair with someone who has tried it
-   - *Competing priorities* (other demands took over): normalise this; re-establish the commitment; set a new specific date
-   - *Needs-level barrier* (exhaustion, personal circumstances): shift register; connect to appropriate support; do not treat as a pedagogical problem
-4. **Re-commit:** *"What would need to be true for this to be a yes in four weeks?"*
-
-Document the response. The patterns of "what got in the way" responses are your qualitative evidence for system-level barriers that this programme alone cannot address — but that commissioners and senior leaders should know about.
-
-### Reporting to your organisation
-
-A minimum reporting package for internal use:
-
-| Metric | Data source |
-|--------|-------------|
-| Number of participants | Register |
-| Level 1 satisfaction scores | Post-session forms |
-| Level 1 net promoter (would recommend?) | Session 3 form |
-| Level 2: % of learning check responses demonstrating conceptual accuracy | Learning check, 30 days |
-| Level 3: % reporting practice change at 30 days | 30-day survey |
-| Level 3: % reporting sustained practice change at 90 days | 90-day survey |
-| Qualitative: most common changes reported | Free text from surveys |
-| Qualitative: most common barriers | Free text from surveys |
-
-For external adoption conversations, the 90-day Level 3 data is your headline. *"X% of participants reported sustained changes in their teaching practice at 90 days"* is a credible outcome statement. The qualitative data from free text gives it human weight.
+**Be honest about who took part.** Early cohorts are often enthusiasts. If yours were, say that the results may flatter the programme.

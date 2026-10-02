@@ -2,180 +2,91 @@
 title: "Technical Brief"
 type: resource
 order: 4
-tagline: "Room setup, technology stack, timing, and everything practical before first delivery"
+tagline: "Tools, room and timing for the three sessions, with a low-tech fallback for everything"
 fox: "architect.png"
 ---
 
-## Teaching That Sticks — how to run this programme
-
-*Read this before your first delivery. It covers everything practical.*
-
----
+*Read this before your first delivery. It covers the practical side: tools, room, timing and what to do when the technology doesn't cooperate.*
 
 ## Overview
 
-This programme runs across three 90-minute sessions, spaced at least one week apart. It is designed for 8–20 participants. Below 8, the pair and group activities lose energy. Above 20, psychological safety becomes harder to establish and the debrief conversations become unmanageable.
+Three 90-minute sessions, one week apart, for about 8–12 people (it works from 6 to 20; above about 12, run show-and-tell and pitches as a gallery walk). You need a screen, a laptop, a whiteboard, cards for the asks, and two free online tools. Every tool has a low-tech fallback, and the sessions work without any of them.
 
-You need: a room, a projector, a laptop, a couple of free digital tools, and the willingness to model what you are teaching. The programme does not require an institutional budget.
+## Tools and fallbacks
 
----
+| Tool | Where it's used | Low-tech fallback |
+|---|---|---|
+| **Mentimeter** word cloud | Session 1: "What do you remember?" after the bad slide | Shout-outs written on the whiteboard |
+| **Kahoot** quiz | Session 2: retrieval of Session 1 | Read the questions aloud; answers on mini whiteboards, scrap paper or fingers held up (1–4) |
+| **Mentimeter** format tour | Session 2: the silly questions (multiple choice, 100 points, pin on image, ranking) | Hands up for multiple choice; sticky dots on a printed image; sticky notes ranked on the whiteboard |
+| **Menti or Kahoot** (participants' own) | Session 2 ask; Session 3 "try what you made" | The participant reads their questions aloud and the group answers by hand |
+| **PowerPoint accessibility checker** | Session 1, redesign round 2. Also your own decks | Check by eye: text ≥24pt, strong contrast, no meaning by colour alone, bottom of the slide clear |
+| **The deck** | Every session | Printed bad-slide pack; describe the slides; the canvas drawn on the whiteboard |
 
-## Technology stack
+The asks go on **paper cards**, written in the room and photographed on participants' phones. No Padlet or shared board is needed. In the pilot, a Padlet link sent after the session went unused.
 
-### What you actually need
+## Free-tier limits
 
-| Tool | Purpose | Cost | Alternative |
-|------|---------|------|-------------|
-| Mentimeter | Live word clouds and polls | Free tier sufficient | Slido (free), Poll Everywhere, sticky notes on flipchart |
-| Padlet | Collaborative commitment wall across sessions | Free tier (limited boards) | Miro (free tier), Microsoft Whiteboard, physical wall with sticky notes |
-| A projector and laptop | Displaying content | Standard | Screen or TV |
-| Participants' phones or laptops | Accessing Mentimeter and Padlet | Standard | Print handouts as fallback |
+*Checked October 2026. Limits change, so check again before each cohort.*
 
-### Setting up Mentimeter
+- **Mentimeter (free):** unlimited slides, but **50 participants per month** across all your presentations. Two sessions with 10 people can use much of that. Running two cohorts in a month, or Menti in all three sessions, may need a second account or a paid plan.
+- **Kahoot (free schools plan):** **up to 10 players per game**. Workplace plans have different limits. With more than 10 people, play in pairs on one device, which also adds discussion.
+- **Participants' accounts:** for the Session 2 ask, participants make their own free account. They can use either tool. Suggest Kahoot for quiz-style retrieval and Menti for opinions and word clouds.
 
-1. Create a free account at [mentimeter.com](https://mentimeter.com)
-2. Create one presentation per session (do not reuse — questions should be fresh)
-3. In each session, create word cloud slides in advance. Do not launch them until the right moment in the session — keep the presentation in "presenter mode" and advance slides manually
-4. The join code appears on screen automatically. Participants go to menti.com and enter the code
-5. Results display live on your screen as participants type
+## Setting up
 
-**Free tier limitation:** Mentimeter free tier allows 2 questions per presentation. You need 2 word clouds per session — this is exactly the limit. If you want more flexibility, [Slido](https://www.slido.com/)'s free tier is more generous for word clouds.
+- **Make each quiz or presentation in advance.** Test the join code on your own phone, on mobile data and on the guest wifi.
+- **Embed links in the deck** with a QR code and a short URL on the slide, so nobody switches windows mid-session.
+- **Kahoot:** use "classic" mode. Afterwards, download the report: it is part of the [Level 2 evidence](/facilitator/evaluation-toolkit).
+- **Menti:** keep the presentation open in a second tab, ready to go.
+- **Accessibility checker:** in PowerPoint, *Review → Check Accessibility*. Run it on your own decks before every cohort.
+- **No patient information** goes into any free tool. See the governance box in the [Evaluation Toolkit](/facilitator/evaluation-toolkit).
 
-### Setting up Padlet
+## NHS realities
 
-1. Create a free account at [padlet.com](https://padlet.com)
-2. Create **one Padlet for the whole programme**, titled *Teaching That Sticks — [Cohort name/date]*
-3. Organise it with three sections: Session 1 Commitments, Session 2 Commitments, Session 3 Reflections
-4. Set privacy to "secret link" — accessible to anyone with the link, no account required
-5. Generate a QR code (Padlet does this automatically) — print it and/or add it to your slide deck
-6. Do not delete or archive this Padlet between sessions. It is the continuity thread.
+Plan for these. Several of them happened in the pilot.
 
-**Free tier limitation:** Padlet free tier limits you to 3 Padlets. This programme uses one. You can delete after the cohort if you need to free up capacity.
+- **Wifi.** Guest wifi may block quiz sites or drop out. Test in the actual room. Participants on mobile data usually get through when the wifi doesn't.
+- **Blocked sites.** Kahoot or Menti may be blocked on trust networks. Check with IT a week before. If blocked, present from your own device on mobile data, or use the fallback.
+- **Locked-down laptops.** You may not be able to install anything, log in to personal accounts or plug in your laptop. Bring the deck on a USB stick *and* in your email or OneDrive. Have the PDF version too.
+- **Small screens.** The "projector" may be a TV. Keep slide text ≥24pt, sit people so they can see, and have the key slides printed.
+- **Fixed furniture.** A fixed round table works fine for pairs and show-and-tell. Don't plan anything that needs the room rearranged.
+- **The whiteboard.** Bring your own **whiteboard pens**. Check every pen before you write: in the pilot the board was written on in permanent marker.
+- **No device, no slide.** Some participants won't have a laptop or a slide. Bring the printed bad-slide pack. Redesign on paper (a storyboard counts).
 
-### Fallback if tech fails
+## The room
 
-Tech will fail. Prepare for it.
+Bring every session:
 
-| If this fails | Use this instead |
-|---------------|-----------------|
-| Mentimeter / word cloud | Sticky notes on a wall — participants write one word, post it, facilitator reads them aloud |
-| Padlet | A WhatsApp group or email thread for commitment sharing |
-| Projector | Describe the bad slide verbally in Session 1 (less effective but workable) |
-| Participants' devices | Print the jigsaw cards (Session 2) and design challenge briefs as physical handouts — always have these ready |
+- [ ] Laptop, charger, adapter for the screen, deck on USB and in the cloud
+- [ ] Whiteboard pens (tested) and a cloth
+- [ ] Blank cards for the ask (Sessions 1 and 2) and printed canvases (Session 3)
+- [ ] Printed bad-slide pack (Session 1; keep it handy in Session 2)
+- [ ] A visible timer
+- [ ] Sticky notes and paper for the fallbacks
 
-**Golden rule:** if the tech fails, say so, adapt, and name it as an example of teaching under constraint. You have just modelled Session 2's key message.
-
----
-
-## Room requirements
-
-### What you need
-
-- A room that can be rearranged (not fixed theatre seating)
-- A projector or large screen
-- A flipchart and pens (not optional — the flipchart is a teaching tool throughout)
-- Wall space for a gallery walk (Session 1) or sticky notes
-- Enough floor space for people to move between groups
-
-### Room layouts by session
-
-| Session | Layout | Why |
-|---------|--------|-----|
-| 1 | Horseshoe, or cabaret groups of 4–5 | Signals dialogue not lecture; enables think-pair-share and gallery walk |
-| 2 | Clusters of 4, no fixed front | Matches the jigsaw activity; signals the facilitator is not central |
-| 3 | Triads (groups of 3) | Matches the action learning set; intimacy for difficult conversations |
-
-Change the layout between every session. Arrive 20 minutes early each time to set up. Never explain the layout unless directly asked — add it to the meta-reflection at Session 3.
-
-### What NOT to have
-
-- A lectern. Remove it or push it to the side.
-- Theatre rows.
-- Slides on screen when participants arrive.
-- A "welcome" slide with your name on it. You are the welcome.
-
----
+Each [session blueprint](/facilitator/session-1) has its own list. Arrive 20 minutes early: nothing on screen when people walk in.
 
 ## Timing
 
-Each session is 90 minutes. This is the minimum — do not add time unless the action learning set in Session 3 needs extending, in which case add 10 minutes to that activity only.
+**Each session is 90 minutes. Don't extend it; plan to finish on time.** Theory comes in bursts of 10 minutes or less, just before it's used. Set a visible timer and stop when it goes.
 
-The timings in the session plans are real. If you habitually overrun the didactic sections, practise cutting them. The 15-minute didactic cap in Session 1 is the most important constraint in the whole programme — it is also the constraint you are most likely to violate. Set a visible timer on your phone or laptop and honour it.
+If you are running behind:
 
-### Between sessions
+- **Cut show-and-tell first.** Take two or three examples instead of everyone, or switch to a gallery walk.
+- **Shorten the pitches** in Session 2 to 30 seconds, or take half the room.
+- **Never cut the ask.** In Sessions 1 and 2 it is written on a card and photographed before anyone leaves. In Session 3, protect the follow-through loop and the reveal.
 
-| Gap | What should happen |
-|-----|-------------------|
-| 48 hours after each session | Send follow-up reminder (short, specific — see comms templates) |
-| 1 week | Optional check-in — is the commitment on the Padlet? Any questions? |
-| 48 hours before next session | Send pre-session email with pre-read |
-| Morning of each session | Review the Padlet — know what you are opening with |
-
-**Minimum spacing between sessions:** 1 week. Ideal: 2–3 weeks. This gives the spaced retrieval mechanics time to work and gives participants enough time to attempt their commitments before the next session.
-
----
-
-## Materials checklist
-
-Each session blueprint has its own complete materials list — see [Session 1 Blueprint](/facilitator/session-1), [Session 2 Blueprint](/facilitator/session-2), and [Session 3 Blueprint](/facilitator/session-3).
-
-The following apply to every session:
-
-- [ ] Flipchart and multiple pens (test them before participants arrive)
-- [ ] Your laptop, charged and tested with the projector
-- [ ] Timer visible to the room (phone or laptop screen)
-- [ ] Session plan completed for this cohort (see the session plan template in each blueprint)
-
----
-
-## Practical facilitation notes
-
-### On the silence
-
-Multiple moments in this programme ask you to stay quiet and let the room sit with something. This is harder than it sounds. Clinicians are trained to fill silence with information. Resist. The silence after the bad slide, the silence after the cliffhanger, the silence after someone says *"nothing changed"* — these are pedagogical. Count to five before speaking.
-
-### On the difficult responses
-
-You will hear: *"We don't have time for this."* *"My manager won't allow it."* *"This is all very well but real life doesn't work like this."*
-
-These are not objections to be overcome. They are valid constraints to be acknowledged and worked with. The response is always: *"That's a real constraint. What is within your control inside it?"* Never dismiss or explain away system-level barriers.
-
-### On your own slides
-
-Your slides for Sessions 1 and 2 use images and spoken word only. Zero bullet points. If you find yourself wanting to add a bullet point, ask: *"Is this for the learners, or for me?"* If the answer is for you, cut it.
-
-By Session 3, you have earned the right to use more flexible design — participants understand the principles. But the default remains: image-led, word-sparse.
-
-### On running behind
-
-If you are running significantly behind (more than 10 minutes):
-
-- Cut the debrief in minutes 57–67 to 5 minutes (keep the first question, drop the rest)
-- Compress the andragogy input in Session 1 to a single named point
-- In Session 2, cut the TEL playground if needed — this is the most cuttable activity
-- Never cut the commitment or the cliffhanger. These are load-bearing.
-
-### On group dynamics
-
-Watch for the participant who dominates think-pair-share or group activities. Redirect with: *"I want to hear from someone we haven't heard from yet."*
-
-Watch for the participant who goes very quiet after the psychological safety conversation. Check in during a break or at the end of the session. This conversation sometimes surfaces things that need following up.
-
----
+**Between sessions.** Keep messages short: people drown in email. The pre-session messages are on the [Pre-Session 1](/facilitator/pre-session-1), [Pre-Session 2](/facilitator/pre-session-2) and [Pre-Session 3](/facilitator/pre-session-3) pages. Assume nobody read them: each session opens by reading back the ask in the room.
 
 ## Frequently asked questions
 
-**"Do I need to have a PGCert or formal teaching qualification to run this?"**
-No. You need to have read and understood the materials, facilitated the train-the-trainer pathway, and be willing to be observed on first delivery. Credentials follow competence, not the other way around.
+**Do I need a teaching qualification to run this?** No. See [Train the Trainer](/facilitator/train-the-trainer) for how to get ready.
 
-**"Can I run all three sessions on the same day?"**
-No. The spaced retrieval mechanism depends on the gaps. You can compress the gaps to one week minimum, but eliminating them removes one of the core pedagogical mechanisms. If you are under pressure to do this, explain the evidence.
+**Can I run all three sessions on one day?** No. The week between sessions is part of the design: Session 2's Kahoot is spaced retrieval of Session 1, and the asks need time to happen.
 
-**"What if participants do not complete their Padlet commitments?"**
-Enquire with curiosity in the opening of the next session: *"What got in the way?"* Do not shame. The reasons are often instructive. Document them — they are your qualitative Kirkpatrick Level 3 data.
+**What if participants didn't do the ask?** Ask *"what got in the way?"* with curiosity, not blame. Then use the bad-slide pack or the room's examples. Barriers are useful data.
 
-**"Can I adapt the content for my specific clinical context?"**
-Yes. The core theoretical anchors are fixed. Specific activities, examples, and clinical contexts are flexible. Always ask: *"Does this adaptation still serve the learning outcomes?"*
+**Can I adapt it for my setting?** Yes. Keep the spine, the asks, the canvas and the one-week spacing. Change examples, clinical contexts and tools freely.
 
-**"What if I disagree with one of the theoretical positions in the programme?"**
-Good. Bring it to the session. Intellectual challenge is pedagogically appropriate in a programme about teaching. Make sure you know the counter-argument well enough to facilitate a discussion, not just assert your position.
+**The tools are blocked and the screen is tiny. Can I still run it?** Yes. Every block has a fallback above. Say what happened and carry on: teaching under real constraints is part of the point.

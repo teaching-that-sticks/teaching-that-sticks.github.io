@@ -7,7 +7,7 @@ doi: "10.1037/h0054346"
 openAccess: true
 openAccessUrl: "https://psychclassics.yorku.ca/Maslow/motivation.htm"
 theorists: ["maslow-hierarchy-of-needs"]
-sessions: [3]
+sessions: []
 imagePrompt: "Five horizontal layers stacked vertically — the lowest layer is the widest, each layer above is slightly narrower. Each layer contains a simple abstract icon: a wave for physiological, a shield for safety, two overlapping rings for belonging, a star for esteem, and an upward arrow for self-actualisation. No pyramid outline — just the five layered bands floating cleanly. Flat design, Teaching That Sticks house style, slate blue-grey and amber palette, clean white background, no people, professional educational illustration."
 ---
 
@@ -53,5 +53,4 @@ This is not a reason to do nothing about the content — it is a reason to pay a
 
 ## How it appears in Teaching That Sticks
 
-Session 3 uses Maslow's hierarchy to contextualise the action learning set structure — specifically the importance of creating a safe psychological container before asking learners to take on the vulnerability of naming a real challenge. The discussion of the non-pyramid caveat is a reliable moment of recognition for participants (*"I've been teaching this with a pyramid for years"*) — used deliberately to model the kind of conceptual revision that good teaching enables.
-
+Not taught directly in the three core sessions. Useful background when a learner's difficulty may be about welfare rather than teaching.

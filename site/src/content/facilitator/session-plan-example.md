@@ -1,69 +1,59 @@
 ---
-title: "Session Plan — Worked Example"
+title: "Design Canvas: Worked Example"
 type: resource
 order: 6
-tagline: "What a completed session plan looks like — so you know what you're aiming for"
+tagline: "One 10-minute ward teaching moment, planned box by box on the design canvas"
 fox: "pencil.png"
 ---
 
-## How to use this page
+This is what a finished canvas looks like for a short piece of teaching. The ward, people and problem are made up. Fill the boxes in this order: the activities come fifth, not first. The canvas as six questions is on [Before You Plan a Teaching Day](/facilitator/before-you-plan).
 
-Every session blueprint contains an empty session plan table. This page shows a fully completed version for a real (hypothetical) cohort, so you can see the difference between filling in the template and actually doing the thinking.
+**The session:** a staff nurse on a surgical ward runs a 10-minute teaching moment on fluid balance charts at the nurses' station, during the quiet spell after lunch.
 
-The worked example is for Session 1. The standard of completion — the level of specificity, the honesty about constraints, the concreteness of the learning outcome — is the same for all three sessions.
+### 1. Learners and context
 
----
+Four to six newly qualified nurses and healthcare assistants on the day shift. They have all filled in fluid balance charts, but nobody has shown them how this ward wants them totalled. Ten minutes, standing up, one bleep away from being called off. No screen.
 
-## What a blank plan looks like
+### 2. Need
 
-*(from the Session 1 blueprint)*
+Charts are started but often not totalled at 24 hours, so a falling balance gets spotted late. Teaching can fix part of this: knowing how and when to total. It can't fix missing jugs or a chart that's hard to read. Raise those separately.
 
-| Element | Your session |
-|---------|-------------|
-| **Date and time** | |
-| **Venue and room type** | |
-| **Learner group** | Role, grade, how many? |
-| **What they already know** | Prior knowledge and experience to build on |
-| **Your primary learning outcome** | The single most important takeaway |
-| **Adaptations needed** | Local context, constraints, cultural factors |
-| **Level 1 feedback method** | How will you collect reactions within 24 hours? |
-| **Level 2 check** | How will you know they learned it? |
-| **Cover if you can't run** | Named person, briefed? |
+### 3. Outcomes
 
----
+By the end, learners will be able to:
 
-## What a completed plan looks like
+1. **Total** a 24-hour fluid balance chart correctly.
+2. **Decide** whether a given balance needs escalating, and say who to tell.
+3. **Complete and total** the charts for their own patients on their next shifts.
 
-| Element | Your session |
-|---------|-------------|
-| **Date and time** | Tuesday 14 October, 13:00–14:30 |
-| **Venue and room type** | Seminar Room 4, Main Building — moveable chairs, confirmed. Projector tested Friday. |
-| **Learner group** | 14 Foundation Year 2 doctors. Mixed specialties (medicine, surgery, ED). All have attempted some bedside teaching in the past 3 months. None have had formal educator training. |
-| **What they already know** | All have been the learner more than the teacher. Most default to "telling" when teaching — they know the content and explain it. They have strong subject knowledge and are frustrated when learners don't retain it. |
-| **Your primary learning outcome** | They can name one specific change they will make to a slide or handout before their next teaching session, with a reason grounded in cognitive load or dual coding. |
-| **Adaptations needed** | One participant has disclosed dyslexia — seated near the screen, larger font on any printed material, extra time if the redesign activity needs it. One participant is an international medical graduate with English as a second language — pair them with a confident English speaker for the think-pair-share. The "bad slide" example uses a topic from general medicine, not surgery — check whether the room will engage with it. |
-| **Level 1 feedback method** | Padlet post-session: three prompts — *What will you try before Session 2? What got in the way of engaging today? What do you still need?* QR code on the final slide. Check it before Session 2. |
-| **Level 2 check** | At the Session 2 opening retrieval quiz: can they name the three types of cognitive load? Can they describe the redundancy effect in one sentence? If not, 5-minute revisit before moving on. |
-| **Cover if you can't run** | Dr. Priya Sharma — briefed on 8 October. She has the slides, the brief, and the feedback frame cards. She knows the bad slide is on the shared drive under /teaching-that-sticks/session-1/. |
+### 4. Evidence
 
----
+Each verb decides the evidence, using [Miller's pyramid](/theories/millers-pyramid):
 
-## What makes the difference
+| Outcome | Miller level | Evidence |
+|---|---|---|
+| 1. Total a chart | Shows how | Each learner totals a mock chart in the session; check it on the spot |
+| 2. Decide on escalation | Knows how | Their decision on three short scenarios, said aloud |
+| 3. Complete charts on shift | Does | Charts in the ward's routine documentation check, 2 and 4 weeks later |
 
-**Specificity of the learning outcome** — "they will understand cognitive load" is a content statement, not a learning outcome. "They can name one specific change they will make, with a reason" is a behaviour that can be observed and checked.
+"Be aware of the importance of fluid balance" would only ever reach the bottom of the pyramid, so it isn't an outcome here.
 
-**Honest prior knowledge assessment** — the template asks what they already know, not just their job title. The IDs in the example know their content but haven't been given a framework for why learners don't retain it. That is the gap this session fills.
+### 5. Activities
 
-**Concrete adaptations** — "be inclusive" is not an adaptation. "Pair this person with a confident English speaker for think-pair-share" is.
+- **2 min:** spot the two errors on a completed mock chart, in pairs.
+- **4 min:** everyone totals a fresh mock chart. Swap and check.
+- **3 min:** three one-line scenarios. Escalate or not? To whom?
+- **1 min:** hand out a pocket card with the totalling steps.
 
-**Level 1 that feeds forward** — a paper smiley-face form is Level 1. A Padlet with three specific prompts that you look at before Session 2 is Level 1 that changes what you do in Session 2.
+No slides. The mock charts contain no patient information.
 
-**A named cover person** — if you cannot complete this row, you are not ready to deliver. Things happen. Junior doctors have on-call changes. Name the person and brief them.
+### 6. Follow-through
 
----
+- **30 days:** the same three scenarios as a two-minute quiz at the morning huddle.
+- **60 days:** the nurse re-checks the routine documentation results with the ward manager.
+- **90 days:** if totals have slipped, rerun the 10 minutes.
+- **Who will ask:** the ward manager, at the 30-day huddle.
 
-> **Remember:** The session plan is for you. No one else needs to see it. The purpose is not compliance — it is the 10 minutes of forced thinking that converts a blueprint into *your* session.
+### Does it line up?
 
----
-
-*This page is part of Teaching That Sticks — CC BY 4.0.*
+Read across each outcome. Every outcome has evidence at the right level, and an activity that practises it. If a box doesn't connect to the others, change the box, not the outcome.

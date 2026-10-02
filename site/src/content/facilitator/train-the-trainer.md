@@ -2,204 +2,127 @@
 title: "Train the Trainer"
 type: resource
 order: 8
-tagline: "Eligibility criteria, 5-stage development pathway, observer checklist, and QA framework for scaling the programme"
+tagline: "Two routes to running the programme yourself, defined roles, and an observer checklist for all three sessions"
 fox: academic_right.png
 ---
 
-*For organisations building internal facilitation capacity.*
+*For anyone preparing to run the programme, and for organisations building a small team of facilitators.*
 
-This programme only achieves its mission at scale if it can be delivered by trained facilitators who do not depend on the person who designed it. The train-the-trainer pathway is what makes the programme sustainable, spreadable, and independently fidelity-checked.
+The aim is not identical delivery. It is facilitators who understand why each block is there, so they make good decisions when the room doesn't follow the plan.
 
-The goal is not to produce facilitators who deliver this programme identically to how it was first run. It is to produce facilitators who understand the pedagogical principles deeply enough to make good decisions when things deviate from the plan — and they will.
+## Overview
 
-## Eligibility criteria
+There are two routes. Use the first if someone in your organisation has already run the programme. Use the second if you are the first. Both take about **two cohorts**: one to learn it alongside someone, one to lead it while being observed. With one cohort a term, that is about six months.
 
-There are no mandatory qualifications to deliver this programme. The criteria are capability-based.
+Whichever route you take, be observed on **Session 2 or Session 3**, not only Session 1. Session 1 is the most scripted. Sessions 2 and 3 depend on what participants bring, and that is where facilitation is tested.
 
-### Required
+## Roles
 
-- [ ] Completion of all three sessions as a **participant** (not just reading the materials)
-- [ ] Full reading of all facilitator materials: technical brief, theory crib sheet, session blueprints
-- [ ] Demonstrated familiarity with the 15 theoretical frameworks in the theory crib sheet — can explain each in their own words and handle a challenge without referring to notes
-- [ ] Comfort facilitating group discussions, including psychologically sensitive ones (psychological safety, hierarchy of needs)
-- [ ] Willingness to be observed and receive feedback on first delivery
+- **Facilitator:** leads the session, keeps time, and owns the asks and the read-backs.
+- **Co-facilitator:** leads agreed blocks, runs the tools and fallbacks, watches the clock, and joins pairs during activities. Swap roles between sessions.
+- **Observer:** sits outside the action, uses the checklist below, and leads the debrief afterwards. An observer does not need to have run the programme, but should have read the session blueprint.
 
-### Desirable
+## Who can facilitate
 
-- Clinical credibility with the intended participant cohort
-- Prior experience facilitating group learning or training
-- Familiarity with at least some of the theoretical foundations before starting
+No teaching qualification is needed. You need to:
 
-### Not required
+- [ ] Have taken part in all three sessions, or run a full dry run of them (first-adopter route)
+- [ ] Have read the [session blueprints](/facilitator/session-1), [Technical Brief](/facilitator/technical-brief) and [Theory Crib Sheet](/facilitator/theory-guide)
+- [ ] Be able to explain each theory in your own words, including what to say when someone pushes back
+- [ ] Be comfortable keeping a small group on time
+- [ ] Be willing to be observed and to hear feedback
 
-- A PGCert in medical or clinical education
-- HEA Fellowship
-- Any formal teaching qualification
+Clinical credibility with the group helps. Prior teaching experience helps. Neither is essential.
 
-## The five-stage pathway
+## Route 1: with an experienced facilitator
 
-### Stage 1: Attend as a participant
+1. **Take part** in all three sessions as a participant. Do the asks. Fill in a canvas for your own session.
+2. **Read** the blueprints. For each block, be able to say why it happens at that point and what you'd do if it didn't land.
+3. **Co-facilitate** a full cohort. Lead at least one block in each session, including the activity blocks in Sessions 2 and 3.
+4. **Lead** the next cohort, with the experienced facilitator observing at least one of Session 2 or Session 3 using the checklist.
+5. **Decide readiness together** (see below), then run cohorts on your own.
 
-Attend all three sessions as a participant. Not as an observer — as a participant. Make the commitments. Try the activities. Post to the Padlet. Experience the cliffhangers.
+## Route 2: the first adopter
 
-This is non-negotiable. You cannot facilitate a learning experience you have not had.
+If nobody near you has run it yet, you build the experience yourself.
 
-**Completion evidence:** Participant record (sign-in, Padlet contributions, commitment card kept)
-
----
-
-### Stage 2: Self-study
-
-Read and annotate all facilitator materials. The goal is not to memorise them but to understand the reasoning behind each design decision.
-
-For each session blueprint, be able to answer:
-- Why is the room set up this way?
-- Why does this activity happen at this point, not earlier or later?
-- What would I do if this activity did not land?
-- What is the pedagogical function of this moment?
-
-For the theory crib sheet, be able to explain each theorist in your own words — not recite the crib sheet. The test is: could you discuss this with a sceptical medical consultant who has never heard of constructive alignment?
-
-**Completion evidence:** Self-certified; supervisor conversation to check depth
-
----
-
-### Stage 3: Supervised co-facilitation
-
-Co-facilitate at least one full delivery of the programme (all three sessions) alongside an experienced facilitator.
-
-During co-facilitation:
-- Take primary responsibility for at least two activities per session
-- Debrief after each session with the lead facilitator using the advocacy-inquiry model
-- Review your own facilitation using the observer checklist below
-
-**Completion evidence:** Lead facilitator sign-off + completed self-assessment using the observer checklist
-
----
-
-### Stage 4: Observed solo delivery
-
-Deliver Session 1 solo, observed by a trained facilitator or supervisor. Receive structured feedback using the observer checklist.
-
-If Session 1 demonstrates sufficient competence (see checklist threshold below), proceed to solo delivery of Sessions 2 and 3.
-
-If Session 1 raises concerns, agree a development plan with your supervisor before proceeding.
-
-**Completion evidence:** Observer checklist completed by observer + debrief record
-
----
-
-### Stage 5: Independent delivery with light-touch QA
-
-Deliver the full programme independently. Submit:
-- Kirkpatrick Level 1 data from all three sessions
-- Kirkpatrick Level 3 data at 30 and 90 days
-- Brief reflective note (one page) on what worked, what was hard, and what you adapted
-
-**Completion evidence:** Evaluation data submitted; reflective note received
+1. **Find a peer.** Another educator who will co-deliver and observe. Two first adopters together is better than one alone.
+2. **Read and plan.** Work through the blueprints and fill in a canvas for one of your own sessions, as a participant would.
+3. **Dry-run each session** with two or three colleagues before the cohort. Run it at full speed against a timer. Test every tool and its fallback in the real room.
+4. **Co-deliver the first cohort** with your peer. Split the blocks and swap roles between sessions.
+5. **Record yourself and self-review.** With participants' agreement and within local policy, record your own voice for one session (audio is enough). Watch or listen back with the checklist. Delete the recording when you have reviewed it.
+6. **Be observed.** Ask a colleague to observe Session 2 or Session 3 with the checklist, even if they have not run the programme.
+7. **Lead the second cohort**, with your peer observing at least one session. Then decide readiness.
 
 ## Observer checklist
 
-*For use during Stage 4 (observed delivery) and any subsequent quality assurance observations.*
+*Mark each item ✓ seen, ~ partly, ✗ not seen, or N/A. Add a short note on what you actually saw. Notes matter more than marks.*
 
-Complete during the observed session. Rate each item on the scale below. Discuss ratings with the facilitator immediately after the session using the advocacy-inquiry model.
+### Every session
 
-**Rating scale:**
-- **3 — Strong:** Element delivered with confidence, clear pedagogical intent, effective impact on participants
-- **2 — Developing:** Element present but inconsistent, hesitant, or partially effective
-- **1 — Needs attention:** Element missing, significantly ineffective, or pedagogically problematic
-- **N/O — Not observed:** Element did not apply in this session or was not visible
+| Item | Mark | What I saw |
+|---|---|---|
+| Room set before people arrived; nothing on screen | | |
+| Low-tech fallback ready for every tool (printed pack, whiteboard pens, cards) | | |
+| Theory came in bursts of 10 minutes or less, just before it was used | | |
+| Each block kept close to its timing; facilitator cut show-and-tell, not the ask, when behind | | |
+| Instructions were clear before an activity started | | |
+| During activities, facilitator asked questions rather than giving answers | | |
+| Sharing was voluntary; nobody was put on the spot | | |
+| Quieter voices were invited in; no one person dominated | | |
+| Session finished on time | | |
 
-### Section A: Environment and opening
+### Opening (Sessions 2 and 3)
 
-| Item | Rating | Notes |
-|------|--------|-------|
-| Room layout changed from default (no rows, facilitator not central) | | |
-| Nothing on screen when participants arrived | | |
-| Facilitator welcomed participants without standing at a lectern | | |
-| Opening activity began without lengthy introduction | | |
-| Silence used effectively — not filled unnecessarily | | |
+| Item | Mark | What I saw |
+|---|---|---|
+| Last week's ask was read back at the start | | |
+| "Not done" was met with curiosity ("what got in the way?"), not blame | | |
+| Participants without their item were given a way in (pack, a session they'd like to teach) | | |
 
-### Section B: Retrieval opening (Sessions 2 and 3 only)
+### The ask and the close
 
-| Item | Rating | Notes |
-|------|--------|-------|
-| Session opened by pulling back from the previous session's content | | |
-| Retrieval was active (participants recalled, not facilitator summarised) | | |
-| Retrieval was named as spaced retrieval at an appropriate moment | | |
-| Non-completion of commitment was handled with curiosity, not shame | | |
+| Item | Mark | What I saw |
+|---|---|---|
+| Session 1 or 2: the ask was given in full, with its canonical wording | | |
+| Session 1 or 2: each participant wrote the ask on a card and photographed it | | |
+| Session 3: each participant named a person who will ask them about their canvas at 30 days | | |
+| Session 3: the reveal (the programme on its own canvas) had its full time | | |
 
-### Section C: Didactic content
+### Session-specific
 
-| Item | Rating | Notes |
-|------|--------|-------|
-| Didactic content delivered within time cap (15/12/15 min) | | |
-| Timer was visible to the room | | |
-| Delivery used image + spoken word, not bullet-point slides | | |
-| Theorists named with date and key idea | | |
-| Content stopped at the timer, not when facilitator finished | | |
+| Item | Mark | What I saw |
+|---|---|---|
+| **S1:** the bad slide ran for 30 seconds, then the screen went black before "what do you remember?" | | |
+| **S1:** colour-vision test framed as voluntary; nobody asked to share results | | |
+| **S2:** Kahoot came *before* retrieval and spacing were named | | |
+| **S2:** participants designed for their session's real setting, using at least one named strategy | | |
+| **S3:** outcomes rewritten with observable verbs, each with matching evidence | | |
+| **S3:** alignment check against Session 1 slides and Session 2 activity | | |
 
-### Section D: Active learning activities
+### Overall
 
-| Item | Rating | Notes |
-|------|--------|-------|
-| Activity instructions were clear and complete before the activity began | | |
-| Facilitator circulated and asked questions rather than giving answers | | |
-| Groups were functional (not dominated by one voice) | | |
-| Facilitator named the pedagogical principle being demonstrated after the activity | | |
-| Feedback frame used appropriately (Session 1 redesign activity) | | |
+| Item | Mark | What I saw |
+|---|---|---|
+| Facilitator modelled what the session teaches (active, low-load, aligned) | | |
+| Adaptations were made for a reason the facilitator could explain | | |
 
-### Section E: Psychological safety and difficult conversations
+## Deciding readiness
 
-| Item | Rating | Notes |
-|------|--------|-------|
-| "Nothing changed" responses received without judgment | | |
-| Advocacy-inquiry model used (not direct advice-giving) | | |
-| Hierarchical dynamics actively managed (space created for less senior voices) | | |
-| Disclosure or difficulty handled with care (neither dismissed nor escalated inappropriately) | | |
+There is no pass mark. Readiness is a judgement made by the facilitator and the observer together, after the debrief. A facilitator is ready to run cohorts on their own when you can both say yes to these:
 
-### Section F: Commitment and close
+- The asks and read-backs happen every time, in full.
+- Sessions finish on time without cutting the ask, the follow-through loop or the reveal.
+- Theory stays short and arrives just before it's used.
+- Fallbacks are ready and the facilitator switches to them calmly.
+- The facilitator can name their own development points before the observer does.
 
-| Item | Rating | Notes |
-|------|--------|-------|
-| Commitment activity included specific implementation intention (not vague aspiration) | | |
-| Facilitator pushed for specificity where commitment was vague | | |
-| Cliffhanger delivered without resolution or softening | | |
-| Session ended at the cliffhanger, not with a summary or thank-you | | |
+If any answer is "not yet", agree two or three specific actions and a date for another observed session.
 
-### Section G: Overall
+**The debrief.** Ask the facilitator what went well and what they'd change, first. Then say what you saw and ask about their intention: *"I noticed you skipped the pitches. What were you weighing up?"* Agree actions that are specific: when, where, what.
 
-| Item | Rating | Notes |
-|------|--------|-------|
-| Facilitator modelled the pedagogy they were teaching throughout | | |
-| Facilitator managed their own anxieties without compromising the learning design | | |
-| Adaptations made were pedagogically justified | | |
-| Participants appeared engaged, active, and psychologically safe | | |
+## Keeping quality over time
 
-### Threshold for independent delivery
-
-A facilitator is ready for independent delivery when:
-
-- No item in Sections C, E, or F is rated 1
-- Overall rating across all sections averages 2 or above
-- The post-session debrief demonstrates the facilitator can identify their own development areas without prompting
-
-A single 1-rating in Sections A, B, or D does not prevent independent delivery but should be included in a development plan.
-
-### Post-observation debrief guide
-
-Use the advocacy-inquiry model:
-
-1. **Ask the facilitator to self-assess first.** *"What went well? What would you do differently?"*
-2. **Name your observations using advocacy-inquiry.** *"I noticed X. I was thinking Y. What was your intention there?"*
-3. **Agree two or three specific development actions.** These should be implementation intentions, not generalisations.
-4. **Confirm readiness or development plan.** If ready: confirm and celebrate. If not: name it clearly, agree the pathway, set a date for reassessment.
-
-## Quality assurance at scale
-
-If you have multiple facilitators running multiple cohorts:
-
-- All facilitators should be observed at least once per year
-- Kirkpatrick Level 1 data should be reviewed by a lead facilitator or programme lead quarterly
-- Kirkpatrick Level 3 data at 90 days should be reviewed annually — significant drops from expected levels (below 60% reporting practice change) should trigger a fidelity review
-- Facilitators should meet as a community of practice at least twice a year to share adaptations and challenges
+- Observe each facilitator at least once a year, on Session 2 or 3.
+- Review each cohort's [evaluation](/facilitator/evaluation-toolkit) data with another facilitator after the 90-day check.
+- Meet as facilitators at least twice a year to share adaptations and what got in the way.

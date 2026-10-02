@@ -7,7 +7,7 @@ doi: "10.1016/S0065-2601(06)38002-1"
 openAccess: true
 openAccessUrl: "https://kops.uni-konstanz.de/entities/publication/2e749bfb-8533-437c-8203-7e788c910c5f"
 theorists: ["gollwitzer-implementation-intentions"]
-sessions: [3]
+sessions: [1, 2, 3]
 imagePrompt: "A split panel. Left panel: multiple dotted arrows pointing in different directions, most fading before they reach a target — representing vague goal intentions that dissipate. Right panel: a single solid if-then arrow that completes its path to a clear target — representing a specific implementation intention. Flat design, Teaching That Sticks house style, slate blue-grey and amber palette, clean white background, no people, professional educational illustration."
 ---
 
@@ -41,7 +41,7 @@ For clinical education: every commitment activity that ends with *"I'll try to t
 - Most studies were conducted in non-clinical settings; translation to busy ward environments requires the additional friction of environmental complexity and competing demands
 - Effect sizes from laboratory and self-report studies may overestimate real-world effects
 - Some goal domains show stronger effects than others — goals that are already strongly desired benefit most from implementation intentions; weakly desired goals benefit less
-- The meta-analysis does not tell us how long implementation intentions sustain behaviour change without reinforcement — the 30 and 90-day follow-up in the programme addresses this gap pragmatically
+- The meta-analysis does not tell us how long implementation intentions sustain behaviour change without reinforcement — the programme addresses this pragmatically by reading each ask back a week later and by naming someone who will ask about the change at 30 days
 
 ## What it means for your practice
 
@@ -53,5 +53,4 @@ Three changes:
 
 ## How it appears in Teaching That Sticks
 
-The commitment card at the end of Session 3, and the commitment activities at the close of Sessions 1 and 2, are explicitly structured as implementation intentions. The facilitator script at each commitment activity includes a push-back prompt: *"'I'll try to...' is not specific enough. When exactly? Which patients? What will you say?"* The 30-day and 90-day follow-up surveys are timed to coincide with the point at which implementation intentions begin to require reinforcement — a retrieval prompt for the commitment itself.
-
+The asks at the end of Sessions 1 and 2 are specific intentions, written on a card, photographed, and read back at the start of the next session. The read-back is both follow-up and retrieval. Facilitators push back on vague wording ("I'll try to…") and ask when, and what exactly. Session 3 has no card: the completed canvas is the commitment, with one named person who will ask about it at 30 days.

@@ -6,7 +6,7 @@ year: 1972
 doi: "10.1016/S0022-5371(72)80001-X"
 openAccess: false
 theorists: []
-sessions: [1, 2]
+sessions: []
 imagePrompt: "A vertical spectrum shown as three stacked horizontal bands, from top to bottom. The top band is labelled 'Structural (shallow)' with a simple shape icon — showing processing of visual appearance. The middle band is labelled 'Phonological' with a sound-wave icon — showing processing of sound. The bottom band is labelled 'Semantic (deep)' with a lightbulb or interlocking rings icon — showing processing of meaning. A bold downward arrow on the left side of the spectrum is labelled 'Depth of processing'. A subtle gradient runs from light to dark top to bottom. Flat design, Teaching That Sticks house style, slate blue-grey and amber palette, clean white background, no people, professional educational illustration."
 ---
 
@@ -41,4 +41,8 @@ Several implications follow:
 - **Retrieval practice works because recall is the deepest form of processing.** Pulling a memory out requires semantic reconstruction — you cannot retrieve something without engaging with what it means. This is why a retrieval quiz at the start of a session outperforms a recap slide: the quiz requires deep processing, the slide does not.
 - **Application tasks produce better retention than comprehension tasks.** "Describe the stages of Kirkpatrick's model" requires lower-depth processing than "identify the level-3 barrier in this clinical scenario." Design learning activities at the semantic level: what does this mean, and what would I do differently because of it?
 - **The feedback you give changes the depth of processing.** Confirming a correct answer ("yes, exactly right") ends processing. Probing it ("right — and why does that matter in a busy ward?") forces a second, deeper pass through the same material.
-- **Worked examples and case studies derive their power from forcing semantic integration.** A clinical scenario that requires learners to apply a concept produces deeper processing than a bullet point summary of the same concept. This is why the session blueprints are built around cases rather than didactic input.
+- **Worked examples and case studies derive their power from forcing semantic integration.** A clinical scenario that requires learners to apply a concept produces deeper processing than a bullet point summary of the same concept.
+
+## How it appears in Teaching That Sticks
+
+Not taught directly in the three core sessions. It is the background mechanism for two of the strategies named in Session 2: retrieval and elaboration both work by forcing deeper processing.

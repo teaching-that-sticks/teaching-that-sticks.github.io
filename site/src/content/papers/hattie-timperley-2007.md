@@ -7,7 +7,7 @@ doi: "10.3102/003465430298487"
 openAccess: false
 openAccessUrl: "https://doi.org/10.3102/003465430298487"
 theorists: ["hattie-timperley-feedback"]
-sessions: [1, 3]
+sessions: []
 imagePrompt: "A horizontal spectrum bar running from left (dim, low effect) to right (bright, high effect). Three marker lines are placed along the spectrum at different positions, labelled from bottom to top: Self, Task, Process. The rightmost marker (Process) is the brightest and most vivid. Flat design, Teaching That Sticks house style, slate blue-grey and amber palette, clean white background, no people, professional educational illustration."
 ---
 
@@ -55,5 +55,4 @@ The clinical time pressure objection is real but surmountable: *"That was a stro
 
 ## How it appears in Teaching That Sticks
 
-Session 1 introduces the feedback frame card as a structured tool for giving peer feedback on the redesigned slide. The card enforces the Hattie-Timperley three-question structure by design — it prevents participants from defaulting to praise-only and requires feed-forward. The facilitator is guided to name the framework explicitly: *"Notice that the card asks three questions — that structure comes from one of the most replicated findings in educational research."* Session 3 returns to feedback as part of the sticking plan: participants assess their own teaching practice against the same three questions.
-
+Not taught directly in the three core sessions. Feedback and feedforward are parked for a future simulation-based session. The peer responses in Sessions 1 and 2 (one thing that works, one question) are a light version of the same idea.

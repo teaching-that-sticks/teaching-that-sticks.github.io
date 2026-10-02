@@ -1,7 +1,7 @@
 ---
 title: "Debriefing with Good Judgement"
 summary: "Effective debrief names what happened without blame — curiosity about reasoning produces learning that judgement shuts down"
-sessions: ["session-3"]
+sessions: []
 evidence:
   - cite: "Rudolph, J. W., Simon, R., Dufresne, R. L., &amp; Raemer, D. B. (2006). There's no such thing as 'nonjudgmental' debriefing: A theory and method for debriefing with good judgment. <em>Simulation in Healthcare</em>, 1(1), 49–55."
   - cite: "Rudolph, J. W., Simon, R., Rivard, P., Dufresne, R. L., &amp; Raemer, D. B. (2007). Debriefing with good judgment: Combining rigorous feedback with genuine inquiry. <em>Anesthesiology Clinics</em>, 25(2), 361–376."
@@ -21,3 +21,5 @@ This approach respects the learner's intelligence. It doesn't pretend the facili
 - **Separate the observation from the interpretation** — "you seemed rushed" is an interpretation. "You moved through the history in about four minutes" is an observation. Start with the observation.
 - **Curiosity is not the same as neutrality** — "I'm really curious what made you do that" is a genuinely open question from a facilitator with a clear view. "How did you think that went?" is an open question that signals nothing. The former is more respectful of the learner's reasoning.
 - **The good judgement is about your own** — the method works because the facilitator is honest about having a view, but exercises good judgement about *how* to share it. Not everything in your head needs to be said; what matters is creating the conditions for the learner's reasoning to become visible.
+
+*In this programme:* Not taught directly in the three core sessions. Debriefing with good judgement is parked for a future simulation-based session. Useful background for anyone who debriefs simulation or gives feedback after observing practice.

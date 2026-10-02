@@ -50,8 +50,8 @@ For most clinical educators running a session, a feasible minimum is:
 - **Level 2:** One question or brief task that checks whether the key learning objective was met
 - **Level 3:** A single follow-up contact — email, Padlet, or message — at 30 days asking: *"What has changed in your teaching since the session?"*
 
-Level 3 is the level that changes culture. It is also the one that almost nobody does. The 30/60/90 day sticking plan in Session 3 is a direct structural response to this finding.
+Level 3 is the level that changes culture. It is also the one that almost nobody does. The follow-through loop in Session 3 (30, 60 and 90 days, and who will ask you) is a direct response to this finding.
 
 ## How it appears in Teaching That Sticks
 
-Kirkpatrick's model is introduced explicitly in Session 3 as the evaluative framework for the programme. The argument is made that the programme itself has been designed for Level 3 — the Padlet commitments, the session-to-session accountability, the sticking plan, and the named peer accountability partner all exist because enthusiasm at the end of a session (Level 1) is not the goal. The goal is measurable practice change (Level 3). Session 3 provides the tools to pursue it.
+Kirkpatrick is the backbone of Session 3. Participants sort everyday evidence (attendance lists, smile sheets, quiz scores, "learners now do X") onto the four levels and see how little of it shows that anything changed. They then rewrite their outcomes, choose evidence that matches each verb, and plan the follow-through, including who will ask them about it at 30 days. The programme is evaluated the same way: see the [Evaluation Toolkit](/facilitator/evaluation-toolkit).

@@ -7,7 +7,7 @@ doi: "10.1037/0003-066X.54.7.493"
 openAccess: true
 openAccessUrl: "https://kops.uni-konstanz.de/server/api/core/bitstreams/14cc2a36-5f01-4dc1-b9ca-f2d0ca0c8930/content"
 theorists: ["gollwitzer-implementation-intentions"]
-sessions: [3]
+sessions: [1, 2, 3]
 imagePrompt: "An if-then flowchart. A diamond shape on the left labelled IF contains an abstract clock and a location pin. A solid arrow flows rightward into a rectangle labelled THEN containing a forward-pointing arrow. Below the main flowchart a horizontal dotted line shows a faded, incomplete path — the goal intention that failed to produce action. Flat design, Teaching That Sticks house style, slate blue-grey and amber palette, clean white background, no people, professional educational illustration."
 ---
 
@@ -46,5 +46,4 @@ For any teaching commitment, ask the learner to complete this sentence: *"When [
 
 ## How it appears in Teaching That Sticks
 
-This paper provides the theoretical architecture for the commitment activities across all three sessions. See [Gollwitzer & Sheeran (2006)](/papers/gollwitzer-sheeran-2006) for the meta-analytic evidence of size and generalisability.
-
+This paper is the reason for the ask at the end of Sessions 1 and 2: a specific intention, written on a card in the room, photographed, and read back at the start of the next session. In Session 3 the completed design canvas, plus one named person who will ask about it at 30 days, takes the card's place. See [Gollwitzer & Sheeran (2006)](/papers/gollwitzer-sheeran-2006) for the meta-analytic evidence of size and generalisability.

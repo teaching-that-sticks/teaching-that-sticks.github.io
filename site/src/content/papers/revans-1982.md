@@ -5,7 +5,7 @@ journal: "Chartwell-Bratt"
 year: 1982
 openAccess: false
 theorists: ["revans-action-learning"]
-sessions: [3]
+sessions: []
 imagePrompt: "A simple equation displayed large: L = P + Q. Below it: P labelled 'Programmed knowledge (what is already known)' and Q labelled 'Questioning insight (asking fresh questions of the situation)'. A small group of simplified figures sit in a circle beneath the equation, each with a speech bubble showing a question mark. Flat design, Teaching That Sticks house style, slate blue-grey and amber palette, clean white background, no people, professional educational illustration."
 ---
 
@@ -45,10 +45,10 @@ For clinical education: the most effective debrief of a difficult case is rarely
 
 ## What it means for your practice
 
-The immediate application is the action learning set structure in Session 3: triads, real teaching challenges, eight minutes of questions only before any advice is offered. The discipline is not procedural — it is the point. Clinicians who can suspend the advice reflex for eight minutes become better at asking the questions that actually help rather than the questions that demonstrate their own expertise.
+The immediate application is an action learning set: triads, real teaching challenges, eight minutes of questions only before any advice is offered. The discipline is not procedural — it is the point. Clinicians who can suspend the advice reflex for eight minutes become better at asking the questions that actually help rather than the questions that demonstrate their own expertise.
 
-Beyond Session 3, the L = P + Q insight applies to how you design any professional development intervention: if it consists entirely of expert input (P), you are providing content that participants may or may not be able to use. If it combines expert input with structured questioning of real problems (P + Q), you are building the questioning capacity that transfers to situations the content never anticipated.
+More broadly, the L = P + Q insight applies to how you design any professional development intervention: if it consists entirely of expert input (P), you are providing content that participants may or may not be able to use. If it combines expert input with structured questioning of real problems (P + Q), you are building the questioning capacity that transfers to situations the content never anticipated.
 
 ## How it appears in Teaching That Sticks
 
-Revans underpins the action learning set simulation in Session 3 and the broader structure of the programme's between-session work. Each session's commitment activity — specific, real, owned by the participant — is an application of L = P + Q: the programme provides P (the theory and tools), but learning requires participants to take real action in their own context and bring the resulting questions back.
+Not taught directly in the three core sessions. Useful background if you want peer support to continue after the programme ends.

@@ -5,7 +5,7 @@ journal: "Jossey-Bass"
 year: 1984
 openAccess: false
 theorists: ["knowles-andragogy"]
-sessions: [1, 2, 3]
+sessions: [1]
 imagePrompt: "A horizontal bar divided into two halves, labelled 'PEDAGOGY' on the left and 'ANDRAGOGY' on the right. Under pedagogy: icons for external motivation (downward arrow), dependency, subject-centred. Under andragogy: icons for internal motivation (upward arrow), self-direction, problem-centred. A vertical divider line in the centre. Flat design, Teaching That Sticks house style, slate blue-grey and amber palette, clean white background, no people, professional educational illustration."
 ---
 
@@ -49,10 +49,10 @@ For clinical education: every ward teaching session already has subject matter e
 
 Three applications that follow directly from the framework:
 
-1. **Start with their experience.** Before any didactic input, find out what participants already know and have already tried. The think-pair-share at the start of Session 1 is not an ice-breaker — it is using the room as the primary curriculum resource.
+1. **Start with their experience.** Before any didactic input, find out what participants already know and have already tried. The opening question in Session 1 (what makes a good teacher?) is not an ice-breaker — it is using the room as the primary curriculum resource.
 2. **Answer the question "why are we doing this?" explicitly.** Do not assume it is obvious. In mandatory training especially, the need-to-know is the first point of resistance and the cheapest one to address.
 3. **Connect to the Monday-morning problem.** Whatever you teach, the question *"what does this look like on Thursday's ward round?"* should be answerable before participants leave. If it is not, you have not completed the learning design.
 
 ## How it appears in Teaching That Sticks
 
-Knowles's framework is the structural rationale of the programme. Think-pair-share is andragogy enacted. Bringing your own worst slide is prior experience as curriculum. Commitment to specific, personally chosen implementation intentions is self-direction in practice. The use of real teaching problems rather than textbook examples is problem-centredness. When the facilitator says *"the expertise was already in the room — your job is to activate it, not replace it,"* that is Knowles.
+Knowles shapes the whole programme. Session 1 opens with participants' own experience of good teaching. Everyone works on one session they teach, or would like to teach, so the material is always their own problem. The asks are small enough to fit a working week. The working principle for facilitators: the expertise is already in the room, and your job is to activate it, not replace it.

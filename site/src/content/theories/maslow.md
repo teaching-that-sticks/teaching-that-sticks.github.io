@@ -1,7 +1,7 @@
 ---
 title: "Hierarchy of Needs"
 summary: "Unmet physiological and safety needs can crowd out learning — underperformance is sometimes a welfare issue before it is a pedagogical one"
-sessions: ["session-3"]
+sessions: []
 evidence:
   - cite: "Maslow, A. H. (1943). A theory of human motivation. <em>Psychological Review</em>, 50(4), 370–396."
     paper: "maslow-1943"
@@ -25,3 +25,5 @@ For clinical educators, this is not an abstract theory. It is a practical framew
 
 - **The evidence for the hierarchy itself is weak.** Wahba and Bridwell's (1976) review of the research found little or only partial support for Maslow's ranking of needs, or for the idea that satisfying one level activates the next. The hierarchy is best used as a prompt to ask "what else is going on for this learner?", not as a validated model.
 - **The pyramid is a later simplification.** Maslow did not draw a pyramid, and he described many exceptions and reversals in the ordering. People can and do learn, care and strive while some lower needs are unmet.
+
+*In this programme:* Not taught directly in the three core sessions. Useful background when a learner's difficulty may be about welfare rather than teaching.

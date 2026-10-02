@@ -1,7 +1,7 @@
 ---
 title: "Feedback and Feedforward"
 summary: "Feedback tells someone where they were; feedforward tells them where to go — both are necessary, and most clinical feedback is neither"
-sessions: ["session-3"]
+sessions: []
 evidence:
   - cite: "Hattie, J., &amp; Timperley, H. (2007). The power of feedback. <em>Review of Educational Research</em>, 77(1), 81–112."
     paper: "hattie-timperley-2007"
@@ -22,3 +22,5 @@ Effective feedback answers three questions: Where am I going (the goal)? How am 
 - **Separate performance from identity** — feedback addressed to what the person *did* is more useful and less threatening than feedback addressed to what kind of person they *are*. "That history didn't include the social context" vs "you're not very thorough".
 - **Ask before you give** — "what did you think went well / less well?" before the facilitator offers their view produces better engagement, self-awareness, and recall. It also identifies whether the learner already knows — in which case confirming their diagnosis is the intervention, not providing your own.
 - **Feedforward is a skill** — turning "your presentations are disorganised" into "next time, before you present, write down the one question you want the team to be able to answer at the end, and structure from there" is a different cognitive task. It requires knowing the learner, knowing the context, and thinking specifically.
+
+*In this programme:* Not taught directly in the three core sessions. Feedback and feedforward are parked for a future simulation-based session. The peer responses in Sessions 1 and 2 (one thing that works, one question) are a light version of the same idea.

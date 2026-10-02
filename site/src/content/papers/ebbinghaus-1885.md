@@ -6,7 +6,7 @@ year: 1885
 openAccess: true
 openAccessUrl: "https://psychclassics.yorku.ca/Ebbinghaus/index.htm"
 theorists: ["ebbinghaus-forgetting-curve"]
-sessions: [2, 3]
+sessions: [2]
 imagePrompt: "A smooth descending exponential curve from upper-left to lower-right on a minimal grid. The vertical axis is labelled with an upward arrow (retention). The horizontal axis is labelled with a rightward arrow (time). Three small upward tick marks on the curve at equal intervals represent spaced practice retrieval events — each tick resets the curve upward slightly before it descends again. Flat design, Teaching That Sticks house style, slate blue-grey and amber palette, clean white background, no people, professional educational illustration."
 ---
 
@@ -47,5 +47,4 @@ Two implications:
 
 ## How it appears in Teaching That Sticks
 
-The forgetting curve is introduced in Session 2 as the foundational evidence for the programme's spacing and retrieval design. The curve and its implications are explained further on the [Spaced Practice](/theories/spaced-practice) theory page. The 30-day and 90-day follow-up surveys are directly timed against the forgetting curve — they are retrieval events, not just evaluation instruments.
-
+The forgetting curve is named in Session 2, straight after participants have done a Kahoot on Session 1 content a week later: experience first, then the curve that explains why it helped. It is also why the sessions are a week apart, and why participants' follow-through plans revisit their change at 30, 60 and 90 days. More on the [Spaced Practice](/theories/spaced-practice) page.

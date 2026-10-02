@@ -6,7 +6,7 @@ year: 1978
 doi: "10.2307/j.ctvjf9vz4"
 openAccess: false
 theorists: ["vygotsky-zpd", "zone-of-proximal-development"]
-sessions: [1]
+sessions: []
 imagePrompt: "Three concentric rings. The innermost ring is labelled 'What the learner can do ALONE' and is solid. The middle ring is lighter and labelled 'Zone of Proximal Development — achievable with support'. The outer ring is dotted and labelled 'Currently out of reach'. A small upward arrow sits in the ZPD ring pointing inward, indicating the direction of growth. Flat design, Teaching That Sticks house style, slate blue-grey and amber palette, clean white background, no people, professional educational illustration."
 ---
 
@@ -44,9 +44,9 @@ For clinical education: a learner who says "I don't know" is not showing the abs
 
 Two practical moves that follow from the ZPD concept:
 
-1. **Know your learners' actual level before you set the pitch.** The think-pair-share at the start of Session 1 is not just activating prior knowledge — it is the facilitator's diagnostic tool for locating the ZPD in the room. If you skip it, you are teaching blind.
-2. **Structured peer interaction is not the substitute for teaching — it is teaching.** A student who learned something last week often explains it better than an expert who learned it twenty years ago and no longer remembers what it felt like not to know it. The jigsaw activity in Session 2 is ZPD-based design: experts in each concept teach it to people who have just encountered it for the first time.
+1. **Know your learners' actual level before you set the pitch.** Asking about the room's experience at the start is not just activating prior knowledge — it is the facilitator's diagnostic tool for locating the ZPD in the room. If you skip it, you are teaching blind.
+2. **Structured peer interaction is not the substitute for teaching — it is teaching.** A student who learned something last week often explains it better than an expert who learned it twenty years ago and no longer remembers what it felt like not to know it.
 
 ## How it appears in Teaching That Sticks
 
-The ZPD appears in Session 1's theoretical anchors and is enacted through the think-pair-share structure: each participant's existing knowledge is the scaffold for the next person's learning. The entire programme's peer commitment structure — participants holding each other accountable via the Padlet and named accountability partners — is an application of the MKO principle: the most relevant guide is someone in a similar role who is slightly further along.
+Not taught directly in the three core sessions. Useful background for pitching teaching to a mixed group, and for why seeing peers' work helps.

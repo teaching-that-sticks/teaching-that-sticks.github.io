@@ -32,7 +32,7 @@ Andragogy, the term Malcolm Knowles proposed to describe the art and science of 
 
 ## What this means for teaching
 
-The session design in *Teaching That Sticks* is built around these six assumptions. Every session opens with a priming question — not a learning objective listed on a slide. Every session is built around clinical problems, not abstract principles. Every session asks learners to bring their own practice rather than receive best practice.
+*Teaching That Sticks* is built on these assumptions. Session 1 opens with participants' own experience (what makes a good teacher?), not a list of objectives. Everyone works on one session they teach, or would like to teach, across all three weeks, so each idea lands on their own material.
 
 - **Diagnose the room before you teach it.** What experience does this group bring? Where are the practice patterns that are hardest to shift? What problems are they currently stuck on? The answers should change how you run the session — not just which examples you use.
 - **"Need to know" must be answered explicitly.** If learners can see why this matters for their actual work, the resistance drops and the motivation rises. If they cannot, they are waiting for it to be over.

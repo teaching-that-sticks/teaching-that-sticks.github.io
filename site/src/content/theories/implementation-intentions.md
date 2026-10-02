@@ -1,7 +1,7 @@
 ---
 title: "Implementation Intentions"
 summary: "Turning an intention into a plan — 'when X happens, I will do Y' — makes behaviour change dramatically more likely"
-sessions: ["session-1"]
+sessions: ["session-1", "session-2", "session-3"]
 evidence:
   - cite: "Gollwitzer, P. M. (1999). Implementation intentions: Strong effects of simple plans. <em>American Psychologist</em>, 54(7), 493–503."
     paper: "gollwitzer-1999"

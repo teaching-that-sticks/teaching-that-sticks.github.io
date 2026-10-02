@@ -6,7 +6,7 @@ year: 2006
 doi: "10.1111/j.1467-9280.2006.01693.x"
 openAccess: false
 theorists: ["roediger-retrieval-practice", "testing-effect"]
-sessions: [2, 3]
+sessions: [2]
 imagePrompt: "Three line graphs sharing an x-axis labelled '5 minutes / 2 days / 1 week'. Three lines labelled SSSS (study × 4), SSST (study × 3 + test × 1), STTT (study × 1 + test × 3). At 5 minutes, SSSS is highest. At 1 week, STTT is highest by a clear margin — the lines have crossed. The crossover is circled. Flat design, Teaching That Sticks house style, slate blue-grey and amber palette, clean white background, no people, professional educational illustration."
 ---
 
@@ -44,10 +44,10 @@ For clinical education: every quiz, every *"what do you remember from last time?
 
 Three applications in increasing order of commitment:
 
-1. **Open every session by asking what people remember from last time** — not as a courtesy review, but as spaced retrieval. The cognitive work of trying to remember, with partial success, is the learning. Session 3 opens with a five-question quiz for exactly this reason.
+1. **Open every session by asking what people remember from last time** — not as a courtesy review, but as spaced retrieval. The cognitive work of trying to remember, with partial success, is the learning. Session 2 of this programme opens with a Kahoot on Session 1 for exactly this reason.
 2. **Replace some re-reading or note-checking time with attempted recall.** Any time a learner reviews their notes before a session, they would get more return from closing the notes and trying to recall what they cover first.
 3. **Build in low-stakes tests at 24–48 hours after a session.** A single question by email — *"Without looking, what are the three types of cognitive load?"* — does more for one-week retention than sending a recap slide deck.
 
 ## How it appears in Teaching That Sticks
 
-Roediger and Karpicke underpin the programme's spaced retrieval architecture. Session 2 opens by pulling up the Padlet commitments from Session 1 — not as an accountability exercise, but as retrieval. Session 3 opens with a five-question quiz on Sessions 1 and 2. These are structural applications of the testing effect: the sessions are spaced weeks apart precisely to exploit the long-delay retrieval benefit shown in this paper. Participants experience the principle before it is named.
+Session 2 opens with participants reading back their Session 1 ask, then a Kahoot on Session 1 content, a week after they learned it. Only afterwards are retrieval and spacing named, so participants experience the testing effect before they hear about it. Session 3 opens with participants running their own Menti or Kahoot quizzes on the group, which retrieves Sessions 1 and 2 again.

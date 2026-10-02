@@ -6,7 +6,7 @@ year: 1996
 doi: "10.1007/BF00138871"
 openAccess: false
 theorists: ["biggs-constructive-alignment"]
-sessions: [1]
+sessions: [1, 3]
 imagePrompt: "Three horizontal rings aligned on a shared vertical axis — from bottom to top: Learning Outcomes, Teaching Methods, Assessment. The rings are linked by short vertical connectors, showing alignment between all three levels. Flat design, Teaching That Sticks house style, slate blue-grey and amber palette, clean white background, no people, professional educational illustration."
 ---
 
@@ -52,5 +52,4 @@ If any of the three is misaligned, you have identified the point of waste in you
 
 ## How it appears in Teaching That Sticks
 
-Session 1 opens with constructive alignment as the foundational framework for course design thinking. Participants complete a mini-alignment exercise in which they take one of their own teaching sessions and map its three components — outcomes, activity, assessment. The near-universal finding is misalignment, which the session then addresses. The entire three-session programme is itself designed as a constructively aligned system: the assessment (commitment plan) requires the behaviour (applying theory in practice) that the teaching activities (retrieval, spacing, worked examples) develop.
-
+Biggs appears at two scales. In Session 1, at slide scale: *who is this slide for?* Does it serve what learners need to do? In Session 3, at session scale: participants rewrite vague outcomes ("be aware of") as observable verbs, choose the evidence for each, then check their Session 1 slides and Session 2 activity against the new outcomes. The programme itself is designed backwards from its outcomes in the same way.

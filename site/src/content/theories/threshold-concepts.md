@@ -1,7 +1,7 @@
 ---
 title: "Threshold Concepts"
 summary: "Some ideas are portals — once you understand them, you can't go back, and your whole understanding of the subject transforms"
-sessions: ["session-3"]
+sessions: []
 evidence:
   - cite: "Meyer, J. H. F., &amp; Land, R. (2003). Threshold concepts and troublesome knowledge: Linkages to ways of thinking and practising within the disciplines. In C. Rust (Ed.), <em>Improving Student Learning — Ten Years On</em>. Oxford Centre for Staff and Learning Development."
     paper: "meyer-land-2005"
@@ -23,8 +23,4 @@ The implication for teaching is significant. Threshold concepts cannot be transm
 - **Understand why thresholds are troublesome** — Building on David Perkins (1999), Meyer and Land describe troublesome knowledge as ritual (learned by rote without meaning), inert (known but not applicable), conceptually difficult (genuinely counterintuitive), alien (contradicts a deeply held worldview), or tacit (understood but rarely made explicit). Different types of trouble need different teaching responses.
 - **The expert blind spot** — once you've crossed a threshold, it can be genuinely hard to remember not being able to see what you now see. This is why experts are sometimes poor at teaching foundational concepts: they've lost access to the pre-threshold perspective. Novice perspectives are pedagogically valuable.
 
-## A worked example: The Stolen Curriculum
-
-One threshold concept runs through this programme explicitly. Before Session 1, commercial advertising is background noise — or manipulation to be filtered out. After the ad comparison that opens that session, and fully named in Session 3, it becomes something else: a live, always-on applied demonstration of the same cognitive science delegates have just spent two sessions learning. Every billboard now carries a mechanism label. Every jingle is an audible retrieval cue. Every call-to-action is an implementation intention.
-
-The before/after states cannot coexist. This is the irreversibility criterion in practice. Delegates often report that the moment of naming — *this is what has been happening all along* — is among the most memorable moments of the programme. That is not a coincidence: the concept itself is a worked example of deep, elaborative encoding.
+*In this programme:* Not taught directly in the three core sessions. Useful background when you plan teaching on an idea your learners find stubbornly hard.

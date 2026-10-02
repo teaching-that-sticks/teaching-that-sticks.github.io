@@ -5,7 +5,7 @@ journal: "Addison-Wesley"
 year: 1978
 openAccess: false
 theorists: ["argyris-schon-double-loop", "advocacy-inquiry"]
-sessions: [3]
+sessions: []
 imagePrompt: "Two side-by-side loop diagrams. Left diagram labelled 'Single-loop learning': an arrow from 'Action' to 'Outcome', and a feedback arrow back only to 'Action' — the governing variables (a box to the left) are not touched. Right diagram labelled 'Double-loop learning': the same structure, but the feedback arrow reaches all the way back to 'Governing variables', questioning the assumption. Flat design, Teaching That Sticks house style, slate blue-grey and amber palette, clean white background, no people, professional educational illustration."
 ---
 
@@ -57,4 +57,4 @@ The same technique applies when you reflect on your own teaching: not "how do I 
 
 ## How it appears in Teaching That Sticks
 
-Argyris and Schön are named explicitly in Session 3 in the context of advocacy-inquiry, which is presented as the core move in debrief with good judgement. The single-loop vs double-loop distinction underpins the whole-programme argument: most clinical education operates at single-loop level (improving the delivery of lectures) when what is needed is double-loop (questioning whether lectures are the right approach). This programme is designed to make that double-loop question unavoidable.
+Not taught directly in the three core sessions. Useful background for the programme's starting question: asking whether a teaching event is the right answer at all, not just how to deliver it better, is double-loop learning. Debriefing with good judgement, which builds on their advocacy-inquiry, is parked for a future simulation-based session.

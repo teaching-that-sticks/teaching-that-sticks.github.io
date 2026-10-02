@@ -44,5 +44,4 @@ The burden of proof has shifted. The question is no longer *"why should I try ac
 
 ## How it appears in Teaching That Sticks
 
-Freeman et al. (2014) is cited directly in the pre-session email for Session 2 as the evidence base for the session's central claim: *"Active beats passive. Every time."* The specific failure-rate finding is used in the session because it reframes the stakes — this is not a pedagogical preference, it is an evidence-based patient safety argument. If learners learn less under passive instruction, and those learners go on to care for patients, the quality of instruction is a quality of care issue.
-
+Freeman et al. is the evidence behind Session 2's title, *Active Beats Passive*. It is cited when the strategies are named, with the caveat stated plainly: these were STEM undergraduates, not clinicians. The failure-rate finding reframes the stakes: if learners learn less under passive instruction, and those learners go on to care for patients, the quality of teaching is a quality-of-care issue.

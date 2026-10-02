@@ -1,7 +1,7 @@
 ---
 title: "Constructive Alignment"
 summary: "Learning only sticks when what you teach, how you teach it, and how you assess it all point at the same target"
-sessions: ["session-1"]
+sessions: ["session-1", "session-3"]
 evidence:
   - cite: "Biggs, J. (1996). Enhancing teaching through constructive alignment. <em>Higher Education</em>, 32(3), 347–364."
     paper: "biggs-1996"

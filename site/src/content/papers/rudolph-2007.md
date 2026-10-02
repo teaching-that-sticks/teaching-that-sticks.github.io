@@ -6,7 +6,7 @@ year: 2007
 doi: "10.1016/j.anclin.2007.03.007"
 openAccess: false
 theorists: ["rudolph-debriefing-good-judgement"]
-sessions: [3]
+sessions: []
 imagePrompt: "Two speech bubbles facing each other across a narrow gap. The left bubble contains a solid geometric shape — a specific observation (advocacy). The right bubble contains a question mark — genuine inquiry. Between them, a small curved bridge connects the two across the gap. Flat design, Teaching That Sticks house style, slate blue-grey and amber palette, clean white background, no people, professional educational illustration."
 ---
 
@@ -55,5 +55,4 @@ If you find yourself unable to ask a question you don't already know the answer 
 
 ## How it appears in Teaching That Sticks
 
-Session 3's mini action learning set simulation uses the advocacy-inquiry structure as its working tool. Participants practise forming observations and genuine questions rather than giving advice. The facilitator training (train-the-trainer observer checklist) uses the same model for post-observation feedback on facilitator performance — the meta-level is intentional: the process used to evaluate facilitators mirrors the process facilitators are asked to use with learners.
-
+Not taught directly in the three core sessions. Debriefing with good judgement is parked for a future simulation-based session. Useful background for anyone who debriefs simulation or gives feedback after observing practice.

@@ -5,7 +5,7 @@ journal: "Cambridge University Press"
 year: 1991
 openAccess: false
 theorists: ["lave-wenger-situated", "communities-of-practice"]
-sessions: [2, 3]
+sessions: [2]
 imagePrompt: "A concentric ring diagram. The centre ring is labelled 'Full participation — established practice' and is solid/dark. The middle ring is lighter and labelled 'Legitimate peripheral participation — newcomers'. The outer ring is dotted and labelled 'Observer / not yet legitimate'. A small figure in the middle ring is shown moving toward the centre, with dotted arrows. Flat design, Teaching That Sticks house style, slate blue-grey and amber palette, clean white background, no people, professional educational illustration."
 ---
 
@@ -51,8 +51,8 @@ The practical question is: which of your teaching moments are closest to legitim
 
 A 10-minute huddle teach at the end of a ward round — based on a real case, with real learners who were there — scores highly. A mandatory e-learning module on a topic with no connection to the learner's current work scores low. The highest-leverage improvement for most clinical educators is not making classroom teaching better — it is taking teaching out of the classroom and into the work.
 
-This is what Session 2's design challenge is testing: can you design a learning moment for six learners, in a ward corridor, with no projector? The answer is not just yes — it is that this is how most of the best clinical learning actually happens.
+This is the point of Session 2's main task: make ten minutes of your own session active for its real setting (a ward corridor, a handover, a sim room), with whatever is actually there. That is how most of the best clinical learning happens.
 
 ## How it appears in Teaching That Sticks
 
-Lave and Wenger appear explicitly in Sessions 2 and 3 as the theoretical foundation for the argument that the ward is the primary learning environment. The design challenge (Session 2) and the 10-minute huddle teach (Session 3) are both applications of situated learning — authentic tasks, real clinical contexts, real consequences. The programme's commitment structure (participants must try something with real learners before the next session) is an explicit attempt to make learning participation-in-practice rather than attendance at instruction.
+Lave and Wenger are why Session 2's design task is set where the teaching really happens, not in an ideal classroom. Participants make ten minutes of their own session active for its real setting and constraints, then pitch it to the group. The Session 2 ask, making one active thing for that session before next week, keeps the work tied to real practice.

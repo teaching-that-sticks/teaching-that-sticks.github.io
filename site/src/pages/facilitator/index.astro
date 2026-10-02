@@ -25,6 +25,23 @@ const preItems = entries
 const commsItems = entries
   .filter(e => e.data.type === 'comms')
   .sort((a, b) => a.data.order - b.data.order);
+
+// Hub order follows a new facilitator's path: start → prepare → deliver → evaluate.
+const byId = (id: string) => entries.find(e => e.id === id);
+const startIds = ['train-the-trainer'];
+const prepareIds = ['technical-brief', 'theory-guide', 'session-plan-example'];
+const evaluateIds = ['evaluation-toolkit'];
+const placed = [...startIds, ...prepareIds, ...evaluateIds];
+const pick = (ids: string[]) => ids.map(byId).filter(Boolean) as typeof entries;
+const sections = [
+  { header: '1 · Start here', eyebrow: (e: any) => e.data.type === 'pre-programme' ? 'Programme setup' : 'Facilitator development',
+    items: [...preItems, ...pick(startIds)] },
+  { header: '2 · Prepare', eyebrow: () => 'Reference',
+    items: [...pick(prepareIds), ...resources.filter(r => !placed.includes(r.id))] },
+  { header: '3 · Deliver', eyebrow: (e: any) => `Session ${e.data.session}`, items: blueprints, blueprint: true },
+  { header: 'Messages between sessions', eyebrow: (e: any) => `Before session ${e.data.session}`, items: commsItems },
+  { header: '4 · Evaluate', eyebrow: () => 'Evaluation', items: pick(evaluateIds) },
+].filter(sec => sec.items.length > 0);
 ---
 
 <Base
@@ -44,9 +61,8 @@ const commsItems = entries
           <p class="library-overline">Facilitator Hub</p>
           <h1 class="library-title">Run this programme</h1>
           <p class="library-lede">
-            Session blueprints, technical setup, theory quick-reference,
-            and evaluation tools — everything you need to deliver
-            Teaching That Sticks.
+            Everything you need to run Teaching That Sticks, in the order
+            you'll need it.
           </p>
         </div>
         <img
@@ -59,72 +75,25 @@ const commsItems = entries
         />
       </div>
 
-      <!-- Programme setup -->
-      <div class="fac-hub-section">
-        <p class="fac-section-header">Before you start</p>
-        <div class="fac-cards-grid" data-animate>
-          {preItems.map(entry => (
-            <a href={`/facilitator/${entry.id}`} class="fac-card">
-              <p class="fac-card-eyebrow">Programme setup</p>
-              <h2 class="fac-card-title">{entry.data.title}</h2>
-              {entry.data.tagline && (
-                <p class="fac-card-tagline">{entry.data.tagline}</p>
-              )}
-            </a>
-          ))}
+      {sections.map(sec => (
+        <div class="fac-hub-section">
+          <p class="fac-section-header">{sec.header}</p>
+          <div class="fac-cards-grid" data-animate>
+            {sec.items.map(entry => (
+              <a href={`/facilitator/${entry.id}`} class="fac-card">
+                <p class="fac-card-eyebrow">{sec.eyebrow(entry)}</p>
+                <h2 class="fac-card-title">{entry.data.title}</h2>
+                {entry.data.tagline && (
+                  <p class="fac-card-tagline">{entry.data.tagline}</p>
+                )}
+                {sec.blueprint && entry.data.duration && (
+                  <p class="fac-card-meta">⏱ {entry.data.duration} &nbsp;·&nbsp; Facilitator guide</p>
+                )}
+              </a>
+            ))}
+          </div>
         </div>
-      </div>
-
-      <!-- Participant communications -->
-      <div class="fac-hub-section">
-        <p class="fac-section-header">Participant communications</p>
-        <div class="fac-cards-grid" data-animate>
-          {commsItems.map(entry => (
-            <a href={`/facilitator/${entry.id}`} class="fac-card">
-              <p class="fac-card-eyebrow">Before session {entry.data.session}</p>
-              <h2 class="fac-card-title">{entry.data.title}</h2>
-              {entry.data.tagline && (
-                <p class="fac-card-tagline">{entry.data.tagline}</p>
-              )}
-            </a>
-          ))}
-        </div>
-      </div>
-
-      <!-- Session blueprints -->
-      <div class="fac-hub-section">
-        <p class="fac-section-header">Session Blueprints</p>
-        <div class="fac-cards-grid" data-animate>
-          {blueprints.map(entry => (
-            <a href={`/facilitator/${entry.id}`} class="fac-card">
-              <p class="fac-card-eyebrow">Session {entry.data.session}</p>
-              <h2 class="fac-card-title">{entry.data.title}</h2>
-              {entry.data.tagline && (
-                <p class="fac-card-tagline">{entry.data.tagline}</p>
-              )}
-              {entry.data.duration && (
-                <p class="fac-card-meta">⏱ {entry.data.duration} &nbsp;·&nbsp; Facilitator guide</p>
-              )}
-            </a>
-          ))}
-        </div>
-      </div>
-
-      <!-- Reference materials -->
-      <div class="fac-hub-section">
-        <p class="fac-section-header">Reference Materials</p>
-        <div class="fac-cards-grid" data-animate>
-          {resources.map(entry => (
-            <a href={`/facilitator/${entry.id}`} class="fac-card">
-              <p class="fac-card-eyebrow">Reference</p>
-              <h2 class="fac-card-title">{entry.data.title}</h2>
-              {entry.data.tagline && (
-                <p class="fac-card-tagline">{entry.data.tagline}</p>
-              )}
-            </a>
-          ))}
-        </div>
-      </div>
+      ))}
 
       <!-- Coming soon -->
       <div class="fac-hub-section">

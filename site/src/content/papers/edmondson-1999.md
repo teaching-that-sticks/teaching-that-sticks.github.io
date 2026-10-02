@@ -7,7 +7,7 @@ doi: "10.2307/2666999"
 openAccess: true
 openAccessUrl: "https://dash.harvard.edu/entities/publication/13a7b031-0fdd-45ec-a7e0-2b80e2bc679f"
 theorists: ["edmondson-psychological-safety"]
-sessions: [2, 3]
+sessions: []
 imagePrompt: "Two side-by-side team clusters of five geometric nodes. In the left cluster, nodes are connected by open lines and each has a small upward arc above it representing speech or openness. In the right cluster, nodes face outward with no connecting lines and each has a closed shape above it. A performance arrow beneath the left cluster points upward; beneath the right cluster it points downward. Flat design, Teaching That Sticks house style, slate blue-grey and amber palette, clean white background, no people, professional educational illustration."
 ---
 
@@ -50,5 +50,4 @@ Two practical implications:
 
 ## How it appears in Teaching That Sticks
 
-Session 2 includes a structured discussion of psychological safety and its specific dynamics in clinical hierarchies — the finding about error reporting is introduced here. Session 3's action learning set depends entirely on psychological safety as a precondition: participants must feel safe enough to name a real challenge, sit with difficult questions, and resist the urge to present a polished solution. The facilitator is trained in the programme's observer checklist to specifically watch for and protect psychological safety moments — both those they create and those they inadvertently destroy.
-
+Not taught directly in the three core sessions. Psychological safety is parked for a future simulation-based session. Session 1 models it quietly: sharing is always voluntary. Useful background for any teaching where learners must admit what they don't know.

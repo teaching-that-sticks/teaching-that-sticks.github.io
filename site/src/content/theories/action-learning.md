@@ -1,7 +1,7 @@
 ---
 title: "Action Learning"
 summary: "Learning with and from colleagues on real problems — structured peer inquiry that produces insight no expert can deliver"
-sessions: ["session-3"]
+sessions: []
 evidence:
   - cite: "Revans, R. W. (1980). <em>Action Learning: New Techniques for Management</em>. Blond &amp; Briggs."
   - cite: "Marquardt, M. J. (2004). <em>Optimizing the Power of Action Learning</em>. Davies-Black."
@@ -23,3 +23,5 @@ An action learning set is a small group (typically 4–6 people) who meet regula
 - **Real problems only** — hypothetical problems generate hypothetical engagement. Participants need to bring something they're actually stuck on. The discomfort of genuine uncertainty is the engine of the process.
 - **Peer learning is underused in clinical education** — the implicit model is expert-to-novice transmission. Action learning works between equals. It is particularly well-suited to a group of clinicians at similar career stages who are each expert in their own clinical practice but novice as educators.
 - **The set works over time** — a one-off action learning experience is useful but limited. The model is designed for sets that meet across weeks or months, building trust, building rigour, and producing changes in behaviour that can be brought back to the group.
+
+*In this programme:* Not taught directly in the three core sessions. Useful background if you want peer support to continue after the programme ends.

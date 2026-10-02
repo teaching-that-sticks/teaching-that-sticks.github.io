@@ -1,7 +1,7 @@
 ---
 title: "Psychological Safety"
 summary: "People only learn in environments where mistakes and questions feel safe — fear of judgement shuts down the learning that clinical education most needs"
-sessions: ["session-2"]
+sessions: []
 evidence:
   - cite: "Edmondson, A. C. (1999). Psychological safety and learning behavior in work teams. <em>Administrative Science Quarterly</em>, 44(2), 350–383."
     paper: "edmondson-1999"
@@ -21,5 +21,7 @@ Psychological safety does not mean the absence of standards or the avoidance of 
 
 - **Model not-knowing** — when a teacher says "I don't know, let's work it out" or "that's a question I find genuinely hard", they signal that not-knowing is survivable. This has an outsized effect on the most anxious learners in the room.
 - **Respond to wrong answers carefully** — the moment after a wrong answer is the highest-stakes moment in a teaching interaction. Sarcasm, sighing, or moving quickly on signals that being wrong is a social event, not a learning one. Curiosity ("what made you think that?") signals otherwise.
-- **Name the dynamic** — in Session 2 we do this explicitly. Telling a group "I want you to feel free to say when you're not sure" is weak. Showing them what happens when someone does — and making it visibly fine — is the actual intervention.
+- **Name the dynamic** — telling a group "I want you to feel free to say when you're not sure" is weak. Showing them what happens when someone does — and making it visibly fine — is the actual intervention.
 - **The hierarchy problem is real** — clinical hierarchies suppress psychological safety structurally. Educators who outrank their learners need to actively dismantle that dynamic within the learning space, not assume goodwill is sufficient.
+
+*In this programme:* Not taught directly in the three core sessions. Psychological safety is parked for a future simulation-based session. Session 1 models it quietly: sharing is always voluntary.

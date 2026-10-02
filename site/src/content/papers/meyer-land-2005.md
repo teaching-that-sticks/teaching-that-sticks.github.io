@@ -7,7 +7,7 @@ doi: ""
 openAccess: true
 openAccessUrl: "https://pressbooks.atlanticoer-relatlantique.ca/app/uploads/sites/803/2021/07/ETLreport4.pdf"
 theorists: ["meyer-land-threshold-concepts"]
-sessions: [3]
+sessions: []
 imagePrompt: "A narrow archway or portal shape in the centre. On the left side of the arch, a flat landscape at ground level. On the right side, the landscape is elevated, showing a higher vantage point — a different view. The portal represents a conceptual threshold. Below the arch, a small tangled line cluster represents troublesome knowledge. Flat design, Teaching That Sticks house style, slate blue-grey and amber palette, clean white background, no people, professional educational illustration."
 ---
 
@@ -56,5 +56,4 @@ Three moves:
 
 ## How it appears in Teaching That Sticks
 
-Session 3's advance organiser discussion uses threshold concepts as the organising framework for thinking about how to introduce complex clinical concepts. The action learning set is specifically designed to surface threshold concepts in participants' own practice — the *"challenge"* that participants bring is often not a practical problem but a threshold they are helping their own learners cross.
-
+Not taught directly in the three core sessions. Useful background when you plan teaching on an idea your learners find stubbornly hard.

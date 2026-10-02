@@ -6,7 +6,7 @@ year: 1983
 doi: "10.4324/9781315237473"
 openAccess: false
 theorists: []
-sessions: [2, 3]
+sessions: []
 imagePrompt: "A simple diagram showing a cyclical loop between two nodes. The left node is labelled 'Action' with a hand-movement icon. The right node is labelled 'Reflection' with a thought-cloud icon. An arrow loops from Action to Reflection above the line, labelled 'reflection-on-action'. A second smaller arrow loops inside the Action node itself, labelled 'reflection-in-action', suggesting ongoing self-correction during the act. Below the diagram, a small horizontal bar is split into a bright clear upper section labelled 'High ground' and a murky lower section labelled 'The swamp'. Flat design, Teaching That Sticks house style, slate blue-grey and amber palette, clean white background, no people, professional educational illustration."
 ---
 
@@ -36,3 +36,7 @@ The real problems — the ones with the most clinical significance — live in w
 - **The goal of clinical teaching is not correct answers — it is better framing.** An expert who gives trainees the right answer helps them solve this problem. An expert who asks "how were you thinking about that?" helps them develop the capacity to solve the next ten problems they haven't encountered yet.
 - **Implementation intentions (Gollwitzer, 1999) address the reflection-to-action gap.** Reflection-on-action produces insight. Insight does not automatically produce changed behaviour. The "if-then" planning technique is one evidence-based bridge from reflective insight to behavioural change on the ward.
 - **The hardest teaching development goal is developing practical wisdom, not adding knowledge.** Programme designers who measure success only at Kirkpatrick Level 2 (did learners understand the content?) are measuring the easy outcomes. Kirkpatrick Level 3 (did behaviour change?) requires developing the reflective capacity that Schön described — and that requires time, structure, and a culture that treats reflection as work, not as a soft add-on.
+
+## How it appears in Teaching That Sticks
+
+Not taught directly in the three core sessions. Useful background for why the programme asks participants to rethink a session, not just polish it.

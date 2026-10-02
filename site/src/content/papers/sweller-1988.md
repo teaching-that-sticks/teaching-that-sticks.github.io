@@ -48,5 +48,4 @@ Two implications that run against clinical teaching intuition:
 
 ## How it appears in Teaching That Sticks
 
-Session 1's bad-slide demonstration is a direct worked example of cognitive load theory in action — learners experience the overloaded slide before they are given the theory to explain it. The 15-minute cap on didactic content is a design choice in the same spirit: it limits how many new concepts arrive before learners get to use them. (It is not based on a fixed "attention span" — the popular claim that attention collapses after 10–15 minutes is not well supported by primary data; see Bradbury, 2016.) The session design itself models the worked-example approach: show the principle in action, name it, then ask participants to apply it.
-
+Session 1 gives participants an experience of overload before cognitive load is named. The theory then arrives in short bursts (working memory, intrinsic and extraneous load, two channels), each used straight away in a redesign round. Keeping theory blocks to a few minutes limits how many new ideas arrive before learners use them. (It is not based on a fixed "attention span": the popular claim that attention collapses after 10–15 minutes is not well supported by primary data; see Bradbury, 2016.)
