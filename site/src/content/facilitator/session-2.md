@@ -34,9 +34,8 @@ By the end of the session, participants will have:
 
 The Day 2 deck: 16 slides plus hidden credits, built on the Day 1 template. Tool slides show only the prompt, so they work with Kahoot or Menti shown alongside, or with the paper fallback; the notes say how.
 
-<a class="file-download" href="/slides/tts-day2-active-beats-passive.pptx">Download the Day 2 deck</a>
+<a class="file-download" href="/slides/tts-day2-active-beats-passive.pptx">The Day 2 deck</a>
 
-<div class="slide-viewer" data-pptx="/slides/tts-day2-active-beats-passive.pptx" data-title="Day 2 deck"></div>
 
 Print before the session:
 
