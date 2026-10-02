@@ -1368,20 +1368,59 @@ a.theory-row:hover .theory-row-arrow {
   flex-shrink: 0;
 }
 
-/* Slide viewer — .pptx in Office Online, see src/scripts/slide-viewer.ts */
-.slide-viewer:empty { display: none; }
+/* Slide viewer — "Open live" .pptx in Office Online, see src/scripts/slide-viewer.ts */
+.slide-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  margin: 0.25rem 0 1.25rem;
+}
+.slide-actions .slide-download { margin: 0; }
+.slide-live-toggle {
+  font: inherit;
+  text-align: left;
+  cursor: pointer;
+}
+.slide-live-icon { color: var(--sky); }
+.slide-live-chevron { transition: transform 0.3s ease; }
+.slide-live-toggle[aria-expanded="true"] .slide-live-chevron { transform: rotate(180deg); }
+
+/* Closed: zero height. Opening slides the content below down, then fades in. */
 .slide-viewer {
-  margin: 0.25rem 0 1.5rem;
+  display: grid;
+  grid-template-rows: 0fr;
+  transition: grid-template-rows 0.45s cubic-bezier(0.2, 0.7, 0.2, 1);
+}
+.slide-viewer.is-open { grid-template-rows: 1fr; }
+.slide-viewer-clip { min-height: 0; overflow: hidden; }
+.slide-viewer-panel {
+  margin: 0 0 1.5rem;
   border: 1px solid var(--surface1);
   border-radius: 10px;
   overflow: hidden;
   background: var(--mantle);
   box-shadow: 0 1px 3px var(--shadow-sm);
+  opacity: 0;
+  transform: translateY(-8px);
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+.slide-viewer.is-open .slide-viewer-panel {
+  opacity: 1;
+  transform: none;
+  transition-delay: 0.15s;
 }
 .slide-viewer-stage {
   position: relative;
   aspect-ratio: 16 / 9;
   background: #1e1e1e;
+}
+.slide-viewer-loading {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  color: #999;
+  font-size: 0.85rem;
 }
 .slide-viewer-stage iframe {
   position: absolute;
@@ -1389,7 +1428,10 @@ a.theory-row:hover .theory-row-arrow {
   width: 100%;
   height: 100%;
   border: 0;
+  opacity: 0;
+  transition: opacity 0.5s ease;
 }
+.slide-viewer-panel.is-loaded iframe { opacity: 1; }
 .slide-viewer-bar {
   display: flex;
   align-items: center;
@@ -1432,7 +1474,7 @@ a.theory-row:hover .theory-row-arrow {
 .slide-viewer-btn--primary:hover { filter: brightness(1.1); }
 
 /* Expanded: real fullscreen, or a window-filling overlay where that's unavailable */
-.slide-viewer.is-expanded {
+.slide-viewer-panel.is-expanded {
   position: fixed;
   inset: 0;
   z-index: 1000;
@@ -1442,13 +1484,20 @@ a.theory-row:hover .theory-row-arrow {
   display: flex;
   flex-direction: column;
   background: #000;
+  transform: none;
 }
-.slide-viewer.is-expanded .slide-viewer-stage { flex: 1; aspect-ratio: auto; background: #000; }
-.slide-viewer.is-expanded .slide-viewer-bar { background: #111; border-top-color: #333; }
-.slide-viewer.is-expanded .slide-viewer-hint { color: #aaa; }
+.slide-viewer-panel.is-expanded .slide-viewer-stage { flex: 1; aspect-ratio: auto; background: #000; }
+.slide-viewer-panel.is-expanded .slide-viewer-bar { background: #111; border-top-color: #333; }
+.slide-viewer-panel.is-expanded .slide-viewer-hint { color: #aaa; }
 html.slide-viewer-open { overflow: hidden; }
-/* A transformed ancestor would trap position: fixed inside the card */
-html.slide-viewer-open .session-card { transform: none !important; }
+/* Transformed ancestors would trap position: fixed inside the card */
+html.slide-viewer-open .session-card,
+html.slide-viewer-open .slide-viewer-panel { transform: none !important; }
+
+@media (prefers-reduced-motion: reduce) {
+  .slide-viewer, .slide-viewer-panel, .slide-viewer-stage iframe, .slide-live-chevron { transition: none !important; }
+  .slide-viewer-panel { transform: none; }
+}
 
 /* Inline code */
 .blueprint-prose code {
