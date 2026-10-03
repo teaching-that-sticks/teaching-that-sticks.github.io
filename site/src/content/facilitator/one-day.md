@@ -1,4 +1,7 @@
 ---
+# The one-day decks are BUILT by tools/one_day_decks.py from the three session
+# decks: never edit them by hand. If you change the running order or slide
+# wording here, update DECKS in that script too, then `just one-day-decks`.
 title: "In One Day"
 type: blueprint
 duration: "One day, 09:30–16:00"
@@ -44,17 +47,17 @@ By the end of the day, participants will have:
 
 ## Before the session
 
-### The decks: same three, a few slides hidden
+### The decks
 
-Run the three decks in order and switch at the breaks. In your own copies, hide these slides (right-click → Hide Slide) and change four lines of text:
+Three one-day decks: run them in order and switch at the breaks. They're the session decks with the asks and "see you next week" slides hidden, the 60-second pitch hidden (it merges into "Run it on us"), "last week" changed to "this morning", the canvas labelled by time of day, and the blorps retest moved to open the last block. Slide 1's notes say so.
 
-| Deck | Hide | Change the text |
-|---|---|---|
-| [Day 1](/facilitator/session-1) | 22 (The ask), 23 (See you next week) | none |
-| [Day 2](/facilitator/session-2) | 3 (Show us your slides), 14 (The ask), 15 (Next week: did it stick?), 16 (See you next week) | 4: "last week" → "this morning" · 5: "A week later!" → "Hours later!" |
-| [Day 3](/facilitator/session-3) | 13 (alternative, already hidden) | 3: "Same as last week" → "Same as this morning" · 14: "for three weeks" → "all day" |
+<a class="file-download" href="/slides/tts-one-day-1-death-by-powerpoint.pptx">One-day deck 1: Block 1 (Session 1)</a>
 
-Day 3's slide 4 (Show us what you made) moves: show it in Block 3, after the make block, then return to slide 5 after the afternoon break. Or simply present slides 4–9 in Block 3 and 3, 10–19 in Block 4.
+<a class="file-download" href="/slides/tts-one-day-2-active-beats-passive.pptx">One-day deck 2: Block 2, and slide 13 to open Block 3 (Session 2)</a>
+
+<a class="file-download" href="/slides/tts-one-day-3-did-it-stick.pptx">One-day deck 3: Blocks 3 and 4 (Session 3)</a>
+
+They're built automatically from the session decks, so they always match them. The speaker notes are the three-session versions: read "next week" as "after lunch" or "in the 1-week email".
 
 ### Printables
 
@@ -125,10 +128,10 @@ You eat and sit down. The afternoon kit is already under the tables. If people w
 
 ### 13:15–14:30 · Block 3: Make it, then evidence it
 
-- **13:15 · Finish making (20 min, participant-led).** Paper route: finish the design, ready to run on the group. Laptop route: show Day 2 slide 13 (one Menti slide in two minutes), then build it in Menti or Kahoot. This replaces the Day 2 ask. Pair confident with less confident.
-- **13:35 · Run it on us (15 min, Day 3 slide 4).** 3–4 people run what they made on the group: on paper, read aloud with fingers up, or live from a phone. The room responds: one thing that works, one question. (Day 2's 60-second pitch, merged in.)
-- **13:50 · How would you know? → Delivered ≠ changed** (Day 3 slides 5–7). As [Session 3](/facilitator/session-3), 10–21. On the ladder: "what you did today", running what you made on us, was *use*: Level 3-type evidence, inside the room.
-- **14:02 · Can you see it? → Miller's pyramid** (slides 8–9). As Session 3, 21–33.
+- **13:15 · Finish making (20 min, participant-led).** Paper route: finish the design, ready to run on the group. Laptop route: show deck 2 slide 13 (one Menti slide in two minutes), then build it in Menti or Kahoot. This replaces the Day 2 ask. Pair confident with less confident.
+- **13:35 · Run it on us (15 min, deck 3 slide 3).** 3–4 people run what they made on the group: on paper, read aloud with fingers up, or live from a phone. The room responds: one thing that works, one question. (Day 2's 60-second pitch, merged in.)
+- **13:50 · How would you know? → Delivered ≠ changed** (deck 3, slides 4–6). As [Session 3](/facilitator/session-3), 10–21. On the ladder: "what you did today", running what you made on us, was *use*: Level 3-type evidence, inside the room.
+- **14:02 · Can you see it? → Miller's pyramid** (slides 7–8). As Session 3, 21–33.
 - **14:14 · Buffer (about 15 min).** You'll need it somewhere. If not, start the break early.
 - WHY: after lunch, people do things first (make, run, sort) and get theory only as a short label after.
 
@@ -140,7 +143,7 @@ The longest stretch of teaching is behind you. Bag 4: canvases and feedback form
 
 | Time | What | Session 3 section |
 |---|---|---|
-| 14:50 | Blorps retest: "Same as this morning" (slide 3). Tally next to the before-lunch numbers | 0–2 |
+| 14:50 | Blorps retest: "Same as this morning" (slide 9). Tally next to the before-lunch numbers | 0–2 |
 | 14:52 | Rewrite your outcomes, in pairs, on the canvas (slide 10) | 33–53 |
 | 15:12 | Does it line up? Their slide and their activity, next to the new outcomes (slide 11) | 53–59 |
 | 15:18 | Follow-through: a two-way negotiation (slide 12) | 59–67 |

@@ -22,6 +22,14 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
+      # The one-day decks are built from the session decks. If a session deck
+      # changed without a rebuild, stop here: run `just one-day-decks`.
+      - name: Setup uv
+        uses: astral-sh/setup-uv@v6
+
+      - name: Check one-day decks are up to date
+        run: uv run -q tools/one_day_decks.py --check
+
       - name: Setup Node
         uses: actions/setup-node@v4
         with:

@@ -37,6 +37,8 @@ site/                     Astro website
     papers/               Summaries of key papers
   public/slides/          Downloadable files (slide decks, PDFs)
   plugins/                Build plugins (download cards)
+tools/one_day_decks.py    Builds the one-day decks from the session decks (`just one-day-decks`)
+CLAUDE.md                 Notes for AI assistants: derived files, house rules
 .github/workflows/        GitHub Pages deploy
 Justfile                  Shortcuts (just dev, just build)
 LICENCE.md                CC BY 4.0

@@ -32,3 +32,7 @@ check:
 # Clean build output
 clean:
     @rm -rf {{site}}/dist {{site}}/.astro
+
+# Rebuild the one-day decks from the three session decks (--check: only verify)
+one-day-decks *args:
+    @uv run -q tools/one_day_decks.py {{args}}
