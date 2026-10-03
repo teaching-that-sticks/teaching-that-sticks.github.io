@@ -38,7 +38,7 @@ const sections = [
     items: [...preItems, ...pick(startIds)] },
   { header: '2 · Prepare', eyebrow: () => 'Reference',
     items: [...pick(prepareIds), ...resources.filter(r => !placed.includes(r.id))] },
-  { header: '3 · Deliver', eyebrow: (e: any) => `Session ${e.data.session}`, items: blueprints, blueprint: true },
+  { header: '3 · Deliver', eyebrow: (e: any) => e.data.session ? `Session ${e.data.session}` : 'All three, one day', items: blueprints, blueprint: true },
   { header: 'Messages between sessions', eyebrow: (e: any) => `Before session ${e.data.session}`, items: commsItems },
   { header: '4 · Evaluate and record', eyebrow: (e: any) => e.id === 'portfolio-mapping' ? 'For participants' : 'Evaluation', items: pick(evaluateIds) },
 ].filter(sec => sec.items.length > 0);

@@ -45,7 +45,7 @@ const displayTitle = (type === 'blueprint' && sessionEntry)
   ? sessionEntry.data.tagline
   : title;
 
-const breadcrumbLabel = type === 'blueprint'
+const breadcrumbLabel = (type === 'blueprint' && session)
   ? `Session ${session} Blueprint`
   : title;
 ---
@@ -203,6 +203,7 @@ const breadcrumbLabel = type === 'blueprint'
             // ── Section definitions ───────────────────────────────────────
             var SECTIONS = [
               { match: 'at a glance',      overline: 'At a glance'       },
+              { match: 'one day or three weeks', overline: 'One day or three weeks?' },
               { match: 'learning outcomes', overline: 'Learning outcomes' },
               { match: 'before the session', overline: 'Before the session',
                 extras: ['materials checklist', 'feedback frame'],
