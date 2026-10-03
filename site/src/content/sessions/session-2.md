@@ -11,12 +11,8 @@ fox: "thinking_left_arm_up.png"
 duration: "90 min"
 subtitle: "Why doing beats watching, and how to make your teaching active."
 primingQuestion: "Think of something you learned | and never forgot. | Were you watching, | or doing?"
-prep: "Bring the slides you redesigned (or found) after Session 1."
+prep: "Bring the slides you redesigned (or found) after Session 1, and your phone: we'll use it for the quizzes."
 prepFallback: "Didn't get to it? Come anyway. What got in the way is useful too."
-meta:
-  - "90 minutes"
-  - "Hands-on"
-  - "Bring a phone"
 keyIdeas:
   - idea: "Testing beats re-reading."
     detail: "Pulling something back out of memory strengthens it. A quick quiz is a teaching tool, not just a test."

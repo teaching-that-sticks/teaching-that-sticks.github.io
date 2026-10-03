@@ -39,7 +39,7 @@ function build(card: HTMLElement) {
   // Can't show a PDF in the page: offer it in a new tab instead
   if (kind === 'pdf' && (navigator as any).pdfViewerEnabled === false) {
     const open = document.createElement('a');
-    open.className = 'file-btn';
+    open.className = 'btn btn--quiet';
     open.href = src;
     open.target = '_blank';
     open.rel = 'noopener';
@@ -65,8 +65,8 @@ function build(card: HTMLElement) {
             kind === 'office' ? HINT_OFF : kind === 'pdf' && pages > 1 ? `Scroll for all ${pages} pages` : ''
           }</span>
           <span class="file-preview-actions">
-            <a class="file-btn" href="${esc(url)}" target="_blank" rel="noopener noreferrer">New tab&nbsp;&#x2197;</a>
-            <button type="button" class="file-btn file-btn--primary"
+            <a class="btn btn--quiet" href="${esc(url)}" target="_blank" rel="noopener noreferrer">New tab&nbsp;&#x2197;</a>
+            <button type="button" class="btn btn--primary btn--sky"
                     data-file-preview-expand aria-pressed="false">&#x2922;&nbsp;Expand</button>
           </span>
         </div>

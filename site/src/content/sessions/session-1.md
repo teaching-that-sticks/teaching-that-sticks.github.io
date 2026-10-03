@@ -12,12 +12,7 @@ duration: "90 min"
 subtitle: "Why most slides work against learning, and how to fix yours."
 primingQuestion: "Think of a teacher | you still remember. | What did they do?"
 prep: "If you can, bring a slide you think is bad: one of your own, or one you've sat through."
-prepFallback: "No slide? No problem. We'll find one in the room."
-meta:
-  - "90 minutes"
-  - "Hands-on"
-  - "No teaching experience needed"
-  - "No computer needed"
+prepFallback: "No slide? No problem. We'll find one in the room. You won't need a computer."
 keyIdeas:
   - idea: "Working memory is tiny. Cut the noise."
     detail: "We hold about four things at once. Put everything on a slide and you rest your memory and tax theirs. Some effort belongs to the topic; the clutter is the part you control."

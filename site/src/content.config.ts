@@ -48,8 +48,6 @@ const sessions = defineCollection({
     primingQuestion: z.string().optional(),
     /** Brief preparation note for participants */
     prep: z.string().optional(),
-    /** Short meta strings (time, format, prerequisites) shown as pills */
-    meta: z.array(z.string()).default([]),
     /** Reassurance for anyone who couldn't do the prep */
     prepFallback: z.string().optional(),
     /** Recap: the session's key ideas in plain words, each optionally linked to a theory */

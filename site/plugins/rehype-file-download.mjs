@@ -100,13 +100,13 @@ function card(attrs, label, file) {
   const buttons = [];
   if (preview) {
     // Hidden until the script is running: without it, Preview couldn't work
-    buttons.push(el('button', { type: 'button', className: ['file-btn', 'file-preview-toggle'],
+    buttons.push(el('button', { type: 'button', className: ['btn', 'btn--quiet', 'file-preview-toggle'],
       dataFilePreviewToggle: '', ariaExpanded: 'false', hidden: true }, [
       el('span', { className: ['file-preview-chevron'], ariaHidden: 'true' }, [{ type: 'text', value: '▸' }]),
       el('span', { className: ['file-preview-toggle-label'] }, [{ type: 'text', value: 'Preview' }]),
     ]));
   }
-  buttons.push(el('a', { className: ['file-btn', 'file-btn--primary'], href, download: name,
+  buttons.push(el('a', { className: ['btn', 'btn--primary', 'btn--sky'], href, download: name,
     ariaLabel: `Download ${label}` }, [{ type: 'text', value: '↓ Download' }]));
 
   return el('div', { className: ['file-download', ext && `file-download--${ext}`].filter(Boolean), ...props }, [

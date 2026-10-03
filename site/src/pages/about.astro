@@ -235,8 +235,8 @@ import Base from '../layouts/Base.astro';
         maintained materials, a contribution via Ko-fi helps.
       </p>
       <div class="about-kofi-btns">
-        <a class="about-kofi-btn about-kofi-btn--cc" href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener">CC&nbsp;BY&nbsp;4.0</a>
-        <a class="about-kofi-btn" href="https://ko-fi.com/transilluminate" target="_blank" rel="noopener">Support on Ko-fi &rarr;</a>
+        <a class="btn btn--quiet" href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener">CC&nbsp;BY&nbsp;4.0</a>
+        <a class="btn btn--quiet" href="https://ko-fi.com/transilluminate" target="_blank" rel="noopener">Support on Ko-fi &rarr;</a>
       </div>
       <p class="about-kofi-nudge">No pressure. Genuinely.</p>
     </div>
@@ -456,22 +456,6 @@ import Base from '../layouts/Base.astro';
         flex-wrap: wrap;
         margin-bottom: 0;
       }
-      .about-kofi-btn {
-        display: inline-flex;
-        align-items: center;
-        gap: 0.35rem;
-        font-size: 0.82rem;
-        font-weight: 600;
-        color: var(--text);
-        padding: 0.55rem 1.2rem;
-        border: 1.5px solid var(--overlay0);
-        border-radius: 6px;
-        text-decoration: none;
-        transition: background 0.15s, border-color 0.15s;
-      }
-      .about-kofi-btn:hover { background: var(--surface0); border-color: var(--subtext1); }
-      .about-kofi-btn--cc { color: var(--subtext0); border-color: var(--surface0); }
-      .about-kofi-btn--cc:hover { color: var(--text); }
       .about-kofi-nudge {
         font-size: 0.75rem;
         color: var(--overlay0);
