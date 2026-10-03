@@ -10,13 +10,14 @@ theories:
 fox: "thinking_left_arm_down.png"
 duration: "90 min"
 subtitle: "Why most slides work against learning, and how to fix yours."
-primingQuestion: "Think of a teacher you still remember. What did they do?"
+primingQuestion: "Think of a teacher | you still remember. | What did they do?"
 prep: "If you can, bring a slide you think is bad: one of your own, or one you've sat through."
 prepFallback: "No slide? No problem. We'll find one in the room."
 meta:
   - "90 minutes"
   - "Hands-on"
   - "No teaching experience needed"
+  - "No computer needed"
 keyIdeas:
   - idea: "Working memory is tiny. Cut the noise."
     detail: "We hold about four things at once. Put everything on a slide and you rest your memory and tax theirs. Some effort belongs to the topic; the clutter is the part you control."
@@ -30,7 +31,12 @@ keyIdeas:
     detail: "If it's there so you don't forget, it's a security blanket. Every slide should serve what your learners need to do."
     theory: constructive-alignment
 canvas: "Activities, part 1: your slides. You redesigned one slide from a session you teach (or would like to teach). It's the first piece of the canvas you'll complete by Session 3."
-ask: "Before next week I will identify and redesign one or two slides (my own, or an example I find) and bring them."
+ask: "Before next week I will | identify and redesign | one or two slides | (my own, or an example I find) | and bring them."
+askSteps:
+  - "Pick one or two slides: from a session you teach, or one you've sat through (the intranet, a lecture, a training day)."
+  - "Redesign them with today's ideas: cut the noise, use a picture with your voice, design for the back row."
+  - "Bring them next week: printed, on your phone, or sketched on paper."
+askNoComputer: "No computer needed: sketching your redesign on paper counts."
 ---
 
 Hands-on from the first minute. We'll look at what makes teaching memorable, test our own memories, then use the science of how memory works to redesign a real slide, twice.

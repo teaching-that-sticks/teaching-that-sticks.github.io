@@ -10,7 +10,7 @@ theories:
 fox: "thinking_left_arm_up.png"
 duration: "90 min"
 subtitle: "Why doing beats watching, and how to make your teaching active."
-primingQuestion: "Think of something you learned and never forgot. Were you watching, or doing?"
+primingQuestion: "Think of something you learned | and never forgot. | Were you watching, | or doing?"
 prep: "Bring the slides you redesigned (or found) after Session 1."
 prepFallback: "Didn't get to it? Come anyway. What got in the way is useful too."
 meta:
@@ -30,7 +30,12 @@ keyIdeas:
   - idea: "Design for the real place."
     detail: "A 6am handover isn't a study day. Build the activity for the corridor, ward or sim room where it will actually happen."
 canvas: "Activities, part 2: what learners do. You made ten minutes of your session active."
-ask: "Before next week I will spend 30–40 minutes playing with Menti or Kahoot and make one active learning thing for my session, and bring it."
+ask: "Before next week I will | spend 30–40 minutes | playing with Menti or Kahoot | and make one active learning thing | for my session, | and bring it."
+askSteps:
+  - "Put 30–40 minutes in your diary for it."
+  - "Go to mentimeter.com or kahoot.com, sign up (it's free) and make one thing for your session: a poll, a word cloud or a quiz question. You don't need a class: just play from the presenter's side."
+  - "Email yourself the link, so you can open it next week on any computer."
+askNoComputer: "No computer, or it won't cooperate? Write your questions on paper and bring them. We'll build it together."
 ---
 
 We'll start with your slides, then play: quizzes, polls and a few silly questions, before naming why they work.
