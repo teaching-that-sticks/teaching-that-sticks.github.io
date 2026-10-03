@@ -60,8 +60,14 @@ const sessions = defineCollection({
     })).default([]),
     /** Which part of the design canvas this session builds */
     canvas: z.string().optional(),
-    /** The ask, verbatim from the card participants write */
+    /** The ask, verbatim from the card participants write. Mark phrase breaks with "|" */
     ask: z.string().optional(),
+    /** Heading for the ask card (default: "Your task before Session N+1") */
+    askLabel: z.string().optional(),
+    /** The ask as plain numbered steps */
+    askSteps: z.array(z.string()).default([]),
+    /** The no-computer route; when set, the card also offers computer help */
+    askNoComputer: z.string().optional(),
   }),
 });
 

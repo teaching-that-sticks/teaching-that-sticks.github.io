@@ -353,8 +353,7 @@ nav {
 
 /* Shared card base — border colours set per card type below */
 .session-card,
-.concepts-card,
-.facilitator-card {
+.concepts-card {
   background: var(--base);
   border-radius: 10px;
   padding: 2rem 2.5rem;
@@ -362,13 +361,6 @@ nav {
 }
 .session-card    { border-left: 3px solid var(--peach); }
 .concepts-card   { border-left: 3px solid var(--green); }
-.facilitator-card {
-  border-left: 3px solid var(--sky);
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 2rem;
-}
 
 /* Prep card internals */
 .section-overline {
@@ -405,16 +397,6 @@ nav {
   color: var(--subtext1);
   line-height: 1.65;
 }
-.session-meta {
-  font-size: 0.72rem;
-  color: var(--overlay0);
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.5rem 1rem;
-  padding-top: 0.65rem;
-  margin-top: 1.35rem;
-  border-top: 1px solid var(--surface0);
-}
 
 /* "What we'll do" text and prep fallback in the Before-you-come card */
 .session-body p {
@@ -426,26 +408,128 @@ nav {
 .session-body { margin-bottom: 0.6rem; }
 .prep-fallback { margin-top: 0.35rem; font-style: italic; }
 
-/* After-the-session recap: folded by default so the session isn't spoiled */
-.recap-summary {
+.session-body a,
+.session-body a:visited { color: var(--peach); text-decoration: underline; text-underline-offset: 2px; }
+
+/* Reassurance chips under the hero subtitle (time, no experience needed...) */
+.session-chips {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin: 1rem 0 0;
+  padding: 0;
+}
+.session-chips li {
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: var(--subtext1);
+  padding: 0.28rem 0.8rem;
+  border: 1.5px solid var(--surface1);
+  border-radius: 100px;
+  background: var(--base);
+}
+
+/* Phrase-aware wrapping: "|" in the content marks phrase breaks (see
+   pages/sessions/[slug].astro). Each phrase wraps as a unit where it fits;
+   lines are balanced. A phrase too long for the line still wraps inside. */
+.phrased { text-wrap: balance; }
+.phrased .phrase { display: inline-block; }
+
+/* Foldable cards (task: open by default; key ideas: closed, so the session
+   isn't spoiled). The whole header is the button, with a Show/Hide pill. */
+.card-summary {
   list-style: none;
   cursor: pointer;
-  display: flex;
-  flex-direction: column;
-  gap: 0.2rem;
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-items: center;
+  column-gap: 1rem;
 }
-.recap-summary::-webkit-details-marker { display: none; }
-.recap-summary .concepts-card-overline { margin-bottom: 0; }
-.recap-title {
+.card-summary::-webkit-details-marker { display: none; }
+.card-summary > .section-overline,
+.card-summary > .concepts-card-overline { grid-column: 1; margin-bottom: 0.15rem; }
+.card-summary-title {
+  grid-column: 1;
   font-family: 'Playfair Display', Georgia, serif;
-  font-size: clamp(1.15rem, 2.4vw, 1.4rem);
+  font-size: clamp(1.2rem, 2.4vw, 1.45rem);
+  font-weight: 700;
   color: var(--text);
 }
-.recap-title::after { content: ' ▸'; color: var(--green); }
-.recap-card[open] .recap-title::after { content: ' ▾'; }
-.recap-card[open] .recap-summary { margin-bottom: 1.1rem; }
+.card-toggle {
+  grid-column: 2;
+  grid-row: 1 / span 2;
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--text);
+  padding: 0.35rem 0.85rem;
+  border: 1px solid var(--surface1);
+  border-radius: 100px;
+  background: var(--mantle);
+  white-space: nowrap;
+}
+.card-summary:hover .card-toggle { border-color: var(--overlay1); }
+.card-toggle::after { content: ' ▾'; }
+details[open] > .card-summary .card-toggle::after { content: ' ▴'; }
+details[open] > .card-summary .when-closed,
+details:not([open]) > .card-summary .when-open { display: none; }
+details[open] > .card-summary { margin-bottom: 1.25rem; }
+.card-summary:focus-visible { outline: 2px solid var(--peach); outline-offset: 4px; border-radius: 4px; }
+
+/* The ask card */
+.task-card { border-left-color: var(--green); }
+.task-card .section-overline { color: var(--green); }
+.task-ask { font-size: clamp(1.15rem, 2.4vw, 1.45rem); margin-bottom: 1.25rem; }
+.task-steps {
+  margin: 0 0 1.25rem;
+  padding-left: 1.4rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.55rem;
+}
+.task-steps li {
+  font-size: 0.98rem;
+  color: var(--subtext1);
+  line-height: 1.6;
+  padding-left: 0.25rem;
+}
+.task-steps li::marker { font-weight: 700; color: var(--green); }
+.task-help {
+  padding: 1rem 1.15rem;
+  background: var(--mantle);
+  border-radius: 8px;
+}
+.task-help p {
+  font-size: 0.92rem;
+  color: var(--subtext1);
+  line-height: 1.6;
+  margin: 0 0 0.35rem;
+}
+.task-help-link,
+.task-help-link:visited {
+  display: inline-block;
+  margin-top: 0.4rem;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--base);
+  background: var(--green);
+  padding: 0.45rem 0.9rem;
+  border-radius: 6px;
+  text-decoration: none;
+}
+.task-help-link:hover { filter: brightness(1.1); }
+
 .recap-section { margin-top: 1.25rem; }
-.recap-ask { font-size: clamp(1.05rem, 2.2vw, 1.3rem); margin-bottom: 0; }
+
+/* One line instead of a card: the blueprint is for facilitators */
+.facilitator-line {
+  font-size: 0.85rem;
+  color: var(--overlay1);
+  text-align: center;
+  margin: 0.5rem 0 0;
+}
+.facilitator-line a,
+.facilitator-line a:visited { color: var(--sky); font-weight: 600; white-space: nowrap; }
 
 /* Concepts card internals */
 .concepts-card-overline {
@@ -515,50 +599,6 @@ a.theory-row:hover .theory-row-arrow {
   transform: translateX(4px);
 }
 
-/* Facilitator card internals */
-.facilitator-card-body { flex: 1; }
-.facilitator-card-overline {
-  font-size: 0.72rem;
-  font-weight: 700;
-  letter-spacing: 0.14em;
-  text-transform: uppercase;
-  color: var(--sky);
-  margin-bottom: 0.5rem;
-}
-.facilitator-card-title {
-  font-family: 'Playfair Display', Georgia, serif;
-  font-size: 1.15rem;
-  font-weight: 700;
-  color: var(--text);
-  margin-bottom: 0.45rem;
-}
-.facilitator-card-text {
-  font-size: 0.82rem;
-  color: var(--subtext0);
-  line-height: 1.6;
-  max-width: 60ch;
-}
-.facilitator-card-link {
-  font-size: 0.8rem;
-  font-weight: 600;
-  color: var(--sky);
-  white-space: nowrap;
-  display: inline-flex;
-  align-items: center;
-  gap: 0.3rem;
-  padding: 0.55rem 1.1rem;
-  border: 1.5px solid color-mix(in srgb, var(--sky) 40%, transparent);
-  border-radius: 6px;
-  transition: background 0.15s, border-color 0.15s, gap 0.15s;
-  flex-shrink: 0;
-}
-.facilitator-card-link:visited { color: var(--sky); }
-.facilitator-card-link:hover {
-  background: color-mix(in srgb, var(--sky) 10%, transparent);
-  border-color: var(--sky);
-  gap: 0.55rem;
-}
-
 /* ── Footer fox (used on all pages) ──────────────────────────────── */
 #footer-fox {
   position: absolute;
@@ -574,14 +614,12 @@ a.theory-row:hover .theory-row-arrow {
 /* ── Responsive: session pages ────────────────────────────────────── */
 @media (max-width: 860px) {
   .session-fox      { display: none; }
-  .facilitator-card { flex-direction: column; align-items: flex-start; }
   .blueprint-candidate-card { flex-direction: column; align-items: flex-start; }
 }
 @media (max-width: 640px) {
   .session-section    { padding: 2.5rem 1.25rem 2.5rem; }
   .session-card,
-  .concepts-card,
-  .facilitator-card   { padding: 1.75rem 1.25rem; }
+  .concepts-card      { padding: 1.75rem 1.25rem; }
   /* .concept-chips already flex column — no override needed */
 }
 
