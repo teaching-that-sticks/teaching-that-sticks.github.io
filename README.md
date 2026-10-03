@@ -56,19 +56,21 @@ The dev server runs at `http://localhost:4321`. `npm run build` writes the stati
 
 ## Adding downloads and slide decks
 
-Put the file in `site/public/slides/`, then add a link to any Markdown page:
+Put the file in `site/public/slides/` or `site/public/handouts/`, then add a link to any Markdown page:
 
 ```html
-<a class="file-download" href="/slides/your-file.pdf">Download the handout</a>
+<a class="file-download" href="/handouts/your-file.pdf">The handout (A4)</a>
 ```
 
-At build time it becomes a download card with the right icon, the file name, type and size. PowerPoint and PDF have their own icons; anything else gets a generic one (add types in `site/plugins/rehype-file-download.mjs`). A link to a file that isn't there stops the build, so a broken download never goes live.
+At build time it becomes a download card: icon, label, file name, type and size (and pages, for a PDF), with a **Download** button. A link to a file that isn't there stops the build, so a broken download never goes live.
 
-For a PowerPoint deck, add a live viewer straight after the link. An "Open live" button appears beside it and plays the deck in the browser (once deployed):
+PDFs, PowerPoint decks and images also get a **Preview** button, which opens the file under the card without downloading it:
 
-```html
-<div class="slide-viewer" data-pptx="/slides/your-deck.pptx" data-title="Your deck"></div>
-```
+- **PDF:** the browser's own PDF viewer. Where a browser can't show PDFs in a page, the button becomes **Open** (new tab).
+- **PowerPoint:** Microsoft's viewer, with transitions and animations. It fetches the deck from the live site, so a new deck only previews once deployed.
+- **Images:** the image itself.
+
+Add `data-preview="false"` to a link to leave Preview off. File types, icons and previews are set in `site/plugins/rehype-file-download.mjs`.
 
 ## Licence and attribution
 

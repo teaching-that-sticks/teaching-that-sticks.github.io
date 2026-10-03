@@ -71,32 +71,6 @@ import Base from '../layouts/Base.astro';
         gap: 0.75rem;
         flex-wrap: wrap;
       }
-      .hero-cta {
-        display: inline-flex;
-        align-items: center;
-        gap: 0.4rem;
-        font-size: 0.85rem;
-        font-weight: 600;
-        color: var(--peach);
-        padding: 0.6rem 1.4rem;
-        border: 2px solid var(--peach);
-        border-radius: 8px;
-        text-decoration: none;
-        letter-spacing: 0.01em;
-        transition: background 0.18s, color 0.18s;
-      }
-      .hero-cta:visited { color: var(--peach); }
-      .hero-cta:hover { background: var(--peach); color: var(--base); }
-      .hero-cta--ghost {
-        color: var(--subtext0);
-        border-color: var(--surface0);
-      }
-      .hero-cta--ghost:visited { color: var(--subtext0); }
-      .hero-cta--ghost:hover {
-        background: var(--surface0);
-        color: var(--text);
-        border-color: var(--overlay0);
-      }
       @media (max-width: 860px) {
         .hero-split { grid-template-columns: 1fr; }
         .hero-mascot { order: -1; }
@@ -125,8 +99,8 @@ import Base from '../layouts/Base.astro';
       </div>
     </div>
     <div class="hero-ctas">
-      <a class="hero-cta hero-cta--ghost" href="/about">About this project</a>
-      <a class="hero-cta" href="/sessions">Get Started &#x2192;</a>
+      <a class="btn btn--lg btn--quiet" href="/about">About this project</a>
+      <a class="btn btn--lg btn--primary" href="/sessions">Get Started &#x2192;</a>
     </div>
   </section>
 

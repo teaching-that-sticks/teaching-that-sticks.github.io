@@ -36,7 +36,15 @@ const keyIdeas = await Promise.all(
     entry: k.theory ? await getEntry('theories', k.theory) : null,
   }))
 );
-const hasRecap = keyIdeas.length > 0 || session.data.ask;
+const hasRecap = keyIdeas.length > 0;
+
+// Asks and questions can mark phrase breaks with "|": each phrase wraps as a
+// unit where it fits, so lines break naturally ("so that long sentences /
+// and asks don't get split"), not wherever the line runs out.
+const phrases = (s: string) => s.split('|').map(p => p.trim()).filter(Boolean);
+
+const n = session.data.number;
+const askLabel = session.data.askLabel ?? `Your task before Session ${n + 1}`;
 ---
 
 <Base
@@ -74,12 +82,13 @@ const hasRecap = keyIdeas.length > 0 || session.data.ask;
     <!-- Card stack -->
     <div class="session-stack" data-animate>
 
-      <!-- Card 1: Before you come: priming question, what we'll do, what to bring -->
+      <!-- Card 1: Before the session: priming question, what we'll do, what to bring -->
       {session.data.primingQuestion && (
         <div class="session-card">
-          <p class="section-overline">Before you come</p>
-          <blockquote class="priming-question">
-            "{session.data.primingQuestion}"
+          <p class="section-overline">Before the session</p>
+          <p class="prep-section-label">Think about</p>
+          <blockquote class="priming-question phrased">
+            {phrases(`“${session.data.primingQuestion}”`).map(p => <><span class="phrase">{p}</span>{' '}</>)}
           </blockquote>
           <div class="session-body"><Content /></div>
           {session.data.prep && (
@@ -91,20 +100,42 @@ const hasRecap = keyIdeas.length > 0 || session.data.ask;
               )}
             </div>
           )}
-          {session.data.meta.length > 0 && (
-            <div class="session-meta">
-              {session.data.meta.map(m => <span>{m}</span>)}
-            </div>
-          )}
         </div>
       )}
 
-      <!-- Card 2: After the session: recap (folded, so the session isn't spoiled) -->
+      <!-- Card 2: the ask, open by default: it's what people come back for mid-week -->
+      {session.data.ask && (
+        <details class="session-card task-card" open>
+          <summary class="card-summary">
+            <span class="section-overline">After the session</span>
+            <span class="card-summary-title">{askLabel}</span>
+            <span class="btn btn--quiet card-toggle" aria-hidden="true"><span class="when-closed">Show</span><span class="when-open">Hide</span></span>
+          </summary>
+          <blockquote class="priming-question task-ask phrased">
+            {phrases(`“${session.data.ask}”`).map(p => <><span class="phrase">{p}</span>{' '}</>)}
+          </blockquote>
+          {session.data.askSteps.length > 0 && (
+            <ol class="task-steps">
+              {session.data.askSteps.map(step => <li>{step}</li>)}
+            </ol>
+          )}
+          {session.data.askNoComputer && (
+            <div class="task-help">
+              <p>{session.data.askNoComputer}</p>
+              <p>Using a computer and getting stuck? Tell your facilitator: we'll pair you up.</p>
+              <a class="btn btn--primary btn--green task-help-link" href="/facilitator/computer-tasks">Step-by-step computer help (printable) →</a>
+            </div>
+          )}
+        </details>
+      )}
+
+      <!-- Card 3: key ideas, folded so the session isn't spoiled -->
       {hasRecap && (
         <details class="concepts-card recap-card">
-          <summary class="recap-summary">
+          <summary class="card-summary">
             <span class="concepts-card-overline">After the session</span>
-            <span class="recap-title">Recap: the key ideas and your ask</span>
+            <span class="card-summary-title">The key ideas</span>
+            <span class="btn btn--quiet card-toggle" aria-hidden="true"><span class="when-closed">Show</span><span class="when-open">Hide</span></span>
           </summary>
           <div class="concept-chips">
             {keyIdeas.map(k => k.entry ? (
@@ -126,20 +157,14 @@ const hasRecap = keyIdeas.length > 0 || session.data.ask;
           </div>
           {session.data.canvas && (
             <div class="prep-section recap-section">
-              <p class="prep-section-label">Your canvas</p>
+              <p class="prep-section-label">Where this fits in your canvas</p>
               <p class="prep-section-text">{session.data.canvas}</p>
-            </div>
-          )}
-          {session.data.ask && (
-            <div class="prep-section recap-section">
-              <p class="prep-section-label">The ask</p>
-              <blockquote class="priming-question recap-ask">"{session.data.ask}"</blockquote>
             </div>
           )}
         </details>
       )}
 
-      <!-- Theory list, only for sessions without a recap (the recap ideas link to theories) -->
+      <!-- Theory list, only for sessions without key ideas (the ideas link to theories) -->
       {!hasRecap && theories.length > 0 && (
         <div class="concepts-card">
           <p class="concepts-card-overline">What this session draws on</p>
@@ -157,20 +182,9 @@ const hasRecap = keyIdeas.length > 0 || session.data.ask;
         </div>
       )}
 
-      <!-- Card 3: Facilitator blueprint -->
-      <div class="facilitator-card">
-        <div class="facilitator-card-body">
-          <p class="facilitator-card-overline">For Facilitators</p>
-          <h2 class="facilitator-card-title">Facilitator Blueprint</h2>
-          <p class="facilitator-card-text">
-            Lesson plan, timing guide, facilitation notes, and the evidence
-            behind every activity for this session.
-          </p>
-        </div>
-        <a class="facilitator-card-link" href={`/facilitator/session-${session.data.number}`}>
-          View Blueprint →
-        </a>
-      </div>
+      <p class="facilitator-line">
+        Running this session? <a href={`/facilitator/session-${n}`}>The facilitator blueprint →</a>
+      </p>
 
     </div>
   </section>

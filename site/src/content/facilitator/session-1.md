@@ -42,9 +42,8 @@ By the end of the session, participants will have:
 
 The Day 1 deck as delivered: 23 slides, one idea each, built to the programme's own rules (labels not sentences, no bullets, nothing meaning something by colour alone). Timings, prompts and credits are in the speaker notes. Tool slides show only the prompt (slide 8: "What do you remember?"), so they work with Menti or a flipchart without editing; the notes say how to run each. If you have one, swap in your own organisation's bad slide on slide 6 (never publish it).
 
-<a class="file-download" href="/slides/tts-day1-death-by-powerpoint.pptx">Download the Day 1 deck</a>
+<a class="file-download" href="/slides/tts-day1-death-by-powerpoint.pptx">The Day 1 deck</a>
 
-<div class="slide-viewer" data-pptx="/slides/tts-day1-death-by-powerpoint.pptx" data-title="Day 1 deck"></div>
 
 ### The slide kit (paper first)
 
@@ -52,7 +51,7 @@ Both redesign rounds start on paper. The kit takes apart the fabricated "Falls P
 
 Paper takes the computer out of the way (no extraneous load from the tool), and the kit makes it a completion task: everything's there, the skill is choosing. People who are comfortable with PowerPoint can take the **laptop route** instead: their own slide, one from the bad-slide pack, or the same falls slide.
 
-<a class="file-download" href="/handouts/slide-kit-falls.pdf">Download the slide kit (PDF, A4)</a>
+<a class="file-download" href="/handouts/slide-kit-falls.pdf">The slide kit (PDF, A4)</a>
 
 ### Assume nothing
 

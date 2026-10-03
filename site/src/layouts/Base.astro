@@ -97,11 +97,11 @@ function current(page: string) {
   <script>
     // Shared JS: hamburger, footer fox, session-stack observer
     // Equivalent of test/shared.js — inlined here so Astro bundles it once.
-    import { initSlideViewers } from '../scripts/slide-viewer';
+    import { initFilePreviews } from '../scripts/file-preview';
 
     document.addEventListener('DOMContentLoaded', () => {
       // Runs after page scripts (e.g. the blueprint card splitter) have moved content.
-      initSlideViewers();
+      initFilePreviews();
 
       // ── Hamburger ────────────────────────────────────────────────
       const hamburger  = document.getElementById('hamburger') as HTMLButtonElement;
