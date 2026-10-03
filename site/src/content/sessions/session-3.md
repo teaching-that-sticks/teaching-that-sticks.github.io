@@ -13,10 +13,6 @@ subtitle: "Start with what people should do differently, and you'll know whether
 primingQuestion: "How do you currently know | whether your teaching worked?"
 prep: "Bring the Menti or Kahoot you made after Session 2."
 prepFallback: "Didn't make one? Bring the idea. We'll build on it."
-meta:
-  - "90 minutes"
-  - "Hands-on"
-  - "Sessions 1 & 2 recommended"
 keyIdeas:
   - idea: "Delivered isn't changed."
     detail: "Attendance lists, smile sheets and photos show a session happened. Only what people do afterwards shows it worked."

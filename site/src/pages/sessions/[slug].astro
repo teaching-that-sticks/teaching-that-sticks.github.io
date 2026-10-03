@@ -68,11 +68,6 @@ const askLabel = session.data.askLabel ?? `Your task before Session ${n + 1}`;
         {session.data.subtitle && (
           <p class="session-subtitle">{session.data.subtitle}</p>
         )}
-        {session.data.meta.length > 0 && (
-          <ul class="session-chips">
-            {session.data.meta.map(m => <li>{m}</li>)}
-          </ul>
-        )}
       </div>
       <img
         class="session-fox"
@@ -114,7 +109,7 @@ const askLabel = session.data.askLabel ?? `Your task before Session ${n + 1}`;
           <summary class="card-summary">
             <span class="section-overline">After the session</span>
             <span class="card-summary-title">{askLabel}</span>
-            <span class="card-toggle" aria-hidden="true"><span class="when-closed">Show</span><span class="when-open">Hide</span></span>
+            <span class="btn btn--quiet card-toggle" aria-hidden="true"><span class="when-closed">Show</span><span class="when-open">Hide</span></span>
           </summary>
           <blockquote class="priming-question task-ask phrased">
             {phrases(`“${session.data.ask}”`).map(p => <><span class="phrase">{p}</span>{' '}</>)}
@@ -128,7 +123,7 @@ const askLabel = session.data.askLabel ?? `Your task before Session ${n + 1}`;
             <div class="task-help">
               <p>{session.data.askNoComputer}</p>
               <p>Using a computer and getting stuck? Tell your facilitator: we'll pair you up.</p>
-              <a class="task-help-link" href="/facilitator/computer-tasks">Step-by-step computer help (printable) →</a>
+              <a class="btn btn--primary btn--green task-help-link" href="/facilitator/computer-tasks">Step-by-step computer help (printable) →</a>
             </div>
           )}
         </details>
@@ -140,7 +135,7 @@ const askLabel = session.data.askLabel ?? `Your task before Session ${n + 1}`;
           <summary class="card-summary">
             <span class="concepts-card-overline">After the session</span>
             <span class="card-summary-title">The key ideas</span>
-            <span class="card-toggle" aria-hidden="true"><span class="when-closed">Show</span><span class="when-open">Hide</span></span>
+            <span class="btn btn--quiet card-toggle" aria-hidden="true"><span class="when-closed">Show</span><span class="when-open">Hide</span></span>
           </summary>
           <div class="concept-chips">
             {keyIdeas.map(k => k.entry ? (
