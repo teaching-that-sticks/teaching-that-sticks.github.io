@@ -1,2 +1,2 @@
-# teaching-that-sticks.github.io
-Teaching That Lands (redirect)
+# We've Moved!
+Teaching That Sticks is now [Teaching That Lands](https://teachingthatlands.uk)
